@@ -38,13 +38,14 @@
 2. Ejecutar: `adb install Android/src/app/build/outputs/apk/debug/app-debug.apk`
 3. O instalar el APK manualmente desde el archivo
 
-### Fase 2 completada
-- values-es/strings.xml completo: 1413 strings (600+ traducidos, resto con texto base en inglés)
-- XML validado correctamente
-- Sin strings hardcodeados en Kotlin (solo constantes técnicas y logs)
+### Fase 2 cerrada
+- values-es/strings.xml completo: 1413 strings
+- ~600 traducidos al español, 816 con texto base en inglés (técnicos/internos + secundarios)
+- XML validado, sin strings hardcodeados en Kotlin
+- Commit y push realizados
 
-### Próximos pasos
-1. Configurar OAuth de Hugging Face en ProjectConfig.kt y build.gradle.kts
-2. Conectar teléfono y instalar APK para probar
-3. Phase 3: cambiar icono, paquete y nombre (Miku Sora)
+### Próximos pasos (Fase 3)
+1. Cambiar nombre visible, applicationId/paquete, icono y colores
+2. Nombre de la app: Miku Sora
+3. Paquete propuesto: com.miku.mikusora
 
