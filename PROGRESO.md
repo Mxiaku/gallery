@@ -52,8 +52,15 @@
 - Build compila exitosamente
 - Commit y push realizados
 
-### Próximos pasos
-1. Configurar Hugging Face OAuth (después de Fase 3)
-2. Fase 3B: Renderizado matemático en el chat
-3. Fase 4: Catálogo tipo Hugging Face
+### Hugging Face OAuth configurado
+- Client ID: 3898acc4-d33d-46b8-9676-f40984ddf07b
+- Redirect URI: com.miku.mikusora://oauth
+- Build compila exitosamente
+- Commit y push realizados
+
+### Prueba necesaria
+1. Instala la app en tu teléfono (adb install o manual)
+2. Abre la app → Model Manager → intenta descargar un modelo protegido (Gemma)
+3. Debería pedirte iniciar sesión en Hugging Face
+4. Después de iniciar sesión, debería descargar el modelo
 
