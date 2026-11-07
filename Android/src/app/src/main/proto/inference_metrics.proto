@@ -1,4 +1,4 @@
-/* Copyright 2026 Google LLC
+﻿/* Copyright 2026 Google LLC
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -15,14 +15,14 @@ limitations under the License.
 
 syntax = "proto3";
 
-package com.google.ai.edge.gallery.common.metrics;
+package com.miku.mikusora.common.metrics;
 
 import "battery_metrics.proto";
 import "memory_metrics.proto";
 import "settings.proto";
 
 option java_multiple_files = true;
-option java_package = "com.google.ai.edge.gallery.common.metrics";
+option java_package = "com.miku.mikusora.common.metrics";
 
 // Cancellation reason for the inference turn.
 enum CancellationReason {
@@ -59,7 +59,7 @@ message InferenceMetadata {
   // for this inference session (reuses the LlmConfig schema from
   // settings.proto; default_* fields hold the active runtime values rather than
   // static defaults).
-  com.google.ai.edge.gallery.proto.LlmConfig llm_config = 4;
+  com.miku.mikusora.proto.LlmConfig llm_config = 4;
   // Model initialization duration in milliseconds (ms).
   optional int64 init_duration_ms = 5;
 }

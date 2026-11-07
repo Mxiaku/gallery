@@ -1,4 +1,4 @@
-/* Copyright 2025 Google LLC
+﻿/* Copyright 2025 Google LLC
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -15,11 +15,11 @@ limitations under the License.
 
 syntax = "proto3";
 
-package com.google.ai.edge.gallery.proto;
+package com.miku.mikusora.proto;
 
 import "chat_history.proto";
 
-option java_package = "com.google.ai.edge.gallery.proto";
+option java_package = "com.miku.mikusora.proto";
 option java_multiple_files = true;
 
 enum Theme {
