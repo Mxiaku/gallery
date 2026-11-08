@@ -23,6 +23,11 @@ import kotlinx.coroutines.flow.firstOrNull
 /** Helper object for system prompt retrieval and compilation. */
 object SystemPromptHelper {
 
+  private const val MATH_INSTRUCTION =
+    "\n\nWhen writing mathematical formulas, use LaTeX notation with consistent delimiters: " +
+      "use $...$ for inline formulas and $$...$$ for block formulas. " +
+      "Examples: $x^2 + y^2 = z^2$, $$\\frac{a}{b}$$, $$\\sum_{i=1}^{n} i$$."
+
   /**
    * Retrieves the effective system prompt for the given [Task].
    *
@@ -35,8 +40,8 @@ object SystemPromptHelper {
    * @return A [String] representing the effective system prompt instructions.
    */
   suspend fun getEffectiveSystemPrompt(repo: SystemPromptRepository?, task: Task): String {
-    if (repo == null) return task.defaultSystemPrompt
+    if (repo == null) return task.defaultSystemPrompt + MATH_INSTRUCTION
     val customPrompt = repo.getCustomSystemPrompt(task.id).firstOrNull()
-    return customPrompt ?: task.defaultSystemPrompt
+    return (customPrompt ?: task.defaultSystemPrompt) + MATH_INSTRUCTION
   }
 }
