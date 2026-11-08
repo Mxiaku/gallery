@@ -462,7 +462,6 @@ private fun HfExploreModelCard(
         downloads = model.downloads,
         likes = model.likes,
         lastModified = model.lastModified,
-        sizeBytes = model.totalSizeBytes(),
       )
     }
   }

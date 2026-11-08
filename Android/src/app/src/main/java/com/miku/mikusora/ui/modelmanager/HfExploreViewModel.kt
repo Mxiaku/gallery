@@ -152,8 +152,6 @@ constructor(
   fun onSizeFilterChanged(size: String) {
     _uiState.update { it.copy(sizeFilter = size) }
   }
-    _uiState.update { it.copy(selectedModelForDetails = null) }
-  }
 
   private suspend fun loadModels(
     query: String,

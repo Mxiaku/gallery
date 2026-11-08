@@ -37,6 +37,7 @@ import com.miku.mikusora.common.getModelStorageDir
 import com.miku.mikusora.data.DownloadAuthError
 import com.miku.mikusora.data.ERROR_TYPE_HTTP_PREFIX
 import com.miku.mikusora.data.ERROR_TYPE_INTEGRITY_FAILED
+import com.miku.mikusora.data.ERROR_TYPE_INTEGRITY_FAILED
 import com.miku.mikusora.data.ERROR_TYPE_MISSING_URL
 import com.miku.mikusora.data.ERROR_TYPE_OUT_OF_STORAGE
 import com.miku.mikusora.data.KEY_MODEL_COMMIT_HASH
@@ -44,6 +45,7 @@ import com.miku.mikusora.data.KEY_MODEL_DOWNLOAD_ACCESS_TOKEN
 import com.miku.mikusora.data.KEY_MODEL_DOWNLOAD_AUTH_ERROR
 import com.miku.mikusora.data.KEY_MODEL_DOWNLOAD_ERROR_MESSAGE
 import com.miku.mikusora.data.KEY_MODEL_DOWNLOAD_ERROR_TYPE
+import com.miku.mikusora.data.KEY_MODEL_DOWNLOAD_EXPECTED_HASH
 import com.miku.mikusora.data.KEY_MODEL_DOWNLOAD_FILE_NAME
 import com.miku.mikusora.data.KEY_MODEL_DOWNLOAD_MODEL_DIR
 import com.miku.mikusora.data.KEY_MODEL_DOWNLOAD_RATE
