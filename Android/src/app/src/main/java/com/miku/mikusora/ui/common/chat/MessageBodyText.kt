@@ -30,7 +30,7 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.miku.mikusora.ui.common.BufferedFadingMarkdownText
+import com.miku.mikusora.ui.common.MathAwareText
 import com.miku.mikusora.ui.common.MarkdownText
 import com.miku.mikusora.ui.common.tts.MessageBodyTtsView
 import com.miku.mikusora.ui.common.tts.TtsPlaybackController
@@ -74,38 +74,62 @@ fun MessageBodyText(
       )
     } else {
       if (message.isMarkdown) {
-        BufferedFadingMarkdownText(
+        MathAwareText(
           text = message.content,
-          inProgress = inProgress,
+          darkMode = false,
+          fallback = { t, m ->
+            BufferedFadingMarkdownText(
+              text = t,
+              inProgress = inProgress,
+              modifier = m
+                .testTag("model_response_text")
+                .semantics {
+                  if (!inProgress) {
+                    liveRegion = LiveRegionMode.Polite
+                  }
+                },
+            )
+          },
           modifier =
             Modifier.padding(vertical = 12.dp)
               .padding(horizontal = horizontalPadding)
               .testTag("model_response_text")
               .semantics {
-                // Only announce when message is complete.
                 if (!inProgress) {
                   liveRegion = LiveRegionMode.Polite
                 }
               },
         )
       } else {
-        SelectionContainer {
-          Text(
-            message.content,
-            style = MaterialTheme.typography.bodyMedium,
-            color = MaterialTheme.colorScheme.onSurface,
-            modifier =
-              Modifier.padding(vertical = 12.dp)
-                .padding(horizontal = horizontalPadding)
-                .testTag("model_response_text")
-                .semantics {
-                  // Only announce when message is complete.
-                  if (!inProgress) {
-                    liveRegion = LiveRegionMode.Polite
-                  }
-                },
-          )
-        }
+        MathAwareText(
+          text = message.content,
+          darkMode = false,
+          fallback = { t, m ->
+            SelectionContainer {
+              Text(
+                t,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurface,
+                modifier = m
+                  .testTag("model_response_text")
+                  .semantics {
+                    if (!inProgress) {
+                      liveRegion = LiveRegionMode.Polite
+                    }
+                  },
+              )
+            }
+          },
+          modifier =
+            Modifier.padding(vertical = 12.dp)
+              .padding(horizontal = horizontalPadding)
+              .testTag("model_response_text")
+              .semantics {
+                if (!inProgress) {
+                  liveRegion = LiveRegionMode.Polite
+                }
+              },
+        )
       }
     }
   }
