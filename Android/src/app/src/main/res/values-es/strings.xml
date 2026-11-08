@@ -741,56 +741,56 @@
 
   <string name="linear_gradient_color" translatable="true" description="This string appears within the Scrapbook colored background settings as a gradient option within the fill mode. It means linear gradient style. [CHAR_LIMIT=40]">Gradiente lineal</string>
 
-  <string name="radial_gradient_color" translatable="true" description="This string appears within the Scrapbook colored background settings as a gradient option within the fill mode. It means radial gradient style. [CHAR_LIMIT=40]">Radial gradient</string>
+  <string name="radial_gradient_color" translatable="true" description="This string appears within the Scrapbook colored background settings as a gradient option within the fill mode. It means radial gradient style. [CHAR_LIMIT=40]">Gradiente radial</string>
 
-  <string name="rotate" translatable="true" description="This string appears within the Scrapbook cutout editor as a button label within the bottom tools. It means to rotate the image. [CHAR_LIMIT=30]">Rotate</string>
+  <string name="rotate" translatable="true" description="This string appears within the Scrapbook cutout editor as a button label within the bottom tools. It means to rotate the image. [CHAR_LIMIT=30]">Rotar</string>
 
-  <string name="revert" translatable="true" description="This string appears within the Scrapbook cutout editor as a button label within the top action bar. It means to revert changes. [CHAR_LIMIT=30]">Revert</string>
+  <string name="revert" translatable="true" description="This string appears within the Scrapbook cutout editor as a button label within the top action bar. It means to revert changes. [CHAR_LIMIT=30]">Revertir</string>
 
-  <string name="revert_confirmation_msg" translatable="true" description="This string appears within the Scrapbook cutout editor as a dialog message within the revert confirmation. It means asking if the user wants to revert to the original. [CHAR_LIMIT=100]">Are you sure you want to revert it to original?</string>
+  <string name="revert_confirmation_msg" translatable="true" description="This string appears within the Scrapbook cutout editor as a dialog message within the revert confirmation. It means asking if the user wants to revert to the original. [CHAR_LIMIT=100]">¿Estás seguro de que quieres revertirlo al original?</string>
 
-  <string name="revert_to_original" translatable="true" description="This string appears within the Scrapbook cutout editor as a dialog title within the revert confirmation. It means reverting to the original version. [CHAR_LIMIT=50]">Revert to original</string>
+  <string name="revert_to_original" translatable="true" description="This string appears within the Scrapbook cutout editor as a dialog title within the revert confirmation. It means reverting to the original version. [CHAR_LIMIT=50]">Revertir al original</string>
 
-  <string name="rows" translatable="true" description="This string appears within the Scrapbook grid maker as a slider label within the grid settings. It means the number of rows in the grid. [CHAR_LIMIT=30]">Rows</string>
+  <string name="rows" translatable="true" description="This string appears within the Scrapbook grid maker as a slider label within the grid settings. It means the number of rows in the grid. [CHAR_LIMIT=30]">Filas</string>
 
-  <string name="save_cutout" translatable="true" description="This string appears within the Scrapbook cutout editor as a primary button within the bottom action bar. It means to save the edited cutout. [CHAR_LIMIT=40]">Save cutout</string>
+  <string name="save_cutout" translatable="true" description="This string appears within the Scrapbook cutout editor as a primary button within the bottom action bar. It means to save the edited cutout. [CHAR_LIMIT=40]">Guardar recorte</string>
 
-  <string name="segmentation_instruction_add" translatable="true" description="This string appears within the Scrapbook cutout editor as an instructional banner within the segmentation view. It means how to add to the selection. [CHAR_LIMIT=100]">Brush over an area to add to the selection</string>
+  <string name="segmentation_instruction_add" translatable="true" description="This string appears within the Scrapbook cutout editor as an instructional banner within the segmentation view. It means how to add to the selection. [CHAR_LIMIT=100]">Pinta sobre un área para agregar a la selección</string>
 
-  <string name="segmentation_instruction_subtract" translatable="true" description="This string appears within the Scrapbook cutout editor as an instructional banner within the segmentation view. It means how to remove from the selection. [CHAR_LIMIT=100]">Brush over an area to remove from the selection</string>
+  <string name="segmentation_instruction_subtract" translatable="true" description="This string appears within the Scrapbook cutout editor as an instructional banner within the segmentation view. It means how to remove from the selection. [CHAR_LIMIT=100]">Pinta sobre un área para quitar de la selección</string>
 
-  <string name="segmentation_instruction_lasso" translatable="true" description="This string appears within the Scrapbook cutout editor as an instructional banner within the segmentation view. It means how to use the lasso tool. [CHAR_LIMIT=100]">Draw a circle around an area to select</string>
+  <string name="segmentation_instruction_lasso" translatable="true" description="This string appears within the Scrapbook cutout editor as an instructional banner within the segmentation view. It means how to use the lasso tool. [CHAR_LIMIT=100]">Dibuja un círculo alrededor de un área para seleccionar</string>
 
-  <string name="segmentation_add_selection_desc" translatable="true" description="Accessibility content description for the brush mode button that adds the brushed area to the selected object, in the Scrapbook segmenter and the AR Language Teacher cutout editor. [CHAR_LIMIT=35]">Add selection</string>
+  <string name="segmentation_add_selection_desc" translatable="true" description="Accessibility content description for the brush mode button that adds the brushed area to the selected object, in the Scrapbook segmenter and the AR Language Teacher cutout editor. [CHAR_LIMIT=35]">Agregar selección</string>
 
-  <string name="segmentation_subtract_selection_desc" translatable="true" description="Accessibility content description for the brush mode button that removes the brushed area from the selected object, in the Scrapbook segmenter and the AR Language Teacher cutout editor. [CHAR_LIMIT=35]">Subtract selection</string>
+  <string name="segmentation_subtract_selection_desc" translatable="true" description="Accessibility content description for the brush mode button that removes the brushed area from the selected object, in the Scrapbook segmenter and the AR Language Teacher cutout editor. [CHAR_LIMIT=35]">Restar selección</string>
 
-  <string name="segmentation_lasso_desc" translatable="true" description="Accessibility content description for the brush mode button that selects the object inside a circle the user draws, in the Scrapbook segmenter and the AR Language Teacher cutout editor. [CHAR_LIMIT=35]">Lasso select</string>
+  <string name="segmentation_lasso_desc" translatable="true" description="Accessibility content description for the brush mode button that selects the object inside a circle the user draws, in the Scrapbook segmenter and the AR Language Teacher cutout editor. [CHAR_LIMIT=35]">Selección con lazo</string>
 
-  <string name="scrapbook_backend_chip_mediapipe" translatable="true" description="This string appears within the Scrapbook create cutout tab as a chip at the top of the empty state. It tells the user that the image segmentation model runs on the MediaPipe runtime bundled in the app, and on which hardware accelerator. %1$s is the hardware accelerator name, 'GPU' or 'CPU', which is not translated. 'MediaPipe' is a product name and must not be translated. [CHAR_LIMIT=45]">Using MediaPipe runtime with %1$s</string>
+  <string name="scrapbook_backend_chip_mediapipe" translatable="true" description="This string appears within the Scrapbook create cutout tab as a chip at the top of the empty state. It tells the user that the image segmentation model runs on the MediaPipe runtime bundled in the app, and on which hardware accelerator. %1$s is the hardware accelerator name, 'GPU' or 'CPU', which is not translated. 'MediaPipe' is a product name and must not be translated. [CHAR_LIMIT=45]">Usando tiempo de ejecución MediaPipe con %1$s</string>
 
-  <string name="scrapbook_model_init_failed" translatable="true" description="Error message shown in a dialog when the Scrapbook image segmentation model fails to load. %1$s is the model name, e.g. 'Magic touch'. [CHAR_LIMIT=60]">Couldn\'t load %1$s</string>
+  <string name="scrapbook_model_init_failed" translatable="true" description="Error message shown in a dialog when the Scrapbook image segmentation model fails to load. %1$s is the model name, e.g. 'Magic touch'. [CHAR_LIMIT=60]">No se pudo cargar %1$s</string>
 
   <plurals name="snackbar_save_cutouts_to_album_success" translatable="true" description="This string appears within the Scrapbook main screen as a snackbar notification within the cutout manager. It means the cutouts were successfully saved to the device album. [CHAR_LIMIT=100]">
     <item quantity="one">Saved %d cutout to photo album</item>
     <item quantity="other">Saved %d cutouts to photo album</item>
   </plurals>
 
-  <string name="snackbar_save_to_my_cutouts_success" translatable="true" description="This string appears within the Scrapbook main screen as a snackbar notification within the cutout manager. It means the cutout was successfully saved to the app. [CHAR_LIMIT=150]">Cutout successfully created! To use your new cutout, go to the \"Collage\" tab. </string>
+  <string name="snackbar_save_to_my_cutouts_success" translatable="true" description="This string appears within the Scrapbook main screen as a snackbar notification within the cutout manager. It means the cutout was successfully saved to the app. [CHAR_LIMIT=150]">¡Recorte creado exitosamente! Para usar tu nuevo recorte, ve a la pestaña "Collage".</string>
 
-  <string name="solid" translatable="true" description="This string appears within the Scrapbook cutout editor as a setting label within the fill mode options. It means the cutout will be filled with a solid color. [CHAR_LIMIT=30]">Solid</string>
+  <string name="solid" translatable="true" description="This string appears within the Scrapbook cutout editor as a setting label within the fill mode options. It means the cutout will be filled with a solid color. [CHAR_LIMIT=30]">Sólido</string>
 
-  <string name="solid_color" translatable="true" description="This string appears within the Scrapbook colored background as a fill option within the settings. It means a solid color fill. [CHAR_LIMIT=30]">Solid</string>
+  <string name="solid_color" translatable="true" description="This string appears within the Scrapbook colored background as a fill option within the settings. It means a solid color fill. [CHAR_LIMIT=30]">Sólido</string>
 
   <string name="tab_collage" translatable="true" description="This string appears within the Scrapbook main screen as a navigation tab within the top bar. It means the collage section. [CHAR_LIMIT=30]">Collage</string>
 
-  <string name="tab_collage_empty_warning" translatable="true" description="This string appears within the Scrapbook main screen as a warning text within a disabled Collage tab. It means the user needs cutouts first. [CHAR_LIMIT=100]">Create some cutouts first before creating collage</string>
+  <string name="tab_collage_empty_warning" translatable="true" description="This string appears within the Scrapbook main screen as a warning text within a disabled Collage tab. It means the user needs cutouts first. [CHAR_LIMIT=100]">Crea algunos recortes primero antes de crear un collage</string>
 
-  <string name="tab_my_cutouts_empty_warning" translatable="true" description="This string appears within the Scrapbook main screen as a warning text within an empty My Cutouts tab. It means there are no cutouts yet. [CHAR_LIMIT=100]">No cutouts created yet</string>
+  <string name="tab_my_cutouts_empty_warning" translatable="true" description="This string appears within the Scrapbook main screen as a warning text within an empty My Cutouts tab. It means there are no cutouts yet. [CHAR_LIMIT=100]">No se han creado recortes todavía</string>
 
-  <string name="tab_create_cutout" translatable="true" description="This string appears within the Scrapbook main screen as a navigation tab within the top bar. It means the create cutout section. [CHAR_LIMIT=40]">Create cutout</string>
+  <string name="tab_create_cutout" translatable="true" description="This string appears within the Scrapbook main screen as a navigation tab within the top bar. It means the create cutout section. [CHAR_LIMIT=40]">Crear recorte</string>
 
-  <string name="tab_my_cutouts" translatable="true" description="This string appears within the Scrapbook main screen as a navigation tab within the top bar. It means the user's cutouts section. [CHAR_LIMIT=40]">My cutouts</string>
+  <string name="tab_my_cutouts" translatable="true" description="This string appears within the Scrapbook main screen as a navigation tab within the top bar. It means the user's cutouts section. [CHAR_LIMIT=40]">Mis recortes</string>
 
   <string name="unsaved_changes" translatable="true" description="This string appears within the Scrapbook editors as a dialog title within the exit confirmation. It means there are unsaved changes. [CHAR_LIMIT=50]">Unsaved changes</string>
 
@@ -912,7 +912,7 @@
 
   <string name="manage_skills_description" translatable="true" description="Description text explaining the purpose of the Skill Manager. [CHAR_LIMIT=90]">Ver, crear y administrar tus habilidades</string>
 
-  <string name="skill_limit_warning" translatable="true" description="Warning message displayed when too many skills are enabled, which might slow down the app. %s is the maximum recommended number of enabled skills. [CHAR_LIMIT=90]">Enabling more than %s may impact performance.</string>
+  <string name="skill_limit_warning" translatable="true" description="Warning message displayed when too many skills are enabled, which might slow down the app. %s is the maximum recommended number of enabled skills. [CHAR_LIMIT=90]">Habilitar más de %s puede afectar el rendimiento.</string>
 
   <string name="no_directory_selected" translatable="true" description="Text displayed when no local directory has been selected for importing a skill. [CHAR_LIMIT=35]">No se seleccionó ningún directorio</string>
 
@@ -938,26 +938,26 @@
 
   <string name="replace_skill_dialog_content" translatable="true" description="Message asking the user if they want to overwrite an existing skill that has the same name. [CHAR_LIMIT=125]">A skill with the same name already exists. Do you want to replace it?</string>
 
-  <string name="search_skill" translatable="true" description="Placeholder text in a search bar to search for skills. [CHAR_LIMIT=30]">Search for a skill</string>
+  <string name="search_skill" translatable="true" description="Placeholder text in a search bar to search for skills. [CHAR_LIMIT=30]">Buscar una habilidad</string>
 
-  <string name="select_script" translatable="true" description="Label for a dropdown menu to select which script to view or edit. [CHAR_LIMIT=22]">Select script</string>
+  <string name="select_script" translatable="true" description="Label for a dropdown menu to select which script to view or edit. [CHAR_LIMIT=22]">Seleccionar script</string>
 
-  <string name="script_name" translatable="true" description="Label for the text input field where the user enters the name of a new script. [CHAR_LIMIT=19]">Script name</string>
+  <string name="script_name" translatable="true" description="Label for the text input field where the user enters the name of a new script. [CHAR_LIMIT=19]">Nombre del script</string>
 
-  <string name="script_content" translatable="true" description="Label or header for the content/code of a script. [CHAR_LIMIT=30]">Script content</string>
+  <string name="script_content" translatable="true" description="Label or header for the content/code of a script. [CHAR_LIMIT=30]">Contenido del script</string>
 
-  <string name="skills" translatable="true" description="Label for the button that opens the skill management options. [CHAR_LIMIT=18]">Skills</string>
+  <string name="skills" translatable="true" description="Label for the button that opens the skill management options. [CHAR_LIMIT=18]">Habilidades</string>
 
   <plurals name="skills_count" translatable="true">
     <item quantity="one">%d skill</item>
     <item quantity="other">%d skills</item>
   </plurals>
 
-  <string name="skill_name_input_description" translatable="true" description="Help text indicating that the skill name is required and suggesting a kebab-case format. [CHAR_LIMIT=90]">REQUIRED. In the form of my-skill-name</string>
+  <string name="skill_name_input_description" translatable="true" description="Help text indicating that the skill name is required and suggesting a kebab-case format. [CHAR_LIMIT=90]">REQUERIDO. En el formato mi-nombre-de-habilidad</string>
 
-  <string name="skill_description_input_description" translatable="true" description="Help text explaining what should be entered in the skill description field. [CHAR_LIMIT=147]">REQUIRED. A brief description of the skill\'s function and trigger conditions or keywords.</string>
+  <string name="skill_description_input_description" translatable="true" description="Help text explaining what should be entered in the skill description field. [CHAR_LIMIT=147]">REQUERIDO. Una breve descripción de la función de la habilidad y las condiciones o palabras clave de activación.</string>
 
-  <string name="skill_instructions_input_description" translatable="true" description="Help text explaining what should be entered in the skill instructions field (markdown format for LLM). [CHAR_LIMIT=139]">Detailed instructions in Markdown format that LLM must follow to accomplish the task.</string>
+  <string name="skill_instructions_input_description" translatable="true" description="Help text explaining what should be entered in the skill instructions field (markdown format for LLM). [CHAR_LIMIT=139]">Instrucciones detalladas en formato Markdown que el LLM debe seguir para realizar la tarea.</string>
 
   <string name="use_call_js_template" translatable="true" description="Button label to pre-fill the instructions field with a template for calling JavaScript code. [CHAR_LIMIT=30]">Use Call JS template</string>
 
@@ -991,7 +991,7 @@
 
   <string name="learn_more_about_mcp_short" translatable="true" description="Link text to learn more about MCP (Model Context Protocol). [CHAR_LIMIT=18]">Más información</string>
 
-  <string name="search_mcp_server" translatable="true" description="Placeholder text in a search field to search for an MCP (Model Context Protocol) server. [CHAR_LIMIT=37]">Search for an MCP server</string>
+  <string name="search_mcp_server" translatable="true" description="Placeholder text in a search field to search for an MCP (Model Context Protocol) server. [CHAR_LIMIT=37]">Buscar un servidor MCP</string>
 
   <plurals name="mcp_servers_count" translatable="true">
     <item quantity="one">%d MCP server</item>
@@ -1103,7 +1103,7 @@
 
   <string name="test_chat" translatable="true" description="Title for the Test chat task screen where side-loaded models are tested. [CHAR_LIMIT=20]">Test chat</string>
 
-  <string name="task_desc_test" translatable="true" description="Empty state subtitle and description for the Test chat task screen. [CHAR_LIMIT=80]">Try testing a side-loaded model with chat!</string>
+  <string name="task_desc_test" translatable="true" description="Empty state subtitle and description for the Test chat task screen. [CHAR_LIMIT=80]">¡Prueba probar un modelo instalado en un chat!</string>
 
   <string name="test_it" translatable="true" description="Action button label in the Model Manager to open the Test it task for a user-imported OSS model. [CHAR_LIMIT=15]">Test it</string>
 
@@ -1313,7 +1313,7 @@
 
   <string name="error_internet_connection" translatable="true" description="Error message advising the user to check their internet connection. [CHAR_LIMIT=99]">Por favor verifica tu conexión a internet e inténtalo de nuevo más tarde.</string>
 
-  <string name="retry" translatable="true" description="Label for a button to retry a failed operation (e.g., reloading data). [CHAR_LIMIT=9]">Retry</string>
+  <string name="retry" translatable="true" description="Label for a button to retry a failed operation (e.g., reloading data). [CHAR_LIMIT=9]">Reintentar</string>
 
   <string name="local_test_allowlist_dialog_title" translatable="true" description="Title of a warning dialog shown when the app loaded its allowlist of AI models from a local test file on the device instead of the official online source. [CHAR_LIMIT=50]">Using local test model allowlist</string>
 
@@ -1333,7 +1333,7 @@
 
   <string name="unknown" translatable="true" description="Fallback label when the theme state is unknown or undefined. [CHAR_LIMIT=18]">Unknown</string>
 
-  <string name="stats" translatable="true" description="Label or header for the section displaying performance statistics of a message generation (e.g., speed, tokens). [CHAR_LIMIT=26]">Stats</string>
+  <string name="stats" translatable="true" description="Label or header for the section displaying performance statistics of a message generation (e.g., speed, tokens). [CHAR_LIMIT=26]">Estadísticas</string>
 
   <string name="acknowledge_user_agreement" translatable="true" description="Title of the dialog asking the user to acknowledge and agree to a user agreement before downloading a model. [CHAR_LIMIT=43]">Aceptar acuerdo de usuario</string>
 
@@ -1423,7 +1423,7 @@
 
   <string name="config_label_number_of_runs" translatable="false">Number of runs</string>
 
-  <string name="stats_on_accelerator" translatable="true" description="Label for the section displaying performance statistics on a specific hardware accelerator (e.g., 'Stats on GPU'). [CHAR_LIMIT=22]">Stats on %1$s</string>
+  <string name="stats_on_accelerator" translatable="true" description="Label for the section displaying performance statistics on a specific hardware accelerator (e.g., 'Stats on GPU'). [CHAR_LIMIT=22]">Estadísticas en %1$s</string>
 
   <string name="gemma4_intro_part_1" translatable="true" description="First part of the introductory text on the home screen, preceding a link to the LiteRT community. [CHAR_LIMIT=90]">Descubre el poder de los modelos de IA en el dispositivo de</string>
 
@@ -1523,41 +1523,41 @@ Te enviaremos una notificación cuando termine.</string>
 
   <string name="explore_other_use_cases" translatable="true" description="Section header for other use cases. [CHAR_LIMIT=30]">Explorar otros casos de uso</string>
 
-  <string name="task_label_ai_chat" translatable="false">AI Chat</string>
+  <string name="task_label_ai_chat" translatable="false">Chat de IA</string>
 
-  <string name="task_label_prompt_lab" translatable="false">Prompt Lab</string>
+  <string name="task_label_prompt_lab" translatable="false">Laboratorio de Mensajes</string>
 
-  <string name="task_label_ask_image" translatable="false">Ask Image</string>
+  <string name="task_label_ask_image" translatable="false">Preguntar Imagen</string>
 
-  <string name="task_label_audio_scribe" translatable="false">Audio Scribe</string>
+  <string name="task_label_audio_scribe" translatable="false">Transcripción de Audio</string>
 
-  <string name="task_label_tiny_garden" translatable="false">Tiny Garden</string>
+  <string name="task_label_tiny_garden" translatable="false">Pequeño Jardín</string>
 
-  <string name="task_label_agent_skills" translatable="false">Agent Skills</string>
+  <string name="task_label_agent_skills" translatable="false">Habilidades de agente</string>
 
-  <string name="task_desc_ai_chat" translatable="true" description="Description for the AI Chat task. [CHAR_LIMIT=90]">Chat with on-device large language models</string>
+  <string name="task_desc_ai_chat" translatable="true" description="Description for the AI Chat task. [CHAR_LIMIT=90]">Chatea con modelos de lenguaje grandes en el dispositivo</string>
 
-  <string name="task_short_desc_ai_chat" translatable="true" description="Short description for the AI Chat task. [CHAR_LIMIT=45]">Chat with an on-device LLM</string>
+  <string name="task_short_desc_ai_chat" translatable="true" description="Short description for the AI Chat task. [CHAR_LIMIT=45]">Chatea con un LLM en el dispositivo</string>
 
-  <string name="task_desc_ask_image" translatable="true" description="Description for the Ask Image task. [CHAR_LIMIT=106]">Ask questions about images with on-device large language models</string>
+  <string name="task_desc_ask_image" translatable="true" description="Description for the Ask Image task. [CHAR_LIMIT=106]">Haz preguntas sobre imágenes con modelos de lenguaje grandes en el dispositivo</string>
 
-  <string name="task_short_desc_ask_image" translatable="true" description="Short description for the Ask Image task. [CHAR_LIMIT=45]">Ask questions about images</string>
+  <string name="task_short_desc_ask_image" translatable="true" description="Short description for the Ask Image task. [CHAR_LIMIT=45]">Haz preguntas sobre imágenes</string>
 
-  <string name="task_desc_audio_scribe" translatable="true" description="Description for the Audio Scribe task. [CHAR_LIMIT=142]">Instantly transcribe and/or translate audio clips using on-device large language models</string>
+  <string name="task_desc_audio_scribe" translatable="true" description="Description for the Audio Scribe task. [CHAR_LIMIT=142]">Transcribe y traduce al instante clips de audio usando modelos de lenguaje grandes en el dispositivo</string>
 
-  <string name="task_short_desc_audio_scribe" translatable="true" description="Short description for the Audio Scribe task. [CHAR_LIMIT=45]">Transcribe and translate audio</string>
+  <string name="task_short_desc_audio_scribe" translatable="true" description="Short description for the Audio Scribe task. [CHAR_LIMIT=45]">Transcribe y traduce audio</string>
 
-  <string name="task_desc_prompt_lab" translatable="true" description="Description for the Prompt Lab task. [CHAR_LIMIT=99]">Single turn use cases with on-device large language models</string>
+  <string name="task_desc_prompt_lab" translatable="true" description="Description for the Prompt Lab task. [CHAR_LIMIT=99]">Casos de uso de un solo turno con modelos de lenguaje grandes en el dispositivo</string>
 
-  <string name="task_short_desc_prompt_lab" translatable="true" description="Short description for the Prompt Lab task. [CHAR_LIMIT=45]">Single turn use cases</string>
+  <string name="task_short_desc_prompt_lab" translatable="true" description="Short description for the Prompt Lab task. [CHAR_LIMIT=45]">Casos de uso de un solo turno</string>
 
-  <string name="remove" translatable="true" description="Text on a button that removes an optional component or item. [CHAR_LIMIT=15]">Remove</string>
+  <string name="remove" translatable="true" description="Text on a button that removes an optional component or item. [CHAR_LIMIT=15]">Eliminar</string>
 
   <string name="optional_components" translatable="true" description="Title for the optional components section in model details. [CHAR_LIMIT=30]">Componentes opcionales</string>
 
   <string name="download_sample_images_optional" translatable="true" description="Checkbox label to download sample images with model in Instant Media Search. [CHAR_LIMIT=50]">Descargar imágenes de muestra (opcional)</string>
 
-  <string name="sample_images" translatable="true" description="Label for sample images optional component in Instant Media Search. [CHAR_LIMIT=30]">Sample images</string>
+  <string name="sample_images" translatable="true" description="Label for sample images optional component in Instant Media Search. [CHAR_LIMIT=30]">Imágenes de muestra</string>
 
   <string name="modelitem_optional_components_progress_format" translatable="true" description="Download progress display format for optional components showing downloaded size and total size, e.g., '10 MB / 71.9 MB'. First placeholder is the completed size, second is the total size. [CHAR_LIMIT=30]">%1$s / %2$s</string>
 
@@ -1575,36 +1575,36 @@ Te enviaremos una notificación cuando termine.</string>
 
   <string name="download_extra_data_notification_content_paused" translatable="true" description="Body of the system notification shown when the download of a model's extra data file pauses while the app is in the background. Tapping it opens the app, where the user can resume the download. %1$s is the extra data file's label, e.g. 'Magic touch'. [CHAR_LIMIT=100]">Abre la app para reanudar la descarga del archivo de datos extra '%1$s'.</string>
 
-  <string name="task_label_smart_album" translatable="false">Instant Media Search</string>
+  <string name="task_label_smart_album" translatable="false">Búsqueda de Medios Instantánea</string>
 
-  <string name="task_desc_smart_album" translatable="true" description="Description for the Smart Album task. [CHAR_LIMIT=97]">Organize and search your photos and videos locally with EmbeddingGemma 2</string>
+  <string name="task_desc_smart_album" translatable="true" description="Description for the Smart Album task. [CHAR_LIMIT=97]">Organiza y busca tus fotos y videos localmente con EmbeddingGemma 2</string>
 
-  <string name="task_short_desc_smart_album" translatable="true" description="Short description for the Smart Album task. [CHAR_LIMIT=45]">Organize and search photos locally</string>
+  <string name="task_short_desc_smart_album" translatable="true" description="Short description for the Smart Album task. [CHAR_LIMIT=45]">Organiza y busca fotos localmente</string>
 
-  <string name="smartalbum_welcome_title" translatable="true" description="Welcome title for Instant Media Search. [CHAR_LIMIT=34]">Instant Media Search</string>
+  <string name="smartalbum_welcome_title" translatable="true" description="Welcome title for Instant Media Search. [CHAR_LIMIT=34]">Búsqueda de Medios Instantánea</string>
 
-  <string name="smartalbum_welcome_description" translatable="true" description="Welcome description for Instant Media Search. [CHAR_LIMIT=277]">Search your photos on-device with natural language using EmbeddingGemma 2! Start searching with some sample images or grant access to your device photos to search your own images!</string>
+  <string name="smartalbum_welcome_description" translatable="true" description="Welcome description for Instant Media Search. [CHAR_LIMIT=277]">Busca tus fotos en el dispositivo con lenguaje natural usando EmbeddingGemma 2. ¡Empieza a buscar con algunas imágenes de muestra o concede acceso a las fotos de tu dispositivo para buscar tus propias imágenes!</string>
 
-  <string name="smartalbum_welcome_description_format" translatable="true" description="Welcome description format string for Instant Media Search, where %1$s is the model name. [CHAR_LIMIT=262]">Search your photos on-device with natural language using %1$s! Start searching with some sample images or grant access to your device photos to search your own images!</string>
+  <string name="smartalbum_welcome_description_format" translatable="true" description="Welcome description format string for Instant Media Search, where %1$s is the model name. [CHAR_LIMIT=262]">Busca tus fotos en el dispositivo con lenguaje natural usando %1$s. ¡Empieza a buscar con algunas imágenes de muestra o concede acceso a las fotos de tu dispositivo para buscar tus propias imágenes!</string>
 
   <string name="smartalbum_model_initializing" translatable="true" description="Title shown while embedding model is initializing. [CHAR_LIMIT=30]">Model initializingâ€¦</string>
 
-  <string name="smartalbum_please_wait" translatable="true" description="Subtitle shown while embedding model is initializing. [CHAR_LIMIT=40]">Please wait a few moments</string>
+  <string name="smartalbum_please_wait" translatable="true" description="Subtitle shown while embedding model is initializing. [CHAR_LIMIT=40]">Espera unos momentos</string>
 
-  <string name="smartalbum_notification_channel_name" translatable="true" description="Notification channel name for background photo indexing. [CHAR_LIMIT=30]">Photo Indexing</string>
+  <string name="smartalbum_notification_channel_name" translatable="true" description="Notification channel name for background photo indexing. [CHAR_LIMIT=30]">Indexación de Fotos</string>
 
-  <string name="smartalbum_notification_channel_desc" translatable="true" description="Notification channel description for background photo indexing. [CHAR_LIMIT=80]">Ongoing progress notification for photo indexing</string>
+  <string name="smartalbum_notification_channel_desc" translatable="true" description="Notification channel description for background photo indexing. [CHAR_LIMIT=80]">Notificación de progreso en curso para indexación de fotos</string>
 
-  <string name="smartalbum_preparing_photo_index" translatable="true" description="Notification text shown when preparing photo indexing. [CHAR_LIMIT=40]">Preparing photo index&#8230;</string>
+  <string name="smartalbum_preparing_photo_index" translatable="true" description="Notification text shown when preparing photo indexing. [CHAR_LIMIT=40]">Preparando índice de fotos…</string>
 
-  <string name="smartalbum_indexing_photos_progress" translatable="true" description="Notification progress text format for indexing photos, where %1$d is processed, %2$d is total, and %3$d is percentage. [CHAR_LIMIT=50]">Indexing photos: %1$d / %2$d (%3$d%%)</string>
+  <string name="smartalbum_indexing_photos_progress" translatable="true" description="Notification progress text format for indexing photos, where %1$d is processed, %2$d is total, and %3$d is percentage. [CHAR_LIMIT=50]">Indexando fotos: %1$d / %2$d (%3$d%%)</string>
 
   <plurals name="smartalbum_adding_photos_format" translatable="true" description="Status message showing count of photos being analyzed/indexed. Photos is a generic term. [CHAR_LIMIT=40]">
     <item quantity="one">Analyzing %1$d photoâ€¦</item>
     <item quantity="other">Analyzing %1$d photosâ€¦</item>
   </plurals>
 
-  <string name="smartalbum_photos_granted_access_subtitle" translatable="true" description="Subtitle shown when photo indexing is inactive. [CHAR_LIMIT=45]">Photos that you granted access for</string>
+  <string name="smartalbum_photos_granted_access_subtitle" translatable="true" description="Subtitle shown when photo indexing is inactive. [CHAR_LIMIT=45]">Fotos a las que concediste acceso</string>
 
   <plurals name="smartalbum_photos_format" translatable="true" description="Format string showing the number of photos. Photos is a generic term. [CHAR_LIMIT=30]">
     <item quantity="one">%1$d photo</item>
@@ -1621,89 +1621,89 @@ Te enviaremos una notificación cuando termine.</string>
     <item quantity="other">%1$d items</item>
   </plurals>
 
-  <string name="smartalbum_search_placeholder_term" translatable="true" description="Search input placeholder for Smart Album search screen. Search is a generic term. [CHAR_LIMIT=30]">Search for term&#8230;</string>
+  <string name="smartalbum_search_placeholder_term" translatable="true" description="Search input placeholder for Smart Album search screen. Search is a generic term. [CHAR_LIMIT=30]">Buscar término…</string>
 
-  <string name="smartalbum_suggestion_grocery_receipt" translatable="true" description="Search suggestion for grocery store receipt. [CHAR_LIMIT=35]">grocery store receipt</string>
+  <string name="smartalbum_suggestion_grocery_receipt" translatable="true" description="Search suggestion for grocery store receipt. [CHAR_LIMIT=35]">recibo de tienda de abarrotes</string>
 
-  <string name="smartalbum_suggestion_hiking_selfie" translatable="true" description="Search suggestion for friends hiking selfie. [CHAR_LIMIT=35]">friends hiking selfie</string>
+  <string name="smartalbum_suggestion_hiking_selfie" translatable="true" description="Search suggestion for friends hiking selfie. [CHAR_LIMIT=35]">selfie de amigos haciendo senderismo</string>
 
-  <string name="smartalbum_suggestion_dog_backyard" translatable="true" description="Search suggestion for dog in backyard. [CHAR_LIMIT=25]">dog in backyard</string>
+  <string name="smartalbum_suggestion_dog_backyard" translatable="true" description="Search suggestion for dog in backyard. [CHAR_LIMIT=25]">perro en el patio trasero</string>
 
-  <string name="smartalbum_suggestion_cloudy_beach" translatable="true" description="Search suggestion for walking on cloudy beach. [CHAR_LIMIT=38]">walking on cloudy beach</string>
+  <string name="smartalbum_suggestion_cloudy_beach" translatable="true" description="Search suggestion for walking on cloudy beach. [CHAR_LIMIT=38]">caminando en una playa nublada</string>
 
-  <string name="smartalbum_match_format" translatable="true" description="Match score percentage format badge. [CHAR_LIMIT=20]">%1$d%% match</string>
+  <string name="smartalbum_match_format" translatable="true" description="Match score percentage format badge. [CHAR_LIMIT=20]">%1$d%% de coincidencia</string>
 
-  <string name="smartalbum_embedding_info" translatable="true" description="Label for embedding info panel. [CHAR_LIMIT=24]">Embedding info</string>
+  <string name="smartalbum_embedding_info" translatable="true" description="Label for embedding info panel. [CHAR_LIMIT=24]">Información de inserción</string>
 
-  <string name="smartalbum_find_similar_images" translatable="true" description="Option to find similar images in Smart Album search. [CHAR_LIMIT=24]">Find similar images</string>
+  <string name="smartalbum_find_similar_images" translatable="true" description="Option to find similar images in Smart Album search. [CHAR_LIMIT=24]">Encontrar imágenes similares</string>
 
   <string name="smartalbum_analyzing" translatable="true" description="Status badge for unindexed photo being analyzed. [CHAR_LIMIT=20]">Analyzingâ€¦</string>
 
-  <string name="smartalbum_analyzed" translatable="true" description="Status badge for indexed photo. [CHAR_LIMIT=20]">Analyzed</string>
+  <string name="smartalbum_analyzed" translatable="true" description="Status badge for indexed photo. [CHAR_LIMIT=20]">Analizado</string>
 
-  <string name="smartalbum_analyzing_in_progress" translatable="true" description="Title for analyzing progress popup banner. [CHAR_LIMIT=35]">Analyzing in progress</string>
+  <string name="smartalbum_analyzing_in_progress" translatable="true" description="Title for analyzing progress popup banner. [CHAR_LIMIT=35]">Análisis en progreso</string>
 
   <string name="smartalbum_initializing_model" translatable="true" description="Title for model initialization progress popup banner. [CHAR_LIMIT=35]">Initializing modelâ€¦</string>
 
   <string name="smartalbum_initializing_model_description" translatable="true" description="Status description shown in progress banner while embedding model is initializing. [CHAR_LIMIT=60]">Preparing embedding modelâ€¦</string>
 
-  <string name="smartalbum_analysis_stopped" translatable="true" description="Title for paused analysis progress popup banner. [CHAR_LIMIT=35]">Analysis stopped</string>
+  <string name="smartalbum_analysis_stopped" translatable="true" description="Title for paused analysis progress popup banner. [CHAR_LIMIT=35]">Análisis detenido</string>
 
-  <string name="smartalbum_stop_analyzing" translatable="true" description="Action button to pause or stop photo analysis. [CHAR_LIMIT=20]">Stop analyzing</string>
+  <string name="smartalbum_stop_analyzing" translatable="true" description="Action button to pause or stop photo analysis. [CHAR_LIMIT=20]">Detener análisis</string>
 
-  <string name="smartalbum_resume_analyzing" translatable="true" description="Action button to resume photo analysis. [CHAR_LIMIT=25]">Resume analyzing</string>
+  <string name="smartalbum_resume_analyzing" translatable="true" description="Action button to resume photo analysis. [CHAR_LIMIT=25]">Reanudar análisis</string>
 
-  <string name="smartalbum_analyzing_progress_format" translatable="true" description="Format for analyzing progress status in banner. [CHAR_LIMIT=49]">%1$s of %2$s analyzed (%3$d%%)</string>
+  <string name="smartalbum_analyzing_progress_format" translatable="true" description="Format for analyzing progress status in banner. [CHAR_LIMIT=49]">%1$s de %2$s analizados (%3$d%%)</string>
 
   <string name="smartalbum_analyzing_photos" translatable="true" description="Title for analyzing photos progress toast in collection selection screen. [CHAR_LIMIT=30]">Analyzing photosâ€¦</string>
 
-  <string name="smartalbum_collection_progress_done_format" translatable="true" description="Format for collection indexing progress in collapsed toast. [CHAR_LIMIT=40]">%1$s (%2$d%%) done</string>
+  <string name="smartalbum_collection_progress_done_format" translatable="true" description="Format for collection indexing progress in collapsed toast. [CHAR_LIMIT=40]">%1$s (%2$d%%) listo</string>
 
-  <string name="smartalbum_collection_progress_active_format" translatable="true" description="Format for active collection progress in expanded toast. [CHAR_LIMIT=40]">%1$s (%2$d%% done)</string>
+  <string name="smartalbum_collection_progress_active_format" translatable="true" description="Format for active collection progress in expanded toast. [CHAR_LIMIT=40]">%1$s (%2$d%% listo)</string>
 
-  <string name="smartalbum_collection_progress_queued_format" translatable="true" description="Format for queued collection progress in expanded toast. [CHAR_LIMIT=40]">%1$s (Queued, %2$d%% done)</string>
+  <string name="smartalbum_collection_progress_queued_format" translatable="true" description="Format for queued collection progress in expanded toast. [CHAR_LIMIT=40]">%1$s (En cola, %2$d%% listo)</string>
 
-  <string name="smartalbum_collection_progress_paused_format" translatable="true" description="Format for paused collection progress in expanded toast. [CHAR_LIMIT=40]">%1$s (Paused, %2$d%% done)</string>
+  <string name="smartalbum_collection_progress_paused_format" translatable="true" description="Format for paused collection progress in expanded toast. [CHAR_LIMIT=40]">%1$s (Pausado, %2$d%% listo)</string>
 
-  <string name="smartalbum_pause" translatable="true" description="Action button to pause indexing. [CHAR_LIMIT=15]">Pause</string>
+  <string name="smartalbum_pause" translatable="true" description="Action button to pause indexing. [CHAR_LIMIT=15]">Pausar</string>
 
-  <string name="smartalbum_resume" translatable="true" description="Action button to resume indexing. [CHAR_LIMIT=15]">Resume</string>
+  <string name="smartalbum_resume" translatable="true" description="Action button to resume indexing. [CHAR_LIMIT=15]">Reanudar</string>
 
-  <string name="smartalbum_start_now" translatable="true" description="Action button to start indexing immediately. [CHAR_LIMIT=15]">Start now</string>
+  <string name="smartalbum_start_now" translatable="true" description="Action button to start indexing immediately. [CHAR_LIMIT=15]">Empezar ahora</string>
 
-  <string name="smartalbum_notify_me" translatable="true" description="Action button to notify user when indexing finishes. [CHAR_LIMIT=18]">Notify me</string>
+  <string name="smartalbum_notify_me" translatable="true" description="Action button to notify user when indexing finishes. [CHAR_LIMIT=18]">Notificarme</string>
 
-  <string name="smartalbum_notify_me_toast" translatable="true" description="Toast notification confirming the user will be notified when image analysis is complete. [CHAR_LIMIT=85]">You\'ll be notified when these images are done analyzing.</string>
+  <string name="smartalbum_notify_me_toast" translatable="true" description="Toast notification confirming the user will be notified when image analysis is complete. [CHAR_LIMIT=85]">Se te notificará cuando estas imágenes terminen de analizarse.</string>
 
-  <string name="smartalbum_search_with_camera" translatable="true" description="Option in add menu to search using camera. [CHAR_LIMIT=30]">Search with camera</string>
+  <string name="smartalbum_search_with_camera" translatable="true" description="Option in add menu to search using camera. [CHAR_LIMIT=30]">Buscar con cámara</string>
 
-  <string name="smartalbum_search_with_image" translatable="true" description="Option in add menu to search using an image. [CHAR_LIMIT=30]">Search with image</string>
+  <string name="smartalbum_search_with_image" translatable="true" description="Option in add menu to search using an image. [CHAR_LIMIT=30]">Buscar con imagen</string>
 
-  <string name="smartalbum_grant_camera_access_title" translatable="true" description="Title prompt asking user to grant camera access for camera search. [CHAR_LIMIT=60]">Grant access to your camera to get started</string>
+  <string name="smartalbum_grant_camera_access_title" translatable="true" description="Title prompt asking user to grant camera access for camera search. [CHAR_LIMIT=60]">Concede acceso a tu cámara para comenzar</string>
 
-  <string name="smartalbum_grant_access" translatable="true" description="Button label to request camera permission. [CHAR_LIMIT=20]">Grant access</string>
+  <string name="smartalbum_grant_access" translatable="true" description="Button label to request camera permission. [CHAR_LIMIT=20]">Conceder acceso</string>
 
-  <string name="smartalbum_searching_prefix" translatable="true" description="Prefix label indicating active searching. [CHAR_LIMIT=20]">Searching</string>
+  <string name="smartalbum_searching_prefix" translatable="true" description="Prefix label indicating active searching. [CHAR_LIMIT=20]">Buscando</string>
 
-  <string name="smartalbum_camera_search_prompt" translatable="true" description="Prompt instructing user to point camera at an object to find similar photos. [CHAR_LIMIT=82]">Point your camera at an object to find similar photos</string>
+  <string name="smartalbum_camera_search_prompt" translatable="true" description="Prompt instructing user to point camera at an object to find similar photos. [CHAR_LIMIT=82]">Apunta la cámara a un objeto para encontrar fotos similares</string>
 
-  <string name="smartalbum_similar_photos_appear_here" translatable="true" description="Placeholder text indicating similar photos will appear at the bottom. [CHAR_LIMIT=50]">Similar photos will appear here</string>
+  <string name="smartalbum_similar_photos_appear_here" translatable="true" description="Placeholder text indicating similar photos will appear at the bottom. [CHAR_LIMIT=50]">Las fotos similares aparecerán aquí</string>
 
-  <string name="smartalbum_save_shot" translatable="true" description="Content description for camera button to save shot. [CHAR_LIMIT=25]">Save shot</string>
+  <string name="smartalbum_save_shot" translatable="true" description="Content description for camera button to save shot. [CHAR_LIMIT=25]">Guardar toma</string>
 
-  <string name="smartalbum_pause_camera" translatable="true" description="Button to pause live camera search feed. [CHAR_LIMIT=20]">Pause</string>
+  <string name="smartalbum_pause_camera" translatable="true" description="Button to pause live camera search feed. [CHAR_LIMIT=20]">Pausar</string>
 
-  <string name="smartalbum_resume_camera" translatable="true" description="Button to resume live camera search feed. [CHAR_LIMIT=20]">Resume</string>
+  <string name="smartalbum_resume_camera" translatable="true" description="Button to resume live camera search feed. [CHAR_LIMIT=20]">Reanudar</string>
 
-  <string name="smartalbum_camera_search_title" translatable="true" description="Title for camera search screen. [CHAR_LIMIT=30]">Camera Search</string>
+  <string name="smartalbum_camera_search_title" translatable="true" description="Title for camera search screen. [CHAR_LIMIT=30]">Búsqueda con Cámara</string>
 
-  <string name="smartalbum_camera_paused" translatable="true" description="Status badge indicating camera search is paused. [CHAR_LIMIT=20]">Paused</string>
+  <string name="smartalbum_camera_paused" translatable="true" description="Status badge indicating camera search is paused. [CHAR_LIMIT=20]">Pausado</string>
 
   <string name="smartalbum_camera_searching" translatable="true" description="Status badge indicating camera search is active. [CHAR_LIMIT=20]">Searchingâ€¦</string>
 
-  <string name="smartalbum_camera_search_empty" translatable="true" description="Empty state description when camera search has not found matching items yet. [CHAR_LIMIT=72]">Point camera at an object to find similar photos</string>
+  <string name="smartalbum_camera_search_empty" translatable="true" description="Empty state description when camera search has not found matching items yet. [CHAR_LIMIT=72]">Apunta la cámara a un objeto para encontrar fotos similares</string>
 
-  <string name="smartalbum_indexing_warning_banner" translatable="true" description="Warning message shown above search results when indexing is incomplete. [CHAR_LIMIT=144]">Photos are still being analyzed, so some photos may be missing from your Search results.</string>
+  <string name="smartalbum_indexing_warning_banner" translatable="true" description="Warning message shown above search results when indexing is incomplete. [CHAR_LIMIT=144]">Las fotos aún se están analizando, por lo que es posible que falten algunas fotos en los resultados de búsqueda.</string>
 
   <string name="smartalbum_search_placeholder" translatable="true" description="Search input placeholder for Smart Album. [CHAR_LIMIT=30]">Search photosâ€¦</string>
 
@@ -1712,36 +1712,36 @@ Te enviaremos una notificación cuando termine.</string>
     <item quantity="other">Indexing %1$d of %2$d photosâ€¦</item>
   </plurals>
 
-  <string name="smartalbum_my_photos" translatable="true" description="Dropdown label to select user's photo album source in Instant Media Search. [CHAR_LIMIT=18]">My photos</string>
+  <string name="smartalbum_my_photos" translatable="true" description="Dropdown label to select user's photo album source in Instant Media Search. [CHAR_LIMIT=18]">Mis fotos</string>
 
-  <string name="smartalbum_sample_photos" translatable="true" description="Dropdown and filter label for sample photos source in Instant Media Search. [CHAR_LIMIT=20]">Sample photos</string>
+  <string name="smartalbum_sample_photos" translatable="true" description="Dropdown and filter label for sample photos source in Instant Media Search. [CHAR_LIMIT=20]">Fotos de muestra</string>
 
-  <string name="smartalbum_sample_photos_title" translatable="true" description="Title for the sample photos collection stack in Instant Media Search. [CHAR_LIMIT=20]">Sample photos</string>
+  <string name="smartalbum_sample_photos_title" translatable="true" description="Title for the sample photos collection stack in Instant Media Search. [CHAR_LIMIT=20]">Fotos de muestra</string>
 
-  <string name="smartalbum_sample_photos_subtitle" translatable="true" description="Subtitle for the sample photos collection stack in Instant Media Search. [CHAR_LIMIT=60]">Sample photos provided by AI Edge Gallery</string>
+  <string name="smartalbum_sample_photos_subtitle" translatable="true" description="Subtitle for the sample photos collection stack in Instant Media Search. [CHAR_LIMIT=60]">Fotos de muestra proporcionadas por AI Edge Gallery</string>
 
-  <string name="smartalbum_sample_photo_credit" translatable="true" description="Header attribution label shown above a sample photo in the fullscreen photo detail view in Instant Media Search, crediting Getty Images (a brand name) as the photo source. [CHAR_LIMIT=30]">Credit: Getty Images</string>
+  <string name="smartalbum_sample_photo_credit" translatable="true" description="Header attribution label shown above a sample photo in the fullscreen photo detail view in Instant Media Search, crediting Getty Images (a brand name) as the photo source. [CHAR_LIMIT=30]">Crédito: Getty Images</string>
 
-  <string name="smartalbum_add_photos_title" translatable="true" description="Title for user photos stack when access is not yet granted. [CHAR_LIMIT=20]">Add photos</string>
+  <string name="smartalbum_add_photos_title" translatable="true" description="Title for user photos stack when access is not yet granted. [CHAR_LIMIT=20]">Agregar fotos</string>
 
-  <string name="smartalbum_grant_photo_library_access_subtitle" translatable="true" description="Subtitle for add photos stack on landing page when photo access is not yet granted. [CHAR_LIMIT=51]">Grant access to your photo library</string>
+  <string name="smartalbum_grant_photo_library_access_subtitle" translatable="true" description="Subtitle for add photos stack on landing page when photo access is not yet granted. [CHAR_LIMIT=51]">Concede acceso a tu biblioteca de fotos</string>
 
-  <string name="smartalbum_start_analyzing_all_photos_title" translatable="true" description="Title for confirmation popup asking user to confirm analyzing all photos. [CHAR_LIMIT=45]">Start analyzing all photos?</string>
+  <string name="smartalbum_start_analyzing_all_photos_title" translatable="true" description="Title for confirmation popup asking user to confirm analyzing all photos. [CHAR_LIMIT=45]">¿Comenzar a analizar todas las fotos?</string>
 
   <plurals name="smartalbum_start_analyzing_all_photos_desc" translatable="true" description="Description for confirmation popup asking user to confirm analyzing all media items in their library, where %1$d is the total number of media items (e.g. 500). [CHAR_LIMIT=80]">
     <item quantity="one">You\'ll start analyzing %1$d item from your camera library.</item>
     <item quantity="other">You\'ll start analyzing %1$d items from your camera library.</item>
   </plurals>
 
-  <string name="smartalbum_yes_add_all" translatable="true" description="Button to confirm analyzing all photos. [CHAR_LIMIT=20]">Yes, add all</string>
+  <string name="smartalbum_yes_add_all" translatable="true" description="Button to confirm analyzing all photos. [CHAR_LIMIT=20]">Sí, agregar todo</string>
 
-  <string name="smartalbum_select_photos" translatable="true" description="Button to open the photo picker to select specific photos instead of analyzing all media items. [CHAR_LIMIT=20]">Select media</string>
+  <string name="smartalbum_select_photos" translatable="true" description="Button to open the photo picker to select specific photos instead of analyzing all media items. [CHAR_LIMIT=20]">Seleccionar medios</string>
 
-  <string name="smartalbum_allow_photo_library_access_title" translatable="true" description="Title of the dialog asking the user whether to select specific photos or bulk select photos from their library in Instant Media Search. [CHAR_LIMIT=35]">Start analyzing media?</string>
+  <string name="smartalbum_allow_photo_library_access_title" translatable="true" description="Title of the dialog asking the user whether to select specific photos or bulk select photos from their library in Instant Media Search. [CHAR_LIMIT=35]">¿Comenzar a analizar medios?</string>
 
-  <string name="smartalbum_dont_allow" translatable="true" description="Button label to decline or dismiss the photo library access dialog in Instant Media Search. [CHAR_LIMIT=15]">Cancel</string>
+  <string name="smartalbum_dont_allow" translatable="true" description="Button label to decline or dismiss the photo library access dialog in Instant Media Search. [CHAR_LIMIT=15]">Cancelar</string>
 
-  <string name="smartalbum_bulk_select_photos_title" translatable="true" description="Title of the bottom sheet dialog where the user selects how many recent photos to analyze in Instant Media Search. [CHAR_LIMIT=30]">Bulk select media</string>
+  <string name="smartalbum_bulk_select_photos_title" translatable="true" description="Title of the bottom sheet dialog where the user selects how many recent photos to analyze in Instant Media Search. [CHAR_LIMIT=30]">Selección masiva de medios</string>
 
   <plurals name="smartalbum_bulk_select_photos_desc" translatable="true" description="Subtitle description in the bulk select photos bottom sheet in Instant Media Search explaining that the user can choose how many media items to analyze, where %1$d is the recommended maximum number of media items (e.g. 250). [CHAR_LIMIT=135]">
     <item quantity="one">Select how many media items youâ€™d like to get analyzed. We recommend under %1$d media item.</item>
@@ -1753,30 +1753,30 @@ Te enviaremos una notificación cuando termine.</string>
     <item quantity="other">Analyze most recent %1$d items</item>
   </plurals>
 
-  <string name="smartalbum_select_all_warning_title" translatable="true" description="Warning banner title shown in the bulk select photos bottom sheet when the user drags the slider to select all photos on the device. [CHAR_LIMIT=67]">Are you sure you want to select all media?</string>
+  <string name="smartalbum_select_all_warning_title" translatable="true" description="Warning banner title shown in the bulk select photos bottom sheet when the user drags the slider to select all photos on the device. [CHAR_LIMIT=67]">¿Estás seguro de que quieres seleccionar todos los medios?</string>
 
-  <string name="smartalbum_select_all_warning_desc" translatable="true" description="Warning banner body text shown in the bulk select photos bottom sheet when the user selects all photos on the device, warning that analyzing all photos with the model (%1$s) may take a long time. [CHAR_LIMIT=200]">You\'ll start analyzing all media on your device. %1$s may not be optimized for this device, so this may take a long time.</string>
+  <string name="smartalbum_select_all_warning_desc" translatable="true" description="Warning banner body text shown in the bulk select photos bottom sheet when the user selects all photos on the device, warning that analyzing all photos with the model (%1$s) may take a long time. [CHAR_LIMIT=200]">Comenzarás a analizar todos los medios de tu dispositivo. %1$s puede no estar optimizado para este dispositivo, por lo que esto puede llevar mucho tiempo.</string>
 
-  <string name="smartalbum_yes_analyze_selected_photos" translatable="true" description="Primary confirmation button label in the bulk select photos bottom sheet in Instant Media Search to start analyzing the selected number of photos. [CHAR_LIMIT=40]">Yes, analyze selected media</string>
+  <string name="smartalbum_yes_analyze_selected_photos" translatable="true" description="Primary confirmation button label in the bulk select photos bottom sheet in Instant Media Search to start analyzing the selected number of photos. [CHAR_LIMIT=40]">Sí, analizar medios seleccionados</string>
 
-  <string name="smartalbum_no_matching_photos" translatable="true" description="Empty state message when search query returns no matching photos in Instant Media Search. [CHAR_LIMIT=40]">No matching media found</string>
+  <string name="smartalbum_no_matching_photos" translatable="true" description="Empty state message when search query returns no matching photos in Instant Media Search. [CHAR_LIMIT=40]">No se encontraron medios coincidentes</string>
 
-  <string name="smartalbum_empty_collection_title" translatable="true" description="Title for empty photo collection state in Instant Media Search. [CHAR_LIMIT=30]">No photos yet</string>
+  <string name="smartalbum_empty_collection_title" translatable="true" description="Title for empty photo collection state in Instant Media Search. [CHAR_LIMIT=30]">Sin fotos todavía</string>
 
-  <string name="smartalbum_empty_collection_subtitle" translatable="true" description="Subtitle for empty photo collection state in Instant Media Search. [CHAR_LIMIT=60]">Add photos to start searching your collection</string>
+  <string name="smartalbum_empty_collection_subtitle" translatable="true" description="Subtitle for empty photo collection state in Instant Media Search. [CHAR_LIMIT=60]">Agrega fotos para comenzar a buscar en tu colección</string>
 
   <plurals name="smartalbum_results_format" translatable="true" description="Format string showing the number of search results in Instant Media Search. [CHAR_LIMIT=30]">
     <item quantity="one">%1$d result</item>
     <item quantity="other">%1$d results</item>
   </plurals>
 
-  <string name="smartalbum_indexing_complete_content" translatable="true" description="This string appears within a system notification when photo indexing completes as the notification body text. It informs the user that photo indexing is complete and all photos are now searchable. [CHAR_LIMIT=110]">Photo indexing complete. All photos are now searchable.</string>
+  <string name="smartalbum_indexing_complete_content" translatable="true" description="This string appears within a system notification when photo indexing completes as the notification body text. It informs the user that photo indexing is complete and all photos are now searchable. [CHAR_LIMIT=110]">Indexación de fotos completa. Todas las fotos ya son buscables.</string>
 
-  <string name="smartalbum_select_all" translatable="true" description="Button to select all photos in Instant Media Search. [CHAR_LIMIT=20]">Select all</string>
+  <string name="smartalbum_select_all" translatable="true" description="Button to select all photos in Instant Media Search. [CHAR_LIMIT=20]">Seleccionar todo</string>
 
-  <string name="smartalbum_deselect_all" translatable="true" description="Button to deselect all photos in Instant Media Search. [CHAR_LIMIT=20]">Deselect all</string>
+  <string name="smartalbum_deselect_all" translatable="true" description="Button to deselect all photos in Instant Media Search. [CHAR_LIMIT=20]">Deseleccionar todo</string>
 
-  <string name="smartalbum_remove" translatable="true" description="Button to remove selected photos in Instant Media Search. [CHAR_LIMIT=20]">Remove</string>
+  <string name="smartalbum_remove" translatable="true" description="Button to remove selected photos in Instant Media Search. [CHAR_LIMIT=20]">Eliminar</string>
 
   <plurals name="smartalbum_selected_count_format" translatable="true" description="Format string showing the count of selected photos in Instant Media Search. [CHAR_LIMIT=30]">
     <item quantity="one">%1$d selected</item>
@@ -1788,54 +1788,54 @@ Te enviaremos una notificación cuando termine.</string>
     <item quantity="other">Remove %1$d photos from Instant Media Search?</item>
   </plurals>
 
-  <string name="smartalbum_remove_confirm_body" translatable="true" description="Warning message in remove confirmation dialog in Instant Media Search. [CHAR_LIMIT=40]">This action cannot be undone.</string>
+  <string name="smartalbum_remove_confirm_body" translatable="true" description="Warning message in remove confirmation dialog in Instant Media Search. [CHAR_LIMIT=40]">Esta acción no se puede deshacer.</string>
 
-  <string name="smartalbum_yes_remove" translatable="true" description="Action button to confirm removing photos in Instant Media Search. [CHAR_LIMIT=20]">Yes, remove</string>
+  <string name="smartalbum_yes_remove" translatable="true" description="Action button to confirm removing photos in Instant Media Search. [CHAR_LIMIT=20]">Sí, eliminar</string>
 
-  <string name="smartalbum_manage" translatable="true" description="Dropdown button to manage photos in Instant Media Search. [CHAR_LIMIT=20]">Manage</string>
+  <string name="smartalbum_manage" translatable="true" description="Dropdown button to manage photos in Instant Media Search. [CHAR_LIMIT=20]">Administrar</string>
 
-  <string name="smartalbum_add_more_photos" translatable="true" description="Option in manage menu to add more photos. [CHAR_LIMIT=30]">Add more photos</string>
+  <string name="smartalbum_add_more_photos" translatable="true" description="Option in manage menu to add more photos. [CHAR_LIMIT=30]">Agregar más fotos</string>
 
   <plurals name="smartalbum_add_all_photos" translatable="true" description="Option in manage menu to add all photos that the app already has permission to read from the device library. [CHAR_LIMIT=40]">
     <item quantity="one">Add all %1$d photo</item>
     <item quantity="other">Add all %1$d photos</item>
   </plurals>
 
-  <string name="smartalbum_select_photos_to_remove" translatable="true" description="Option in manage menu to select photos to remove. [CHAR_LIMIT=35]">Select photos to remove</string>
+  <string name="smartalbum_select_photos_to_remove" translatable="true" description="Option in manage menu to select photos to remove. [CHAR_LIMIT=35]">Seleccionar fotos para eliminar</string>
 
-  <string name="smartalbum_remove_all_photos" translatable="true" description="Option in manage menu to remove all photos. [CHAR_LIMIT=30]">Remove all photos</string>
+  <string name="smartalbum_remove_all_photos" translatable="true" description="Option in manage menu to remove all photos. [CHAR_LIMIT=30]">Eliminar todas las fotos</string>
 
-  <string name="smartalbum_unknown_date" translatable="true" description="This string appears within the photo details panel in Instant Media Search as a fallback text for the date and time metadata. It means that the date and time when the photo was taken is unknown. [CHAR_LIMIT=20]">Unknown</string>
+  <string name="smartalbum_unknown_date" translatable="true" description="This string appears within the photo details panel in Instant Media Search as a fallback text for the date and time metadata. It means that the date and time when the photo was taken is unknown. [CHAR_LIMIT=20]">Desconocido</string>
 
-  <string name="smartalbum_onboarding_welcome_title" translatable="true" description="Title for onboarding page 1 in Instant Media Search. [CHAR_LIMIT=40]">Welcome to Instant Media Search!</string>
+  <string name="smartalbum_onboarding_welcome_title" translatable="true" description="Title for onboarding page 1 in Instant Media Search. [CHAR_LIMIT=40]">¡Bienvenido a Búsqueda de Medios Instantánea!</string>
 
-  <string name="smartalbum_onboarding_desc_1" translatable="true" description="Description for onboarding page 1 in Instant Media Search. [CHAR_LIMIT=300]">Type any descriptive idea or pick a photo to discover visually and conceptually related memories. **EmbeddingGemma 2** analyzes the content instantly and privately on-device.</string>
+  <string name="smartalbum_onboarding_desc_1" translatable="true" description="Description for onboarding page 1 in Instant Media Search. [CHAR_LIMIT=300]">Escribe cualquier idea descriptiva o elige una foto para descubrir recuerdos visual y conceptualmente relacionados. **EmbeddingGemma 2** analiza el contenido al instante y de forma privada en el dispositivo.</string>
 
-  <string name="smartalbum_onboarding_sample_query" translatable="true" description="Sample search term displayed in onboarding illustration. [CHAR_LIMIT=30]">cat sleeping on laptop keyboardanimals playing outside</string>
+  <string name="smartalbum_onboarding_sample_query" translatable="true" description="Sample search term displayed in onboarding illustration. [CHAR_LIMIT=30]">gato durmiendo en el teclado de la laptopanimales jugando afuera</string>
 
-  <string name="smartalbum_onboarding_title_2" translatable="true" description="Title for onboarding page 2 in Instant Media Search. [CHAR_LIMIT=40]">How Scores &amp; Ranking Work</string>
+  <string name="smartalbum_onboarding_title_2" translatable="true" description="Title for onboarding page 2 in Instant Media Search. [CHAR_LIMIT=40]">Cómo funcionan las Puntuaciones y el Clasificación</string>
 
   <string name="smartalbum_onboarding_desc_2" translatable="true" description="Description for onboarding page 2 in Instant Media Search. [CHAR_LIMIT=300]">Percentage scores show cosine similarity â€” how closely concepts match in vector space. Results are **stack-ranked** so your most relevant photos always appear first.</string>
 
-  <string name="smartalbum_onboarding_title_3" translatable="true" description="Title for onboarding page 3 in Instant Media Search. [CHAR_LIMIT=50]">Vision Token Budget</string>
+  <string name="smartalbum_onboarding_title_3" translatable="true" description="Title for onboarding page 3 in Instant Media Search. [CHAR_LIMIT=50]">Presupuesto de Tokens de Visión</string>
 
-  <string name="smartalbum_onboarding_desc_3" translatable="true" description="Description for onboarding page 3 in Instant Media Search. [CHAR_LIMIT=300]">Select Standard (70 tokens) for rapid on-device indexing, or Finer Visual Detail (140 tokens) for better quality across text, documents, and intricate details.</string>
+  <string name="smartalbum_onboarding_desc_3" translatable="true" description="Description for onboarding page 3 in Instant Media Search. [CHAR_LIMIT=300]">Selecciona Estándar (70 tokens) para indexación rápida en el dispositivo, o Detalle Visual Fino (140 tokens) para mejor calidad en texto, documentos y detalles intrincados.</string>
 
-  <string name="smartalbum_onboarding_budget_card_title" translatable="true" description="Card title for Vision Encoder Budget selection in onboarding. [CHAR_LIMIT=30]">Vision Encoder Budget</string>
+  <string name="smartalbum_onboarding_budget_card_title" translatable="true" description="Card title for Vision Encoder Budget selection in onboarding. [CHAR_LIMIT=30]">Presupuesto del Codificador de Visión</string>
 
-  <string name="smartalbum_onboarding_budget_70_tokens" translatable="true" description="70 tokens option label in onboarding. [CHAR_LIMIT=30]">70 tokens</string>
+  x tokens</string>
 
-  <string name="smartalbum_onboarding_budget_140_tokens" translatable="true" description="140 tokens option label in onboarding. [CHAR_LIMIT=30]">140 tokens</string>
+  L0 tokens</string>
 
-  <string name="smartalbum_onboarding_next" translatable="true" description="Next button label in onboarding. [CHAR_LIMIT=15]">Next</string>
+  <string name="smartalbum_onboarding_next" translatable="true" description="Next button label in onboarding. [CHAR_LIMIT=15]">Siguiente</string>
 
-  <string name="smartalbum_onboarding_previous" translatable="true" description="Previous button label in onboarding. [CHAR_LIMIT=15]">Previous</string>
+  <string name="smartalbum_onboarding_previous" translatable="true" description="Previous button label in onboarding. [CHAR_LIMIT=15]">Anterior</string>
 
-  <string name="smartalbum_onboarding_get_started" translatable="true" description="Get started button label in onboarding. [CHAR_LIMIT=20]">Get started</string>
+  <string name="smartalbum_onboarding_get_started" translatable="true" description="Get started button label in onboarding. [CHAR_LIMIT=20]">Comenzar</string>
 
-  <string name="task_desc_agent_skills" translatable="true" description="Description for the Agent Skills task. [CHAR_LIMIT=106]">Chat with on-device large language models with skills and tools</string>
+  <string name="task_desc_agent_skills" translatable="true" description="Description for the Agent Skills task. [CHAR_LIMIT=106]">Chatea con modelos de lenguaje grandes en el dispositivo con habilidades y herramientas</string>
 
-  <string name="task_short_desc_agent_skills" translatable="true" description="Short description for the Agent Skills task. [CHAR_LIMIT=45]">Complete agentic tasks with chat</string>
+  <string name="task_short_desc_agent_skills" translatable="true" description="Short description for the Agent Skills task. [CHAR_LIMIT=45]">Completa tareas agénticas con chat</string>
 
   <string name="example_code" translatable="true" description="Label for the link to example code. [CHAR_LIMIT=21]">Código de ejemplo</string>
 
@@ -1844,27 +1844,29 @@ Te enviaremos una notificación cuando termine.</string>
     <item quantity="other">%1$d Models</item>
   </plurals>
 
-  <string name="skill_chip_interactive_map_label" translatable="true" description="Label for the Interactive Map skill chip. [CHAR_LIMIT=25]">Interactive Map</string>
+  <string name="skill_chip_interactive_map_label" translatable="true" description="Label for the Interactive Map skill chip. [CHAR_LIMIT=25]">Mapa Interactivo</string>
 
-  <string name="skill_chip_schedule_reminder_label" translatable="true" description="Label for the Schedule Reminder skill chip. [CHAR_LIMIT=30]">Schedule Reminder</string>
+  <string name="skill_chip_schedule_reminder_label" translatable="true" description="Label for the Schedule Reminder skill chip. [CHAR_LIMIT=30]">Programar Recordatorio</string>
 
-  <string name="skill_chip_track_mood_label" translatable="true" description="Label for the Track my mood skill chip. [CHAR_LIMIT=22]">Track my mood</string>
+  <string name="skill_chip_track_mood_label" translatable="true" description="Label for the Track my mood skill chip. [CHAR_LIMIT=22]">Registrar mi estado de ánimo</string>
 
-  <string name="skill_chip_learn_something_new_label" translatable="true" description="Label for the Learn something new skill chip. [CHAR_LIMIT=32]">Learn something new</string>
+  <string name="skill_chip_learn_something_new_label" translatable="true" description="Label for the Learn something new skill chip. [CHAR_LIMIT=32]">Aprende algo nuevo</string>
 
-  <string name="skill_chip_query_wikipedia_label" translatable="true" description="Label for the Query Wikipedia skill chip. [CHAR_LIMIT=25]">Query Wikipedia</string>
+  <string name="skill_chip_query_wikipedia_label" translatable="true" description="Label for the Query Wikipedia skill chip. [CHAR_LIMIT=25]">Consultar Wikipedia</string>
 
-  <string name="skill_chip_generate_qr_code_label" translatable="true" description="Label for the Generate QR code skill chip. [CHAR_LIMIT=30]">Generate QR code</string>
+  <string name="skill_chip_generate_qr_code_label" translatable="true" description="Label for the Generate QR code skill chip. [CHAR_LIMIT=30]">Generar código QR</string>
 
-  <string name="task_desc_mobile_actions" translatable="true" description="Description for the Mobile Actions task. [CHAR_LIMIT=91]">Perform various device actions through Function Gemma</string>
+  <string name="task_desc_mobile_actions" translatable="true" description="Description for the Mobile Actions task. [CHAR_LIMIT=91]">Realiza diversas acciones del dispositivo a través de Function Gemma</string>
 
-  <string name="task_desc_tiny_garden" translatable="true" description="Description for the Tiny Garden task. [CHAR_LIMIT=468]">Use natural language to plant, water, and harvest in this fully offline mini-game.\n\nNote: This is powered by the experimental FunctionGemma model optimized for latency. Due to its compact size (270M), it works well on simple instructions but responses may vary to more complex interactions.</string>
+  <string name="task_desc_tiny_garden" translatable="true" description="Description for the Tiny Garden task. [CHAR_LIMIT=468]">Usa lenguaje natural para plantar, regar y cosechar en este minijuego totalmente sin conexión.
 
-  <string name="task_short_desc_tiny_garden" translatable="true" description="Short description for the Tiny Garden task. [CHAR_LIMIT=45]">Use natural language to plant</string>
+Nota: Está impulsado por el modelo experimental FunctionGemma optimizado para latencia. Debido a su tamaño compacto (270M), funciona bien en instrucciones simples, pero las respuestas pueden variar en interacciones más complejas.</string>
 
-  <string name="task_desc_video_moment_finder" translatable="true" description="Description of the Video Moment Finder task, shown on the task detail page; EmbeddingGemma 2 is a model name and should not be translated.">Search for moments in videos using natural language with EmbeddingGemma 2</string>
+  <string name="task_short_desc_tiny_garden" translatable="true" description="Short description for the Tiny Garden task. [CHAR_LIMIT=45]">Usa lenguaje natural para plantar</string>
 
-  <string name="task_short_desc_video_moment_finder" translatable="true" description="One-line subtitle shown under the Video Moment Finder task title on the home screen task card.">Search for moments in videos</string>
+  <string name="task_desc_video_moment_finder" translatable="true" description="Description of the Video Moment Finder task, shown on the task detail page; EmbeddingGemma 2 is a model name and should not be translated.">Busca momentos en videos usando lenguaje natural con EmbeddingGemma 2</string>
+
+  <string name="task_short_desc_video_moment_finder" translatable="true" description="One-line subtitle shown under the Video Moment Finder task title on the home screen task card.">Busca momentos en videos</string>
 
   <string name="videomomentfinder_feature_name" translatable="false">Video Moment Finder</string>
 
@@ -2091,7 +2093,7 @@ Te enviaremos una notificación cuando termine.</string>
 
   <string name="asr_android_speech_builtin_name" translatable="true" description="Name of the built-in Android system speech recognition engine. [CHAR_LIMIT=60]">Reconocimiento de voz de Android (integrado)</string>
 
-  <string name="supplementary_models_tab_title" translatable="true" description="Tab label in the Model Manager for supplementary models (such as TTS models), with a placeholder for the number of models. [CHAR_LIMIT=35]">Supplementary (%1$d)</string>
+  <string name="supplementary_models_tab_title" translatable="true" description="Tab label in the Model Manager for supplementary models (such as TTS models), with a placeholder for the number of models. [CHAR_LIMIT=35]">Suplementarios (%1$d)</string>
 
   <string name="main_models_tab_title" translatable="true" description="Tab label in the Model Manager for main LLM models, with a placeholder for the number of models. [CHAR_LIMIT=30]">Modelos principales (%1$d)</string>
 
@@ -2147,23 +2149,23 @@ Te enviaremos una notificación cuando termine.</string>
 
   <string name="cd_asr_default_for_speech_input_info" translatable="true" description="Accessibility content description for the info icon button next to the speech input default checkbox on a speech recognition model card. [CHAR_LIMIT=40]">About the speech input default</string>
 
-  <string name="supported_languages_info_tooltip" translatable="true" description="Tooltip shown when the user taps the info icon next to the Supported languages header on a speech model card, explaining that language downloads are handled by Speech Services by Google and how to uninstall languages in system settings; Speech Services by Google and AICore are product names and should not be translated. [CHAR_LIMIT=250]">Language downloads are handled by Speech Services by Google. To uninstall languages, go to Settings &gt; Apps &gt; AICore &gt; Storage &amp; cache and tap Clear storage.</string>
+  <string name="supported_languages_info_tooltip" translatable="true" description="Tooltip shown when the user taps the info icon next to the Supported languages header on a speech model card, explaining that language downloads are handled by Speech Services by Google and how to uninstall languages in system settings; Speech Services by Google and AICore are product names and should not be translated. [CHAR_LIMIT=250]">Las descargas de idiomas las gestiona Speech Services by Google. Para desinstalar idiomas, ve a Configuración > Apps > AICore > Almacenamiento y caché y toca Borrar almacenamiento.</string>
 
   <string name="cd_supported_languages_info" translatable="true" description="Accessibility content description for the info icon button next to the Supported languages header on a speech model card. [CHAR_LIMIT=35]">About supported languages</string>
 
   <string name="cd_language_pack_download" translatable="true" description="Accessibility content description for the icon-only button that downloads one language on a speech model card, where %1$s is the localized language name, for example German (Germany). [CHAR_LIMIT=50]">Download %1$s</string>
 
-  <string name="supplementary_filter_empty" translatable="true" description="One-line message on the Supplementary tab of Model Manager when no speech model matches the selected filter (All, TTS, or ASR). [CHAR_LIMIT=40]">No models</string>
+  <string name="supplementary_filter_empty" translatable="true" description="One-line message on the Supplementary tab of Model Manager when no speech model matches the selected filter (All, TTS, or ASR). [CHAR_LIMIT=40]">Sin modelos</string>
 
   <string name="supplementary_status_checking" translatable="true" description="Status under a speech model's name in Model Manager while the app checks whether the model can be used on this device. [CHAR_LIMIT=40]">Checking availabilityâ€¦</string>
 
-  <string name="supplementary_status_check_failed" translatable="true" description="Error status under a speech model's name, or under a language of a speech model, in Model Manager when the app couldn't check whether it can be used; the user can retry. [CHAR_LIMIT=40]">Couldn\'t check status</string>
+  <string name="supplementary_status_check_failed" translatable="true" description="Error status under a speech model's name, or under a language of a speech model, in Model Manager when the app couldn't check whether it can be used; the user can retry. [CHAR_LIMIT=40]">No se pudo verificar el estado</string>
 
-  <string name="supplementary_status_update_required" translatable="true" description="Status under a speech model's name in Model Manager when a system app must be updated before the model can be used. [CHAR_LIMIT=40]">Update required</string>
+  <string name="supplementary_status_update_required" translatable="true" description="Status under a speech model's name in Model Manager when a system app must be updated before the model can be used. [CHAR_LIMIT=40]">Actualización requerida</string>
 
-  <string name="supplementary_status_access_required" translatable="true" description="Status under a speech model's name in Model Manager when the user must join an early access program before the model can be used. [CHAR_LIMIT=40]">Access required</string>
+  <string name="supplementary_status_access_required" translatable="true" description="Status under a speech model's name in Model Manager when the user must join an early access program before the model can be used. [CHAR_LIMIT=40]">Acceso requerido</string>
 
-  <string name="supplementary_status_needs_language" translatable="true" description="Status under a speech model's name in Model Manager when no language of the model is installed yet, so the user must download at least one language before using it. [CHAR_LIMIT=50]">Download a language to use</string>
+  <string name="supplementary_status_needs_language" translatable="true" description="Status under a speech model's name in Model Manager when no language of the model is installed yet, so the user must download at least one language before using it. [CHAR_LIMIT=50]">Descarga un idioma para usarlo</string>
 
   <string name="supplementary_status_downloading" translatable="true" description="Status under a speech model's name in Model Manager while it downloads and its size is unknown. [CHAR_LIMIT=30]">Downloadingâ€¦</string>
 
@@ -2171,24 +2173,24 @@ Te enviaremos una notificación cuando termine.</string>
 
   <string name="supplementary_status_downloading_background_percent" translatable="true" description="Status under a speech model's name in Model Manager while it downloads, where %1$d is the integer percentage downloaded; the download can't be stopped and keeps going if the user leaves the screen. [CHAR_LIMIT=60]">Downloading %1$d%% Â· continues in background</string>
 
-  <string name="supplementary_status_queued" translatable="true" description="Status under a speech model's name, or under one of its languages, in Model Manager when the system has scheduled its download for later, for example until the device is on Wi-Fi. [CHAR_LIMIT=30]">Queued</string>
+  <string name="supplementary_status_queued" translatable="true" description="Status under a speech model's name, or under one of its languages, in Model Manager when the system has scheduled its download for later, for example until the device is on Wi-Fi. [CHAR_LIMIT=30]">En cola</string>
 
   <plurals name="supplementary_status_languages_installed" translatable="true" description="Status under a speech model's name in Model Manager, where %1$d is the number of the model's languages installed on the device and %2$d is the total number of languages the model supports. [CHAR_LIMIT=50]">
     <item quantity="one">%1$d of %2$d language installed</item>
     <item quantity="other">%1$d of %2$d languages installed</item>
   </plurals>
 
-  <string name="supplementary_status_engine_error" translatable="true" description="Error status under a speech model's name in Model Manager when the model failed to start or stopped working. [CHAR_LIMIT=40]">Couldn\'t start this model</string>
+  <string name="supplementary_status_engine_error" translatable="true" description="Error status under a speech model's name in Model Manager when the model failed to start or stopped working. [CHAR_LIMIT=40]">No se pudo iniciar este modelo</string>
 
-  <string name="supplementary_notice_check_failed" translatable="true" description="Message in an expanded speech model card in Model Manager when the app couldn't check whether the model can be used on this device; shown next to a Retry button. [CHAR_LIMIT=100]">Couldn\'t check whether this model is available. Try again.</string>
+  <string name="supplementary_notice_check_failed" translatable="true" description="Message in an expanded speech model card in Model Manager when the app couldn't check whether the model can be used on this device; shown next to a Retry button. [CHAR_LIMIT=100]">No se pudo verificar si este modelo está disponible. Inténtalo de nuevo.</string>
 
-  <string name="supplementary_notice_unavailable_right_now" translatable="true" description="Message in an expanded speech model card in Model Manager when the device is supported but the model isn't being offered at the moment; shown next to a Retry button. [CHAR_LIMIT=100]">Not available on this device right now</string>
+  <string name="supplementary_notice_unavailable_right_now" translatable="true" description="Message in an expanded speech model card in Model Manager when the device is supported but the model isn't being offered at the moment; shown next to a Retry button. [CHAR_LIMIT=100]">No disponible en este dispositivo ahora</string>
 
-  <string name="supplementary_notice_downloadable" translatable="true" description="Message in an expanded speech model card in Model Manager when the model must be downloaded before it can be used; shown next to a Download button. [CHAR_LIMIT=100]">Download this model to use it.</string>
+  <string name="supplementary_notice_downloadable" translatable="true" description="Message in an expanded speech model card in Model Manager when the model must be downloaded before it can be used; shown next to a Download button. [CHAR_LIMIT=100]">Descarga este modelo para usarlo.</string>
 
-  <string name="supplementary_notice_engine_error" translatable="true" description="Message in an expanded speech model card in Model Manager when the model failed to start or stopped working; may be shown next to a Retry button. [CHAR_LIMIT=100]">This model couldn\'t start. Try again.</string>
+  <string name="supplementary_notice_engine_error" translatable="true" description="Message in an expanded speech model card in Model Manager when the model failed to start or stopped working; may be shown next to a Retry button. [CHAR_LIMIT=100]">Este modelo no pudo iniciarse. Inténtalo de nuevo.</string>
 
-  <string name="supplementary_language_not_offered" translatable="true" description="Status under a greyed-out language of a speech model in Model Manager when the model doesn't offer that language on this device; shown next to a Retry button. [CHAR_LIMIT=50]">Not available on this device</string>
+  <string name="supplementary_language_not_offered" translatable="true" description="Status under a greyed-out language of a speech model in Model Manager when the model doesn't offer that language on this device; shown next to a Retry button. [CHAR_LIMIT=50]">No disponible en este dispositivo</string>
 
   <string name="cd_language_pack_retry" translatable="true" description="Accessibility content description for the icon-only button that checks one language of a speech model card again, where %1$s is the localized language name, for example German (Germany). [CHAR_LIMIT=50]">Retry %1$s</string>
 
@@ -2353,23 +2355,23 @@ Contexto: Se comprime alrededor de %1$d%%</string>
 
   <string name="model_selection_checking" translatable="true" description="Status shown in the summary panel of the model selection screen while the app checks that the selected models are ready, just before the task starts. [CHAR_LIMIT=32]">Verificando modelos…</string>
 
-  <string name="speech_engine_error_asr_title" translatable="true" description="Title of the dialog shown when the selected speech recognition model, which turns what the user says into text, can't start. [CHAR_LIMIT=50]">Couldn\'t start speech recognition</string>
+  <string name="speech_engine_error_asr_title" translatable="true" description="Title of the dialog shown when the selected speech recognition model, which turns what the user says into text, can't start. [CHAR_LIMIT=50]">No se pudo iniciar el reconocimiento de voz</string>
 
-  <string name="speech_engine_error_tts_title" translatable="true" description="Title of the dialog shown when the selected text-to-speech model, which reads answers aloud, can't start. [CHAR_LIMIT=40]">Couldn\'t start voice</string>
+  <string name="speech_engine_error_tts_title" translatable="true" description="Title of the dialog shown when the selected text-to-speech model, which reads answers aloud, can't start. [CHAR_LIMIT=40]">No se pudo iniciar la voz</string>
 
-  <string name="speech_engine_error_outdated_message" translatable="true" description="Body of the dialog shown when a speech model can't start because the Speech Services by Google app is missing or too old. Speech Services by Google is an app name; keep it as is. [CHAR_LIMIT=160]">This model needs a newer version of Speech Services by Google. Update it from the Play Store, then try again.</string>
+  <string name="speech_engine_error_outdated_message" translatable="true" description="Body of the dialog shown when a speech model can't start because the Speech Services by Google app is missing or too old. Speech Services by Google is an app name; keep it as is. [CHAR_LIMIT=160]">Este modelo necesita una versión más reciente de Speech Services by Google. Actualízalo desde Play Store, luego inténtalo de nuevo.</string>
 
-  <string name="speech_engine_error_language_message" translatable="true" description="Body of the dialog shown when a speech model can't start because the language pack for a language the user chose isn't installed. [CHAR_LIMIT=150]">One of your languages isn\'t installed for this model. Download it, or choose another language.</string>
+  <string name="speech_engine_error_language_message" translatable="true" description="Body of the dialog shown when a speech model can't start because the language pack for a language the user chose isn't installed. [CHAR_LIMIT=150]">Uno de tus idiomas no está instalado para este modelo. Descárgalo, o elige otro idioma.</string>
 
-  <string name="speech_engine_error_not_supported_message" translatable="true" description="Body of the dialog shown when the selected speech model can't be used by this feature yet. [CHAR_LIMIT=110]">This model isn\'t supported here yet. Choose another model.</string>
+  <string name="speech_engine_error_not_supported_message" translatable="true" description="Body of the dialog shown when the selected speech model can't be used by this feature yet. [CHAR_LIMIT=110]">Este modelo no es compatible aquí todavía. Elige otro modelo.</string>
 
-  <string name="speech_engine_error_other_message" translatable="true" description="Body of the dialog shown when a speech model can't start for any other reason, for example because it is missing or failed to load. [CHAR_LIMIT=150]">Something went wrong while starting this model. Try again, or choose another model.</string>
+  <string name="speech_engine_error_other_message" translatable="true" description="Body of the dialog shown when a speech model can't start for any other reason, for example because it is missing or failed to load. [CHAR_LIMIT=150]">Algo salió mal al iniciar este modelo. Inténtalo de nuevo, o elige otro modelo.</string>
 
-  <string name="speech_engine_error_update" translatable="true" description="Button in the speech model error dialog that opens the Play Store page of the Speech Services by Google app so the user can update it. [CHAR_LIMIT=18]">Update</string>
+  <string name="speech_engine_error_update" translatable="true" description="Button in the speech model error dialog that opens the Play Store page of the Speech Services by Google app so the user can update it. [CHAR_LIMIT=18]">Actualizar</string>
 
-  <string name="speech_engine_error_choose_language" translatable="true" description="Button in the speech model error dialog that opens the language settings so the user can download or change a language. [CHAR_LIMIT=30]">Choose language</string>
+  <string name="speech_engine_error_choose_language" translatable="true" description="Button in the speech model error dialog that opens the language settings so the user can download or change a language. [CHAR_LIMIT=30]">Elegir idioma</string>
 
-  <string name="speech_engine_error_choose_another_model" translatable="true" description="Button in the speech model error dialog that goes back to the model selection screen so the user can pick a different speech model. [CHAR_LIMIT=30]">Choose another model</string>
+  <string name="speech_engine_error_choose_another_model" translatable="true" description="Button in the speech model error dialog that goes back to the model selection screen so the user can pick a different speech model. [CHAR_LIMIT=30]">Elegir otro modelo</string>
 
   <string name="config_dialog_speech_model_none_selected" translatable="true" description="Placeholder shown in the speech recognition or text-to-speech model dropdown of the model settings dialog when no model is selected yet. [CHAR_LIMIT=24]">Choose a model</string>
 
