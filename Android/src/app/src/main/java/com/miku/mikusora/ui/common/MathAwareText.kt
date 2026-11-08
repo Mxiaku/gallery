@@ -5,15 +5,31 @@ import androidx.compose.ui.Modifier
 
 /** Detects whether [text] contains COMPLETE LaTeX math delimiters. */
 fun containsCompleteMath(text: String): Boolean {
-  // Check for complete $$...$$, $...$, \(...\), \[...\]
+  // Check for complete $$...$$, \(...\), \[...\] first (unambiguous)
   val blockMath = Regex("""\$\$[\s\S]+?\$\$""")
-  val inlineMath = Regex("""(?<!\$)\$(?!\$)[^$\n]+?\$(?!\$)""")
   val parenMath = Regex("""\\\([\s\S]+?\\\)""")
   val bracketMath = Regex("""\\\[[\s\S]+?\\\]""")
-  return blockMath.containsMatchIn(text) ||
-    inlineMath.containsMatchIn(text) ||
-    parenMath.containsMatchIn(text) ||
-    bracketMath.containsMatchIn(text)
+
+  if (blockMath.containsMatchIn(text) || parenMath.containsMatchIn(text) || bracketMath.containsMatchIn(text)) {
+    return true
+  }
+
+  // For inline $...$, avoid false positives with money ($5, $10, etc.)
+  // Only match if the content between $ looks like math (contains operators, letters, or LaTeX commands)
+  val inlineMath = Regex("""(?<!\$)\$(?!\$)([^$\n]+?)\$(?!\$)""")
+  val matches = inlineMath.findAll(text)
+  for (match in matches) {
+    val content = match.groupValues[1].trim()
+    // Skip if it looks like money (just a number with optional decimal)
+    if (content.matches(Regex("""\d+(\.\d{1,2})?"""))) continue
+    // Skip if it's just a currency amount like $5 or $10.50
+    if (content.matches(Regex("""\d[\d,\.]*"""))) continue
+    // Must contain at least one math-like character (operator, letter, backslash, ^, _, {, })
+    if (content.contains(Regex("""[a-zA-Z\\^_{}\+\-\*/=<>]"""))) {
+      return true
+    }
+  }
+  return false
 }
 
 /** Detects whether [text] contains ANY math delimiter (complete or incomplete). */

@@ -5,6 +5,7 @@ import android.webkit.WebView
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
 import org.json.JSONObject
 
@@ -16,6 +17,7 @@ fun MathText(
   darkMode: Boolean = false,
 ) {
   val textColor = if (darkMode) "#E0E0E0" else "#000000"
+  val bgColor = if (darkMode) "#1C1C1E" else "#FFFFFF"
   val escapedText = JSONObject.quote(text)
 
   AndroidView(
@@ -24,11 +26,15 @@ fun MathText(
         settings.javaScriptEnabled = true
         settings.allowFileAccess = true
         settings.domStorageEnabled = true
+        // Limit WebView instances by reusing
         loadUrl("file:///android_asset/katex/index.html")
       }
     },
     update = { webView ->
-      webView.evaluateJavascript("renderMath($escapedText)", null)
+      webView.evaluateJavascript(
+        "document.body.style.color='$textColor'; document.body.style.backgroundColor='$bgColor'; renderMath($escapedText)",
+        null
+      )
     },
     modifier = modifier,
   )
