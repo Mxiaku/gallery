@@ -30,6 +30,7 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.miku.mikusora.ui.common.BufferedFadingMarkdownText
 import com.miku.mikusora.ui.common.MathAwareText
 import com.miku.mikusora.ui.common.MarkdownText
 import com.miku.mikusora.ui.common.tts.MessageBodyTtsView

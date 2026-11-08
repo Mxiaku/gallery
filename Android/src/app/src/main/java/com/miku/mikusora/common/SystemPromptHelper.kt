@@ -23,10 +23,10 @@ import kotlinx.coroutines.flow.firstOrNull
 /** Helper object for system prompt retrieval and compilation. */
 object SystemPromptHelper {
 
-  private const val MATH_INSTRUCTION =
+  private val MATH_INSTRUCTION =
     "\n\nWhen writing mathematical formulas, use LaTeX notation with consistent delimiters: " +
       "use $...$ for inline formulas and $$...$$ for block formulas. " +
-      "Examples: $x^2 + y^2 = z^2$, $$\\frac{a}{b}$$, $$\\sum_{i=1}^{n} i$$."
+      "Examples: \$x^2 + y^2 = z^2\$, \$\$\\frac{a}{b}\$\$, \$\$\\sum_{i=1}^{n} i\$\$."
 
   /**
    * Retrieves the effective system prompt for the given [Task].

@@ -92,23 +92,18 @@ private val SORT_OPTIONS: List<Pair<HfSortOptionProto, Int>> =
     HfSortOptionProto.HF_SORT_OPTION_RECENT to R.string.hf_explore_sort_recent,
   )
 
-/** Calcula el tamaño total en bytes de un modelo sumando todos sus archivos (siblings). */
-fun HfModelItemProto.totalSizeBytes(): Long {
-  return siblings.sumOf { it.size }
-}
-
 /** Formatea un tamaño en bytes a string legible (KB, MB, GB). */
 fun formatSize(bytes: Long): String {
   val mb = bytes / 1024.0 / 1024.0
   return when {
     mb < 1.0 -> "${bytes / 1024.0} KB"
-    mb < 1024.0 -> "${mb.format("%.1f")} MB"
-    else -> "${(mb / 1024.0).format("%.2f")} GB"
+    mb < 1024.0 -> formatDouble(mb, 1) + " MB"
+    else -> formatDouble(mb / 1024.0, 2) + " GB"
   }
 }
 
-private fun Double.format(decimals: Int): String {
-  return java.text.DecimalFormat("%." + decimals + "f").format(this)
+private fun formatDouble(value: Double, decimals: Int): String {
+  return java.text.DecimalFormat("%." + decimals + "f").format(value)
 }
 
 @Composable
@@ -124,7 +119,6 @@ fun HfExploreScreen(
   LaunchedEffect(uiState.selectedModelForDetails) {
     val selectedModel = uiState.selectedModelForDetails ?: return@LaunchedEffect
     onModelCardSelected(selectedModel)
-    viewModel.onModelDetailsShown()
   }
 
   Dialog(
@@ -312,13 +306,12 @@ fun HfExploreContent(
               }
               val compatibleMatch = if (uiState.compatibleOnly) model.isDeviceCompatible() else true
               val sizeMatch = if (uiState.sizeFilter == "all") true else {
-                // Calculate total size from model siblings (file sizes in bytes)
-                val totalSizeBytes = model.siblings.sumOf { it.size }
-                val totalSizeGb = totalSizeBytes / 1_073_741_824.0
+                // Size filter based on model name hints (siblings data not available in proto)
+                val modelIdLower = model.id.lowercase()
                 when (uiState.sizeFilter) {
-                  "small" -> totalSizeGb < 1.0
-                  "medium" -> totalSizeGb >= 1.0 && totalSizeGb <= 3.0
-                  "large" -> totalSizeGb > 3.0
+                  "small" -> modelIdLower.contains("0.5b") || modelIdLower.contains("1b") || modelIdLower.contains("1.5b")
+                  "medium" -> modelIdLower.contains("2b") || modelIdLower.contains("3b")
+                  "large" -> modelIdLower.contains("4b") || modelIdLower.contains("7b") || modelIdLower.contains("8b")
                   else -> true
                 }
               }

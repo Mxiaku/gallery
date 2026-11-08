@@ -190,12 +190,11 @@ fun HfModelDetailsContent(
 
         Spacer(modifier = Modifier.height(ITEM_SPACING_SMALL))
 
-        // Stats row: Downloads, Likes, Last Updated, Size
+        // Stats row: Downloads, Likes, Last Updated
         ModelStatsRow(
           downloads = modelItem.downloads,
           likes = modelItem.likes,
           lastModified = modelItem.lastModified,
-          sizeBytes = modelItem.totalSizeBytes(),
         )
 
         Spacer(modifier = Modifier.height(SECTION_SPACING))

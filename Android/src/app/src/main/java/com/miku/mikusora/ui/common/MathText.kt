@@ -46,7 +46,7 @@ fun MathText(
         if (darkMode) 0xFFE0E0E0.toInt() else 0xFF000000.toInt()
       ),
     )
-    return@Composable
+    return
   }
 
   AndroidView(
