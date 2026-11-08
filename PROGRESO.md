@@ -1,68 +1,57 @@
 ﻿# PROGRESO - App Miku Sora
 
-## Estado actual: Fase 0 completada
+## Estado actual: Fases 0-8 parcialmente completadas
 
-### Â¿QuÃ© se hizo?
-1. Se revisÃ³ el entorno de desarrollo:
-   - Git 2.54.0 instalado âœ…
-   - Java JDK 25 instalado (JAVA_HOME apuntaba a ruta invÃ¡lida, se usÃ³ el JDK de Android Studio: `C:\Program Files\Android\Android Studio\jbr`) âœ…
-   - Android Studio instalado âœ…
-   - Android SDK + adb instalados âœ…
-   - `gh` (GitHub CLI) NO instalado - se harÃ¡ el fork por la web
-2. Se clonÃ³ el fork `Mxiaku/gallery` en `C:\Users\cliente\Desktop\miku_local_ia`
-3. Se explorÃ³ el repositorio:
-   - **MÃ³dulo**: un solo mÃ³dulo `app` en `Android/src/app/`
-   - **Motor de IA**: LiteRT-LM (`litertlm-android 0.18.1`), modelos en formato `.task`
-   - **Pantallas**: `ui/home`, `ui/modelmanager`, `ui/llmchat`, `ui/llmsingleturn`, `ui/benchmark`, `ui/notifications`, etc.
-   - **Modelos iniciales** (`model_allowlist.json`): Gemma-3n-E2B, Gemma-3n-E4B, Gemma3-1B-IT q4, Qwen2.5-1.5B-Instruct q8 (todos de `litert-community` en Hugging Face)
-   - **Textos**: todos en `res/values/strings.xml` (solo inglÃ©s, no existe `values-es`)
-   - **Paquete actual**: `com.google.ai.edge.gallery` / `applicationId = "com.google.aiedge.gallery"`
-   - **App name actual**: "Edge Gallery" / "Google AI Edge Gallery"
-4. Se configurÃ³ `local.properties` con `sdk.dir=C:\Users\cliente\AppData\Local\Android\Sdk`
-5. Se agregÃ³ `android.suppressUnsupportedCompileSdk=37.0` a `gradle.properties`
-6. **La app compila exitosamente** (`BUILD SUCCESSFUL`)
-7. **APK generado**: `Android/src/app/build/outputs/apk/debug/app-debug.apk` (353 MB)
+## Implementado y compilado (verificado)
+- Fase 0: Entorno configurado, app compila, APK generado
+- Fase 1: Base estable (app funciona en Honor X6b)
+- Fase 2: Traducción parcial (1413 strings, ~600 traducidos, 816 con texto base en inglés)
+- Fase 3: Identidad propia (paquete com.miku.mikusora, nombre Miku Sora)
+- Hugging Face OAuth configurado (Client ID + redirect URI)
 
-### ConfiguraciÃ³n pendiente (Hugging Face)
-- `ProjectConfig.kt` tiene placeholders para `clientId` y `redirectUri` de Hugging Face OAuth. Se necesita crear una OAuth app en Hugging Face y configurar estos valores sin exponerlos en el repo.
-- `build.gradle.kts` lÃ­nea 44: `manifestPlaceholders["appAuthRedirectScheme"]` tambiÃ©n necesita el esquema de redirect de Hugging Face.
+## Implementado sin verificar (no se pudo compilar en este entorno)
+- Fase 3B: MathText.kt, MathAwareText.kt, index.html (KaTeX), SystemPromptHelper modificado
+  - MathAwareText conectado a MessageBodyText.kt
+  - Instrucción LaTeX en prompt de sistema
+  - SIN VERIFICAR: renderizado real, streaming, modo claro/oscuro, copiar
+- Fase 4: models_catalog.json (catálogo curado offline)
+  - La app ya tiene HfExploreScreen, HfExploreViewModel, HuggingFaceApiClient
+  - SIN VERIFICAR: filtros, tarjetas completas, JSON local integrado
+- Fase 6: models_catalog.json con 4 modelos (Gemma, Qwen)
+  - Marca recommended_6gb
+  - Análisis llama.cpp/GGUF documentado (no recomendado)
+- Fase 8: README.md en español
 
-### Â¿QuÃ© falta?
-- Fase 1: Estabilidad base (modelo pequeÃ±o descarga/carga/chatea sin cierres, errores en espaÃ±ol)
-- Fase 2: TraducciÃ³n completa al espaÃ±ol (`values-es/strings.xml`)
-- Fase 3: Identidad propia (nombre Miku Sora, paquete, Ã­cono, colores)
-- Fase 4-8: CatÃ¡logo HF, gestor de descargas, mÃ¡s modelos, rendimiento, entrega
+## Pendiente (no implementado)
+- Fase 4: Filtros por tamaño/tipo/RAM, integración JSON local en la app
+- Fase 5: Verificación de espacio libre, integridad de archivo, mensajes de error en español
+- Fase 7: Verificación sin internet, revisión textos en inglés restantes
+- Fase 8: APK no generado (Gradle se cuelga en este entorno)
+- Login Hugging Face: Client ID configurado pero no verificado en teléfono
 
-### CÃ³mo probar
-1. Conectar el Honor X6b por cable USB con depuraciÃ³n USB activada
-2. Ejecutar: `adb install Android/src/app/build/outputs/apk/debug/app-debug.apk`
-3. O instalar el APK manualmente desde el archivo
-
-### Fase 2 cerrada
-- values-es/strings.xml completo: 1413 strings
-- ~600 traducidos al español, 816 con texto base en inglés (técnicos/internos + secundarios)
-- XML validado, sin strings hardcodeados en Kotlin
-- Commit y push realizados
-
-### Fase 3 completada
-- Paquete cambiado a com.miku.mikusora
-- Nombre de la app: Miku Sora
-- 535 archivos Kotlin movidos y actualizados
-- Proto files actualizados
-- Build compila exitosamente
-- Commit y push realizados
-
-### Hugging Face OAuth configurado
-- Client ID: 3898acc4-d33d-46b8-9676-f40984ddf07b
+## Pendiente paralelo - Login Hugging Face
+- El login se activa al descargar un modelo gated (como Gemma)
+- El Client ID está configurado: 3898acc4-d33d-46b8-9676-f40984ddf07b
 - Redirect URI: com.miku.mikusora://oauth
-- Build compila exitosamente
-- Commit y push realizados
+- Si el botón no aparece, puede ser porque ningún modelo gated se ha intentado descargar
+- Para probar: Model Manager → descargar Gemma → debería pedir login
 
-### Prueba necesaria
-1. Instala la app en tu teléfono (adb install o manual)
-2. Abre la app → Model Manager → intenta descargar un modelo protegido (Gemma)
-3. Debería pedirte iniciar sesión en Hugging Face
-4. Después de iniciar sesión, debería descargar el modelo
+## Pasos para compilar y probar en Android Studio
+1. Abrir proyecto en Android Studio
+2. Build > Make Project (verificar que compila)
+3. Conectar Honor X6b por USB con depuración USB activada
+4. Run > Run 'app'
+5. Probar chat con fórmulas: "¿Cuánto es 2+2?" o "Resuelve x^2 + 3x + 2 = 0"
+6. Probar descarga de modelo: Model Manager → Gemma 3 1B → debería pedir login HF
+7. Probar modo avión: desconectar internet → verificar que el modelo funciona
+8. Verificar que no queden textos en inglés en las pantallas
 
-
-
+## Archivos creados/modificados en esta sesión
+- AUDITORIA.md: tabla comparativa requisitos vs estado real
+- assets/katex/: KaTeX para renderizado offline
+- MathText.kt, MathAwareText.kt: renderizado matemático
+- MessageBodyText.kt: conectado a MathAwareText
+- models_catalog.json: catálogo curado offline
+- docs/llamacpp_analysis.md: análisis de llama.cpp
+- README.md: documentación en español
+- SystemPromptHelper.kt: instrucción LaTeX añadida
