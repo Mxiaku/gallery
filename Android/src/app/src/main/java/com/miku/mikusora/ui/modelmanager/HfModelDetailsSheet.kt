@@ -40,6 +40,7 @@ import androidx.compose.material.icons.rounded.CloudDownload
 import androidx.compose.material.icons.rounded.ContentCopy
 import androidx.compose.material.icons.rounded.Favorite
 import androidx.compose.material.icons.rounded.Schedule
+import androidx.compose.material.icons.rounded.Storage
 import androidx.compose.material3.BottomSheetDefaults
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -189,11 +190,12 @@ fun HfModelDetailsContent(
 
         Spacer(modifier = Modifier.height(ITEM_SPACING_SMALL))
 
-        // Stats row: Downloads, Likes, Last Updated
+        // Stats row: Downloads, Likes, Last Updated, Size
         ModelStatsRow(
           downloads = modelItem.downloads,
           likes = modelItem.likes,
           lastModified = modelItem.lastModified,
+          sizeBytes = modelItem.totalSizeBytes(),
         )
 
         Spacer(modifier = Modifier.height(SECTION_SPACING))
@@ -421,6 +423,7 @@ fun ModelStatsRow(
   downloads: Long,
   likes: Long,
   lastModified: String,
+  sizeBytes: Long = 0L,
   modifier: Modifier = Modifier,
 ) {
   FlowRow(
@@ -428,6 +431,23 @@ fun ModelStatsRow(
     verticalArrangement = Arrangement.spacedBy(BADGE_VERTICAL_SPACING),
     modifier = modifier.fillMaxWidth(),
   ) {
+    if (sizeBytes > 0L) {
+      Row(verticalAlignment = Alignment.CenterVertically) {
+        Icon(
+          imageVector = Icons.Rounded.Storage,
+          contentDescription = null,
+          modifier = Modifier.size(BADGE_ICON_SIZE),
+          tint = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        Spacer(modifier = Modifier.width(ITEM_SPACING_XXSMALL))
+        Text(
+          text = formatSize(sizeBytes),
+          style = MaterialTheme.typography.labelMedium,
+          color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+      }
+    }
+
     if (downloads > 0L) {
       Row(verticalAlignment = Alignment.CenterVertically) {
         Icon(

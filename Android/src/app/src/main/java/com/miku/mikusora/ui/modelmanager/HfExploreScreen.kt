@@ -92,6 +92,25 @@ private val SORT_OPTIONS: List<Pair<HfSortOptionProto, Int>> =
     HfSortOptionProto.HF_SORT_OPTION_RECENT to R.string.hf_explore_sort_recent,
   )
 
+/** Calcula el tamaño total en bytes de un modelo sumando todos sus archivos (siblings). */
+fun HfModelItemProto.totalSizeBytes(): Long {
+  return siblings.sumOf { it.size }
+}
+
+/** Formatea un tamaño en bytes a string legible (KB, MB, GB). */
+fun formatSize(bytes: Long): String {
+  val mb = bytes / 1024.0 / 1024.0
+  return when {
+    mb < 1.0 -> "${bytes / 1024.0} KB"
+    mb < 1024.0 -> "${mb.format("%.1f")} MB"
+    else -> "${(mb / 1024.0).format("%.2f")} GB"
+  }
+}
+
+private fun Double.format(decimals: Int): String {
+  return java.text.DecimalFormat("%." + decimals + "f").format(this)
+}
+
 @Composable
 fun HfExploreScreen(
   onNavigateUp: () -> Unit,
@@ -237,11 +256,11 @@ fun HfExploreContent(
               .padding(horizontal = 16.dp, vertical = 4.dp),
           horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-          for ((size, label) in listOf("all" to "Todos", "small" to "<1GB", "medium" to "1-3GB", "large" to ">3GB")) {
+          for ((size, labelRes) in listOf("all" to R.string.hf_filter_size_all, "small" to R.string.hf_filter_size_small, "medium" to R.string.hf_filter_size_medium, "large" to R.string.hf_filter_size_large)) {
             FilterChip(
               selected = uiState.sizeFilter == size,
               onClick = { onSizeFilterChanged(size) },
-              label = { Text(label) },
+              label = { Text(stringResource(labelRes)) },
             )
           }
         }
@@ -293,11 +312,13 @@ fun HfExploreContent(
               }
               val compatibleMatch = if (uiState.compatibleOnly) model.isDeviceCompatible() else true
               val sizeMatch = if (uiState.sizeFilter == "all") true else {
-                // Estimate size from model name or default to medium
+                // Calculate total size from model siblings (file sizes in bytes)
+                val totalSizeBytes = model.siblings.sumOf { it.size }
+                val totalSizeGb = totalSizeBytes / 1_073_741_824.0
                 when (uiState.sizeFilter) {
-                  "small" -> true // placeholder - would need model size data
-                  "medium" -> true
-                  "large" -> true
+                  "small" -> totalSizeGb < 1.0
+                  "medium" -> totalSizeGb >= 1.0 && totalSizeGb <= 3.0
+                  "large" -> totalSizeGb > 3.0
                   else -> true
                 }
               }
@@ -448,6 +469,7 @@ private fun HfExploreModelCard(
         downloads = model.downloads,
         likes = model.likes,
         lastModified = model.lastModified,
+        sizeBytes = model.totalSizeBytes(),
       )
     }
   }

@@ -2404,5 +2404,9 @@ Contexto: Se comprime alrededor de %1$d%%</string>
   <string name="hf_filter_vision">Visión</string>
   <string name="hf_filter_audio">Audio</string>
   <string name="hf_filter_compatible">Compatible</string>
+  <string name="hf_filter_size_all">Todos</string>
+  <string name="hf_filter_size_small">Menos de 1 GB</string>
+  <string name="hf_filter_size_medium">1 a 3 GB</string>
+  <string name="hf_filter_size_large">Más de 3 GB</string>
 </resources>
 
