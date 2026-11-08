@@ -50,6 +50,8 @@ const val ERROR_TYPE_MISSING_URL = "missing_url"
 const val ERROR_TYPE_UNKNOWN = "unknown"
 /** The error type of a download whose files don't fit in the free storage, e.g. once unzipped. */
 const val ERROR_TYPE_OUT_OF_STORAGE = "out_of_storage"
+/** The error type of a download whose file size/hash doesn't match the expected value. */
+const val ERROR_TYPE_INTEGRITY_FAILED = "integrity_failed"
 const val KEY_MODEL_DOWNLOAD_AUTH_ERROR = "KEY_MODEL_DOWNLOAD_AUTH_ERROR"
 const val KEY_MODEL_DOWNLOAD_ACCESS_TOKEN = "KEY_MODEL_DOWNLOAD_ACCESS_TOKEN"
 const val KEY_MODEL_EXTRA_DATA_URLS = "KEY_MODEL_EXTRA_DATA_URLS"
@@ -59,6 +61,8 @@ const val KEY_MODEL_UNZIPPED_DIR = "KEY_MODEL_UNZIPPED_DIR"
 const val KEY_MODEL_START_UNZIPPING = "KEY_MODEL_START_UNZIPPING"
 const val KEY_MODEL_IS_IMPORTED = "KEY_MODEL_IS_IMPORTED"
 const val KEY_MODEL_EXTRA_DATA_ONLY = "KEY_MODEL_EXTRA_DATA_ONLY"
+/** Expected SHA-256 hash of the downloaded file, if provided by Hugging Face. */
+const val KEY_MODEL_DOWNLOAD_EXPECTED_HASH = "KEY_MODEL_DOWNLOAD_EXPECTED_HASH"
 
 // Default values for LLM models.
 const val DEFAULT_MAX_TOKEN = 1024

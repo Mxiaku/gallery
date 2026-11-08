@@ -23,7 +23,9 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.content.pm.ServiceInfo
+import android.net.Uri
 import android.util.Log
+import java.security.MessageDigest
 import androidx.annotation.VisibleForTesting
 import androidx.core.app.NotificationCompat
 import androidx.work.CoroutineWorker
@@ -34,6 +36,7 @@ import androidx.work.WorkerParameters
 import com.miku.mikusora.common.getModelStorageDir
 import com.miku.mikusora.data.DownloadAuthError
 import com.miku.mikusora.data.ERROR_TYPE_HTTP_PREFIX
+import com.miku.mikusora.data.ERROR_TYPE_INTEGRITY_FAILED
 import com.miku.mikusora.data.ERROR_TYPE_MISSING_URL
 import com.miku.mikusora.data.ERROR_TYPE_OUT_OF_STORAGE
 import com.miku.mikusora.data.KEY_MODEL_COMMIT_HASH
@@ -392,6 +395,18 @@ class DownloadWorker(context: Context, params: WorkerParameters) :
                 )
               }
               Log.d(TAG, "Download done")
+
+              // Integrity verification: check file size and hash.
+              val expectedHash = inputData.getString(KEY_MODEL_DOWNLOAD_EXPECTED_HASH)
+              val integrityResult = verifyFileIntegrity(
+                file = originalFile,
+                expectedSizeBytes = if (allFiles.size == 1) totalBytes else 0L,
+                expectedHash = expectedHash,
+              )
+              if (integrityResult != null) {
+                originalFile.delete()
+                return@withContext integrityResult
+              }
             }
 
             // Unzip if the downloaded file is a zip.
@@ -838,5 +853,79 @@ class DownloadWorker(context: Context, params: WorkerParameters) :
       notification,
       ServiceInfo.FOREGROUND_SERVICE_TYPE_DATA_SYNC,
     )
+  }
+
+  /**
+   * Verifies the integrity of a downloaded file by checking its size and, if provided, its
+   * SHA-256 hash. Returns null if verification passes, or a [Result.failure] with
+   * [ERROR_TYPE_INTEGRITY_FAILED] if it fails.
+   */
+  private suspend fun verifyFileIntegrity(
+    file: File,
+    expectedSizeBytes: Long,
+    expectedHash: String?,
+  ): Result? {
+    if (!file.exists()) {
+      return Result.failure(
+        Data.Builder()
+          .putString(KEY_MODEL_DOWNLOAD_ERROR_TYPE, ERROR_TYPE_INTEGRITY_FAILED)
+          .putString(KEY_MODEL_DOWNLOAD_ERROR_MESSAGE, "El archivo descargado no existe")
+          .build(),
+      )
+    }
+
+    val actualSize = file.length()
+    if (expectedSizeBytes > 0L && actualSize != expectedSizeBytes) {
+      Log.w(
+        TAG,
+        "Integrity check failed for '${file.name}': expected $expectedSizeBytes bytes, " +
+          "got $actualSize bytes",
+      )
+      return Result.failure(
+        Data.Builder()
+          .putString(KEY_MODEL_DOWNLOAD_ERROR_TYPE, ERROR_TYPE_INTEGRITY_FAILED)
+          .putString(
+            KEY_MODEL_DOWNLOAD_ERROR_MESSAGE,
+            "Descarga incompleta: se esperaba ${expectedSizeBytes} bytes pero se recibieron $actualSize",
+          )
+          .build(),
+      )
+    }
+
+    if (expectedHash != null && expectedHash.isNotEmpty()) {
+      val actualHash = sha256(file)
+      if (!actualHash.equals(expectedHash, ignoreCase = true)) {
+        Log.w(
+          TAG,
+          "Hash mismatch for '${file.name}': expected $expectedHash, got $actualHash",
+        )
+        return Result.failure(
+          Data.Builder()
+            .putString(KEY_MODEL_DOWNLOAD_ERROR_TYPE, ERROR_TYPE_INTEGRITY_FAILED)
+            .putString(
+              KEY_MODEL_DOWNLOAD_ERROR_MESSAGE,
+              "Archivo dañado: el hash no coincide. Vuelve a intentar la descarga.",
+            )
+            .build(),
+        )
+      }
+    }
+
+    return null
+  }
+
+  /**
+   * Computes the SHA-256 hash of a file.
+   */
+  private fun sha256(file: File): String {
+    val digest = MessageDigest.getInstance("SHA-256")
+    file.inputStream().use { input ->
+      val buffer = ByteArray(8192)
+      var bytesRead: Int
+      while (input.read(buffer).also { bytesRead = it } != -1) {
+        digest.update(buffer, 0, bytesRead)
+      }
+    }
+    return digest.digest().joinToString("") { "%02x".format(it) }
   }
 }
