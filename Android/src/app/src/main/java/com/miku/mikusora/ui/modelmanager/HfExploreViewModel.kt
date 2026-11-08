@@ -46,6 +46,7 @@ private val SEARCH_DEBOUNCE_DURATION = 300.milliseconds
 data class HfExploreUiState(
   val searchQuery: String = "",
   val selectedSort: HfSortOptionProto = HfSortOptionProto.HF_SORT_OPTION_TRENDING,
+  val typeFilter: String = "all",
   val models: List<HfModelItemProto> = emptyList(),
   val isLoading: Boolean = false,
   val isFetchingDetails: Boolean = false,
@@ -137,7 +138,9 @@ constructor(
     }
   }
 
-  fun onModelDetailsShown() {
+  fun onTypeFilterChanged(type: String) {
+    _uiState.update { it.copy(typeFilter = type) }
+  }
     _uiState.update { it.copy(selectedModelForDetails = null) }
   }
 

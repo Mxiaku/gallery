@@ -118,6 +118,7 @@ fun HfExploreScreen(
       onOpenUrlImportDialog = onOpenUrlImportDialog,
       onSearchQueryChanged = viewModel::onSearchQueryChanged,
       onSortOptionSelected = viewModel::onSortOptionSelected,
+      onTypeFilterChanged = viewModel::onTypeFilterChanged,
       onRetry = viewModel::refreshModels,
       onModelCardClicked = viewModel::selectModelCard,
       modifier = modifier,
@@ -133,6 +134,7 @@ fun HfExploreContent(
   onOpenUrlImportDialog: () -> Unit,
   onSearchQueryChanged: (String) -> Unit,
   onSortOptionSelected: (HfSortOptionProto) -> Unit,
+  onTypeFilterChanged: (String) -> Unit,
   onRetry: () -> Unit,
   onModelCardClicked: (HfModelItemProto) -> Unit,
   modifier: Modifier = Modifier,
@@ -201,6 +203,23 @@ fun HfExploreContent(
           }
         }
 
+        // Type filter chips.
+        Row(
+          modifier =
+            Modifier.fillMaxWidth()
+              .horizontalScroll(rememberScrollState())
+              .padding(horizontal = 16.dp, vertical = 4.dp),
+          horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+          for ((type, label) in listOf("all" to "Todos", "text" to "Texto", "vision" to "Vision", "audio" to "Audio")) {
+            FilterChip(
+              selected = uiState.typeFilter == type,
+              onClick = { onTypeFilterChanged(type) },
+              label = { Text(label) },
+            )
+          }
+        }
+
         // Model cards or loading/empty state.
         when {
           uiState.isLoading -> {
@@ -237,8 +256,21 @@ fun HfExploreContent(
             }
           }
           else -> {
+            val filteredModels = if (uiState.typeFilter == "all") {
+              uiState.models
+            } else {
+              uiState.models.filter { model ->
+                // Filter by type based on model tags or name
+                when (uiState.typeFilter) {
+                  "text" -> !model.id.contains("vision", ignoreCase = true) && !model.id.contains("audio", ignoreCase = true)
+                  "vision" -> model.id.contains("vision", ignoreCase = true) || model.id.contains("vlm", ignoreCase = true)
+                  "audio" -> model.id.contains("audio", ignoreCase = true) || model.id.contains("asr", ignoreCase = true) || model.id.contains("tts", ignoreCase = true)
+                  else -> true
+                }
+              }
+            }
             HfExploreModelList(
-              models = uiState.models,
+              models = filteredModels,
               contentPadding =
                 PaddingValues(top = 8.dp, bottom = innerPadding.calculateBottomPadding() + 24.dp),
               onModelCardClicked = onModelCardClicked,
