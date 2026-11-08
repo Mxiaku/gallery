@@ -51,6 +51,32 @@
       "gated": false,
       "recommended_6gb": true,
       "url": "https://huggingface.co/litert-community/Qwen2.5-1.5B-Instruct"
+    },
+    {
+      "name": "Gemma 2 2B Instruct (q4)",
+      "family": "Gemma",
+      "size_mb": 1300,
+      "format": "litertlm",
+      "quantization": "q4",
+      "ram_estimated_mb": 1800,
+      "type": "text",
+      "license": "Gemma",
+      "gated": true,
+      "recommended_6gb": true,
+      "url": "https://huggingface.co/litert-community/Gemma-2-2B-IT"
+    },
+    {
+      "name": "Qwen 2.5 0.5B Instruct (q8)",
+      "family": "Qwen",
+      "size_mb": 550,
+      "format": "litertlm",
+      "quantization": "q8",
+      "ram_estimated_mb": 800,
+      "type": "text",
+      "license": "Apache 2.0",
+      "gated": false,
+      "recommended_6gb": true,
+      "url": "https://huggingface.co/litert-community/Qwen2.5-0.5B-Instruct"
     }
   ]
 }
