@@ -792,13 +792,13 @@
 
   <string name="tab_my_cutouts" translatable="true" description="This string appears within the Scrapbook main screen as a navigation tab within the top bar. It means the user's cutouts section. [CHAR_LIMIT=40]">Mis recortes</string>
 
-  <string name="unsaved_changes" translatable="true" description="This string appears within the Scrapbook editors as a dialog title within the exit confirmation. It means there are unsaved changes. [CHAR_LIMIT=50]">Unsaved changes</string>
+  <string name="unsaved_changes" translatable="true" description="This string appears within the Scrapbook editors as a dialog title within the exit confirmation. It means there are unsaved changes. [CHAR_LIMIT=50]">Cambios no guardados</string>
 
-  <string name="unsaved_changes_message" translatable="true" description="This string appears within the Scrapbook editors as a dialog message within the exit confirmation. It means asking if the user wants to leave without saving. [CHAR_LIMIT=100]">Are you sure you want to exit? You have unsaved changes.</string>
+  <string name="unsaved_changes_message" translatable="true" description="This string appears within the Scrapbook editors as a dialog message within the exit confirmation. It means asking if the user wants to leave without saving. [CHAR_LIMIT=100]">¿Estás seguro de que quieres salir? Tienes cambios no guardados.</string>
 
-  <string name="unsaved_changes_stay" translatable="true" description="This string appears within the Scrapbook editors as a dialog button within the exit confirmation. It means to cancel exiting and stay. [CHAR_LIMIT=30]">Stay</string>
+  <string name="unsaved_changes_stay" translatable="true" description="This string appears within the Scrapbook editors as a dialog button within the exit confirmation. It means to cancel exiting and stay. [CHAR_LIMIT=30]">Quedarse</string>
 
-  <string name="unsaved_changes_exit" translatable="true" description="This string appears within the Scrapbook editors as a dialog button within the exit confirmation. It means to confirm exiting and lose changes. [CHAR_LIMIT=30]">Exit</string>
+  <string name="unsaved_changes_exit" translatable="true" description="This string appears within the Scrapbook editors as a dialog button within the exit confirmation. It means to confirm exiting and lose changes. [CHAR_LIMIT=30]">Salir</string>
 
   <string name="vertical" translatable="true" description="This string appears within the Scrapbook grid maker as a layout option within the grid generator. It means vertical orientation. [CHAR_LIMIT=30]">Vertical</string>
 
@@ -959,7 +959,7 @@
 
   <string name="skill_instructions_input_description" translatable="true" description="Help text explaining what should be entered in the skill instructions field (markdown format for LLM). [CHAR_LIMIT=139]">Instrucciones detalladas en formato Markdown que el LLM debe seguir para realizar la tarea.</string>
 
-  <string name="use_call_js_template" translatable="true" description="Button label to pre-fill the instructions field with a template for calling JavaScript code. [CHAR_LIMIT=30]">Use Call JS template</string>
+  <string name="use_call_js_template" translatable="true" description="Button label to pre-fill the instructions field with a template for calling JavaScript code. [CHAR_LIMIT=30]">Usar plantilla de Llamar a JS</string>
 
   <string name="mcp" translatable="true" description="Label for the button that opens the Model Context Protocol (MCP) manager. [CHAR_LIMIT=18]">MCP</string>
 
@@ -1069,11 +1069,11 @@
 
   <string name="next" translatable="true" description="Button text to navigate to the next step. [CHAR_LIMIT=18]">Siguiente</string>
 
-  <string name="unsupported_model_title" translatable="true" description="Title of the dialog showing that the imported model type is unsupported. [CHAR_LIMIT=37]">Unsupported model type</string>
+  <string name="unsupported_model_title" translatable="true" description="Title of the dialog showing that the imported model type is unsupported. [CHAR_LIMIT=37]">Tipo de modelo no compatible</string>
 
-  <string name="unsupported_file_type_error" translatable="true" description="Message informing the user that only .task or .litertlm file formats are supported. [CHAR_LIMIT=94]">Only \".task\" or \".litertlm\" file type is supported.</string>
+  <string name="unsupported_file_type_error" translatable="true" description="Message informing the user that only .task or .litertlm file formats are supported. [CHAR_LIMIT=94]">Solo se admiten los tipos de archivo ".task" o ".litertlm".</string>
 
-  <string name="unsupported_web_model_error" translatable="true" description="Message explaining that the model is only for web browsers and not supported on the Android application. [CHAR_LIMIT=121]">Looks like the model is a web-only model and is not supported by the app.</string>
+  <string name="unsupported_web_model_error" translatable="true" description="Message explaining that the model is only for web browsers and not supported on the Android application. [CHAR_LIMIT=121]">Parece que el modelo es solo para web y no es compatible con la app.</string>
 
   <string name="file_too_large_warning" translatable="true" description="Warning label when a model file size exceeds device memory limit. [CHAR_LIMIT=50]">Probablemente demasiado grande para la RAM del dispositivo</string>
 
@@ -1083,7 +1083,7 @@
 
   <string name="copy_url" translatable="true" description="Button label or accessibility action to copy model URL to clipboard. [CHAR_LIMIT=18]">Copiar URL</string>
 
-  <string name="url_copied" translatable="true" description="Toast message shown after model URL is copied to clipboard. [CHAR_LIMIT=45]">URL copied to clipboard</string>
+  <string name="url_copied" translatable="true" description="Toast message shown after model URL is copied to clipboard. [CHAR_LIMIT=45]">URL copiada al portapapeles</string>
 
   <string name="compatible_files_header" translatable="true" description="Header for compatible files section showing count. [CHAR_LIMIT=40]">Archivos compatibles (%1$d):</string>
 
@@ -1319,19 +1319,19 @@
 
   <string name="local_test_allowlist_dialog_message" translatable="true" description="Body of a warning dialog shown when the app loaded its allowlist of AI models from a local test file on the device instead of the official online source. %1$s is the absolute file path on the device (e.g. /data/local/tmp/model_allowlist_test.json) and must not be translated. [CHAR_LIMIT=NONE]">The model allowlist was loaded from a local test file instead of the official source:\n\n%1$s</string>
 
-  <string name="theme_title" translatable="true" description="Label for the settings section or configuration key where users can choose the visual theme of the app (e.g., Light, Dark). [CHAR_LIMIT=26]">Theme</string>
+  <string name="theme_title" translatable="true" description="Label for the settings section or configuration key where users can choose the visual theme of the app (e.g., Light, Dark). [CHAR_LIMIT=26]">Tema</string>
 
-  <string name="third_party_libraries" translatable="true" description="Label for the settings section that contains information about third-party libraries used in the app. [CHAR_LIMIT=35]">Third-party libraries</string>
+  <string name="third_party_libraries" translatable="true" description="Label for the settings section that contains information about third-party libraries used in the app. [CHAR_LIMIT=35]">Bibliotecas de terceros</string>
 
-  <string name="view_licenses" translatable="true" description="Label for the button that opens the screen displaying licenses for third-party libraries. [CHAR_LIMIT=49]">View licenses</string>
+  <string name="view_licenses" translatable="true" description="Label for the button that opens the screen displaying licenses for third-party libraries. [CHAR_LIMIT=49]">Ver licencias</string>
 
-  <string name="theme_auto" translatable="true" description="Label for the system-default or automatic theme option, which follows the system settings. [CHAR_LIMIT=7]">Auto</string>
+  <string name="theme_auto" translatable="true" description="Label for the system-default or automatic theme option, which follows the system settings. [CHAR_LIMIT=7]">Automático</string>
 
-  <string name="theme_light" translatable="true" description="Label for the light theme option. [CHAR_LIMIT=7]">Light</string>
+  <string name="theme_light" translatable="true" description="Label for the light theme option. [CHAR_LIMIT=7]">Claro</string>
 
-  <string name="theme_dark" translatable="true" description="Label for the dark theme option. [CHAR_LIMIT=7]">Dark</string>
+  <string name="theme_dark" translatable="true" description="Label for the dark theme option. [CHAR_LIMIT=7]">Oscuro</string>
 
-  <string name="unknown" translatable="true" description="Fallback label when the theme state is unknown or undefined. [CHAR_LIMIT=18]">Unknown</string>
+  <string name="unknown" translatable="true" description="Fallback label when the theme state is unknown or undefined. [CHAR_LIMIT=18]">Desconocido</string>
 
   <string name="stats" translatable="true" description="Label or header for the section displaying performance statistics of a message generation (e.g., speed, tokens). [CHAR_LIMIT=26]">Estadísticas</string>
 
@@ -1461,7 +1461,7 @@ Te enviaremos una notificación cuando termine.</string>
 
   <string name="media_picker_import_text_file" translatable="true" description="Menu option to import a text or markdown file. [CHAR_LIMIT=24]">Importar archivo de texto</string>
 
-  <string name="text_input_history_title" translatable="true" description="Title of the history popup showing previous text inputs. [CHAR_LIMIT=31]">Text input history</string>
+  <string name="text_input_history_title" translatable="true" description="Title of the history popup showing previous text inputs. [CHAR_LIMIT=31]">Historial de entrada de texto</string>
 
   <string name="clear_history_title" translatable="true" description="Title of the alert confirming whether to clear input history. [CHAR_LIMIT=26]">¿Borrar historial?</string>
 
@@ -1511,15 +1511,15 @@ Te enviaremos una notificación cuando termine.</string>
 
   <string name="gemma_reskin_try_gemma_4_description" translatable="true" description="Description for the Try Gemma 4 reskin onboarding section. [CHAR_LIMIT=150]">¡Gemma 4 E2B y E4B ya están aquí! Pruébalos en Chat de IA, Habilidades de Agente u otros casos de uso a continuación.</string>
 
-  <string name="try_egv2_title" translatable="true" description="Title for the Try EmbeddingGemma 2 section. [CHAR_LIMIT=35]">Try EmbeddingGemma 2 today</string>
+  <string name="try_egv2_title" translatable="true" description="Title for the Try EmbeddingGemma 2 section. [CHAR_LIMIT=35]">Prueba EmbeddingGemma 2 hoy</string>
 
-  <string name="try_egv2_description" translatable="true" description="Description for the Try EmbeddingGemma 2 section. [CHAR_LIMIT=120]">EmbeddingGemma 2 is now available! Try it in Instant Media Search or Video Moment Finder today.</string>
+  <string name="try_egv2_description" translatable="true" description="Description for the Try EmbeddingGemma 2 section. [CHAR_LIMIT=120]">¡EmbeddingGemma 2 ya está disponible! Pruébalo en Búsqueda de Medios Instantánea o Buscador de Momentos de Video hoy.</string>
 
-  <string name="try_speech_title" translatable="true" description="Title for the Try Speech (ASR/TTS) section on the home screen. [CHAR_LIMIT=35]">Try ASR &amp; TTS today</string>
+  <string name="try_speech_title" translatable="true" description="Title for the Try Speech (ASR/TTS) section on the home screen. [CHAR_LIMIT=35]">Prueba ASR y TTS hoy</string>
 
-  <string name="try_speech_description" translatable="true" description="Description for the Try Speech (ASR/TTS) section on the home screen. 'XR Language Teacher' and 'AI Chat' are product feature names in the app (not generic terms). [CHAR_LIMIT=200]">Speech recognition and text-to-speech are now available! Try them in XR Language Teacher and AI Chat today.</string>
+  <string name="try_speech_description" translatable="true" description="Description for the Try Speech (ASR/TTS) section on the home screen. 'XR Language Teacher' and 'AI Chat' are product feature names in the app (not generic terms). [CHAR_LIMIT=200]">¡El reconocimiento de voz y la síntesis de voz ya están disponibles! Prúebalos en Profesor de Idiomas XR y Chat de IA hoy.</string>
 
-  <string name="try_speech_chat_description" translatable="true" description="Promo card description for the AI Chat feature on the home screen when speech is highlighted. Chat is a generic term, not a product name. [CHAR_LIMIT=120]">Chat with Gemma models using voice dictation and spoken audio responses</string>
+  <string name="try_speech_chat_description" translatable="true" description="Promo card description for the AI Chat feature on the home screen when speech is highlighted. Chat is a generic term, not a product name. [CHAR_LIMIT=120]">Chatea con modelos Gemma usando dictado de voz y respuestas de audio hablado</string>
 
   <string name="explore_other_use_cases" translatable="true" description="Section header for other use cases. [CHAR_LIMIT=30]">Explorar otros casos de uso</string>
 
@@ -1868,36 +1868,36 @@ Nota: Está impulsado por el modelo experimental FunctionGemma optimizado para l
 
   <string name="task_short_desc_video_moment_finder" translatable="true" description="One-line subtitle shown under the Video Moment Finder task title on the home screen task card.">Busca momentos en videos</string>
 
-  <string name="videomomentfinder_feature_name" translatable="false">Video Moment Finder</string>
+  <string name="videomomentfinder_feature_name" translatable="false">Buscador de Momentos de Video</string>
 
-  <string name="videomomentfinder_project_list_empty_description" translatable="true" description="Body text of the empty state shown before any video has been added, explaining what the feature does; EmbeddingGemma 2 is a model name and should not be translated.">Search for moments in videos using natural language with EmbeddingGemma 2</string>
+  <string name="videomomentfinder_project_list_empty_description" translatable="true" description="Body text of the empty state shown before any video has been added, explaining what the feature does; EmbeddingGemma 2 is a model name and should not be translated.">Busca momentos en videos usando lenguaje natural con EmbeddingGemma 2</string>
 
-  <string name="videomomentfinder_add_video_button" translatable="true" description="Label on the button in the empty state that opens the photo picker so the user can add a first video.">Add a video</string>
+  <string name="videomomentfinder_add_video_button" translatable="true" description="Label on the button in the empty state that opens the photo picker so the user can add a first video.">Agregar un video</string>
 
-  <string name="videomomentfinder_add_another_video" translatable="true" description="Label and accessibility description of the tile that lets the user add one more video to the grid of videos.">Add another video</string>
+  <string name="videomomentfinder_add_another_video" translatable="true" description="Label and accessibility description of the tile that lets the user add one more video to the grid of videos.">Agregar otro video</string>
 
   <plurals name="videomomentfinder_searched_in_videos" translatable="true" description="Caption under a saved search query stating how many videos that query was run against, where %d is the number of videos (for example, 2).">
     <item quantity="one">Searched in %d video</item>
     <item quantity="other">Searched in %d videos</item>
   </plurals>
 
-  <string name="videomomentfinder_confirm_delete_project" translatable="true" description="Body text of the confirmation dialog shown before deleting a video project.">Are you sure you want to delete this project?</string>
+  <string name="videomomentfinder_confirm_delete_project" translatable="true" description="Body text of the confirmation dialog shown before deleting a video project.">¿Estás seguro de que quieres eliminar este proyecto?</string>
 
-  <string name="videomomentfinder_confirm_delete_clip" translatable="true" description="Body text of the confirmation dialog shown before deleting a single saved video clip.">Are you sure you want to delete this clip?</string>
+  <string name="videomomentfinder_confirm_delete_clip" translatable="true" description="Body text of the confirmation dialog shown before deleting a single saved video clip.">¿Estás seguro de que quieres eliminar este clip?</string>
 
   <string name="videomomentfinder_processing" translatable="true" description="Label shown on the save and download buttons while the video clip is still being processed. [CHAR_LIMIT=20]">Processingâ€¦</string>
 
   <string name="videomomentfinder_analyzing_video" translatable="true" description="Title of the progress card shown while a video is being analyzed so that its moments become searchable. [CHAR_LIMIT=30]">Analyzing videoâ€¦</string>
 
-  <string name="videomomentfinder_analyzing_description" translatable="true" description="Body text of the progress card explaining that analysis takes a few minutes before the video can be searched.">This may take a few minutes. Once the video is analyzed, you can search for moments with natural language!</string>
+  <string name="videomomentfinder_analyzing_description" translatable="true" description="Body text of the progress card explaining that analysis takes a few minutes before the video can be searched.">Esto puede tomar unos minutos. Una vez que el video esté analizado, puedes buscar momentos con lenguaje natural.</string>
 
-  <string name="videomomentfinder_analysis_failed" translatable="true" description="Title of the error card shown when a video could not be analyzed.">Couldn\'t analyze video</string>
+  <string name="videomomentfinder_analysis_failed" translatable="true" description="Title of the error card shown when a video could not be analyzed.">No se pudo analizar el video</string>
 
-  <string name="videomomentfinder_analysis_failed_description" translatable="true" description="Body text of the error card explaining that an unanalyzed video returns no search results, shown above a retry button.">This video couldn\'t be analyzed, so searching it won\'t return any moments. Please try again.</string>
+  <string name="videomomentfinder_analysis_failed_description" translatable="true" description="Body text of the error card explaining that an unanalyzed video returns no search results, shown above a retry button.">Este video no se pudo analizar, por lo que buscarlo no devolverá ningún momento. Inténtalo de nuevo.</string>
 
-  <string name="videomomentfinder_search_placeholder" translatable="true" description="Hint text inside the search field where the user describes the video moment to look for.">Search for a moment</string>
+  <string name="videomomentfinder_search_placeholder" translatable="true" description="Hint text inside the search field where the user describes the video moment to look for.">Buscar un momento</string>
 
-  <string name="videomomentfinder_search_result_thumbnail" translatable="true" description="Accessibility description of the thumbnail image of a single video search result.">Search result thumbnail</string>
+  <string name="videomomentfinder_search_result_thumbnail" translatable="true" description="Accessibility description of the thumbnail image of a single video search result.">Miniatura del resultado de búsqueda</string>
 
   <string name="videomomentfinder_cd_play" translatable="true" description="Accessibility description of the button that starts video playback; Play is a verb.">Play</string>
 
@@ -1909,46 +1909,46 @@ Nota: Está impulsado por el modelo experimental FunctionGemma optimizado para l
 
   <string name="videomomentfinder_similarity_score_format" translatable="false">%.2f</string>
 
-  <string name="videomomentfinder_no_moments_found" translatable="true" description="Message shown over the video when a search returns no matching moments.">No moments found</string>
+  <string name="videomomentfinder_no_moments_found" translatable="true" description="Message shown over the video when a search returns no matching moments.">No se encontraron momentos</string>
 
-  <string name="videomomentfinder_tune_parameters_hint" translatable="true" description="Hint below the no results message, telling the user to open the settings button above to adjust the search parameters.">Click the Settings button above to tune parameters.</string>
+  <string name="videomomentfinder_tune_parameters_hint" translatable="true" description="Hint below the no results message, telling the user to open the settings button above to adjust the search parameters.">Haz clic en el botón Configuración de arriba para ajustar los parámetros.</string>
 
   <string name="videomomentfinder_tab_videos" translatable="true" description="Label of the bottom navigation tab that lists the videos added by the user.">Videos</string>
 
-  <string name="videomomentfinder_tab_moments" translatable="true" description="Label of the bottom navigation tab and title of the drawer that list the video clips the user has saved.">Saved moments</string>
+  <string name="videomomentfinder_tab_moments" translatable="true" description="Label of the bottom navigation tab and title of the drawer that list the video clips the user has saved.">Momentos guardados</string>
 
-  <string name="videomomentfinder_saved_moments_empty_description" translatable="true" description="Body text of the empty state on the saved moments tab, explaining that clips saved from videos appear here.">See clips you saved from your videos</string>
+  <string name="videomomentfinder_saved_moments_empty_description" translatable="true" description="Body text of the empty state on the saved moments tab, explaining that clips saved from videos appear here.">Mira los clips que guardaste de tus videos</string>
 
-  <string name="videomomentfinder_save_or_edit_clips" translatable="true" description="Title of the screen where the user trims, saves, or edits video clips.">Save or edit clips</string>
+  <string name="videomomentfinder_save_or_edit_clips" translatable="true" description="Title of the screen where the user trims, saves, or edits video clips.">Guardar o editar clips</string>
 
-  <string name="videomomentfinder_save_or_edit_this_clip" translatable="true" description="Label on the button that opens the clip editor for the currently selected video search result.">Save or edit this clip</string>
+  <string name="videomomentfinder_save_or_edit_this_clip" translatable="true" description="Label on the button that opens the clip editor for the currently selected video search result.">Guardar o editar este clip</string>
 
-  <string name="videomomentfinder_save_clip" translatable="true" description="Label on the button that saves the currently trimmed video clip; Save is a verb.">Save clip</string>
+  <string name="videomomentfinder_save_clip" translatable="true" description="Label on the button that saves the currently trimmed video clip; Save is a verb.">Guardar clip</string>
 
-  <string name="videomomentfinder_update_clip" translatable="true" description="Label on the button that saves changes to an already saved video clip; Update is a verb.">Update clip</string>
+  <string name="videomomentfinder_update_clip" translatable="true" description="Label on the button that saves changes to an already saved video clip; Update is a verb.">Actualizar clip</string>
 
-  <string name="videomomentfinder_download_clip" translatable="true" description="Label on the button that exports the video clip to the photo album on the device; Download is a verb.">Download clip</string>
+  <string name="videomomentfinder_download_clip" translatable="true" description="Label on the button that exports the video clip to the photo album on the device; Download is a verb.">Descargar clip</string>
 
-  <string name="videomomentfinder_clip_saved" translatable="true" description="Snackbar message confirming that a new video clip was saved.">Clip saved</string>
+  <string name="videomomentfinder_clip_saved" translatable="true" description="Snackbar message confirming that a new video clip was saved.">Clip guardado</string>
 
-  <string name="videomomentfinder_clip_updated" translatable="true" description="Snackbar message confirming that an existing video clip was updated.">Clip updated</string>
+  <string name="videomomentfinder_clip_updated" translatable="true" description="Snackbar message confirming that an existing video clip was updated.">Clip actualizado</string>
 
-  <string name="videomomentfinder_clip_saved_to_album" translatable="true" description="Snackbar message confirming that a video clip was exported to the photo album on the device.">Clip saved to album</string>
+  <string name="videomomentfinder_clip_saved_to_album" translatable="true" description="Snackbar message confirming that a video clip was exported to the photo album on the device.">Clip guardado en el álbum</string>
 
-  <string name="videomomentfinder_failed_to_save_clip" translatable="true" description="Snackbar message shown when saving or exporting a video clip fails.">Failed to save clip</string>
+  <string name="videomomentfinder_failed_to_save_clip" translatable="true" description="Snackbar message shown when saving or exporting a video clip fails.">Error al guardar clip</string>
 
-  <string name="videomomentfinder_no_query_placeholder" translatable="true" description="Stand-in shown where a search query would normally appear for a saved clip that has no query; the angle brackets mark it as a placeholder rather than literal text.">&lt;no query&gt;</string>
+  <string name="videomomentfinder_no_query_placeholder" translatable="true" description="Stand-in shown where a search query would normally appear for a saved clip that has no query; the angle brackets mark it as a placeholder rather than literal text."><sin consulta></string>
 
   <plurals name="videomomentfinder_results_count" translatable="true" description="Number of saved clips grouped under a single search query, where %d is the clip count (for example, 3).">
     <item quantity="one">%d result</item>
     <item quantity="other">%d results</item>
   </plurals>
 
-  <string name="videomomentfinder_from_video" translatable="true" description="Caption under a saved clip naming the video it was cut from, where %s is the video name (for example, IMG_2043.mp4).">From %s</string>
+  <string name="videomomentfinder_from_video" translatable="true" description="Caption under a saved clip naming the video it was cut from, where %s is the video name (for example, IMG_2043.mp4).">De %s</string>
 
-  <string name="videomomentfinder_delete_all_clips_for_query" translatable="true" description="Long-press menu item that deletes every saved clip belonging to one search query, where %s is the query the clips were found with (for example, &quot;red car&quot;) or a placeholder when the clips were saved without a query; Delete is a verb. The quotation marks are already part of the substituted value, so do not add another pair around %s. [CHAR_LIMIT=40]">Delete all clips for %s</string>
+  <string name="videomomentfinder_delete_all_clips_for_query" translatable="true" description="Long-press menu item that deletes every saved clip belonging to one search query, where %s is the query the clips were found with (for example, &quot;red car&quot;) or a placeholder when the clips were saved without a query; Delete is a verb. The quotation marks are already part of the substituted value, so do not add another pair around %s. [CHAR_LIMIT=40]">Eliminar todos los clips para %s</string>
 
-  <string name="videomomentfinder_confirm_delete_all_clips" translatable="true" description="Body text of the confirmation dialog shown before deleting all saved clips of a search query.">Are you sure you want to delete all clips?</string>
+  <string name="videomomentfinder_confirm_delete_all_clips" translatable="true" description="Body text of the confirmation dialog shown before deleting all saved clips of a search query.">¿Estás seguro de que quieres eliminar todos los clips?</string>
 
   <string name="videomomentfinder_config_top_k" translatable="true" description="Label of the slider that sets the maximum number of search results to return. [CHAR_LIMIT=16]">Top matches</string>
 
@@ -1976,7 +1976,7 @@ Nota: Está impulsado por el modelo experimental FunctionGemma optimizado para l
 
   <string name="videomomentfinder_config_start" translatable="true" description="Label on the button that starts processing a newly selected video with the settings shown in the dialog; Start is a verb. [CHAR_LIMIT=12]">Start</string>
 
-  <string name="videomomentfinder_top_k_sheet_title" translatable="true" description="Title of the bottom sheet that adjusts how many search results are shown. [CHAR_LIMIT=20]">Search results</string>
+  <string name="videomomentfinder_top_k_sheet_title" translatable="true" description="Title of the bottom sheet that adjusts how many search results are shown. [CHAR_LIMIT=20]">Resultados de búsqueda</string>
 
   <plurals name="videomomentfinder_showing_top_results" translatable="true" description="Label on a chip above the search results that shows how many top-ranked results are being displayed, and opens a sheet to change that number when tapped. %1$d is the number of results (for example, 5). [CHAR_LIMIT=30]">
     <item quantity="one">Showing top %1$d result</item>
@@ -1987,31 +1987,31 @@ Nota: Está impulsado por el modelo experimental FunctionGemma optimizado para l
 
   <string name="videomomentfinder_config_button_cd" translatable="true" description="Accessibility description of the button that opens the video processing settings dialog.">Processing configuration</string>
 
-  <string name="videomomentfinder_video_duration_limit_title" translatable="true" description="Title of the dialog shown when the selected video is longer than the supported maximum.">Video too long</string>
+  <string name="videomomentfinder_video_duration_limit_title" translatable="true" description="Title of the dialog shown when the selected video is longer than the supported maximum.">Video demasiado largo</string>
 
-  <string name="videomomentfinder_video_duration_limit_message" translatable="true" description="Body text of the dialog explaining the five minute video length limit and asking the user to select a shorter video.">Videos are currently limited to a maximum of 5 minutes. Please select a shorter video.</string>
+  <string name="videomomentfinder_video_duration_limit_message" translatable="true" description="Body text of the dialog explaining the five minute video length limit and asking the user to select a shorter video.">Los videos están actualmente limitados a un máximo de 5 minutos. Selecciona un video más corto.</string>
 
-  <string name="videomomentfinder_video_already_imported" translatable="true" description="Snackbar message shown when the user picks a video that has already been imported into the app. [CHAR_LIMIT=60]">This video has already been imported</string>
+  <string name="videomomentfinder_video_already_imported" translatable="true" description="Snackbar message shown when the user picks a video that has already been imported into the app. [CHAR_LIMIT=60]">Este video ya se ha importado</string>
 
-  <string name="videomomentfinder_video_already_imported_open" translatable="true" description="Action on the snackbar shown for an already imported video; opens the existing project for that video. Open is a verb. [CHAR_LIMIT=12]">Open</string>
+  <string name="videomomentfinder_video_already_imported_open" translatable="true" description="Action on the snackbar shown for an already imported video; opens the existing project for that video. Open is a verb. [CHAR_LIMIT=12]">Abrir</string>
 
-  <string name="videomomentfinder_video_unsupported_title" translatable="true" description="Title of the dialog shown when the selected video uses a resolution or format this phone's video decoder cannot handle, for example an 8K video. [CHAR_LIMIT=40]">Video not supported</string>
+  <string name="videomomentfinder_video_unsupported_title" translatable="true" description="Title of the dialog shown when the selected video uses a resolution or format this phone's video decoder cannot handle, for example an 8K video. [CHAR_LIMIT=40]">Video no compatible</string>
 
-  <string name="videomomentfinder_video_unsupported_message" translatable="true" description="Body text of the dialog explaining that this phone cannot process the selected video because its resolution or format is not supported by the phone, and suggesting a lower resolution video instead. 8K, 4K and 1080p are video resolution names. [CHAR_LIMIT=240]">This phone can\'t process this video because its resolution or format, such as 8K, isn\'t supported. Please select a lower resolution video, such as 4K or 1080p.</string>
+  <string name="videomomentfinder_video_unsupported_message" translatable="true" description="Body text of the dialog explaining that this phone cannot process the selected video because its resolution or format is not supported by the phone, and suggesting a lower resolution video instead. 8K, 4K and 1080p are video resolution names. [CHAR_LIMIT=240]">Este teléfono no puede procesar este video porque su resolución o formato, como 8K, no es compatible. Selecciona un video de menor resolución, como 4K o 1080p.</string>
 
-  <string name="videomomentfinder_onboarding_title_1" translatable="true" description="Title of the first onboarding page; Video Moment Finder is the feature name and should not be translated.">Welcome to Video Moment Finder</string>
+  <string name="videomomentfinder_onboarding_title_1" translatable="true" description="Title of the first onboarding page; Video Moment Finder is the feature name and should not be translated.">Bienvenido al Buscador de Momentos de Video</string>
 
   <string name="videomomentfinder_onboarding_desc_1" translatable="true" description="Body of the first onboarding page, explaining that visual events can be found without any audio transcription; text between double asterisks is rendered in bold.">Find **exact visual events** in your recordings â€” no audio transcription needed. Search for visual cues like \"dog catching frisbee\", jump to timestamps, and export trimmed clips.</string>
 
-  <string name="videomomentfinder_onboarding_title_2" translatable="true" description="Title of the second onboarding page, which explains how moment matching works.">How Moment Matching Works</string>
+  <string name="videomomentfinder_onboarding_title_2" translatable="true" description="Title of the second onboarding page, which explains how moment matching works.">Cómo funciona la Coincidencia de Momentos</string>
 
-  <string name="videomomentfinder_onboarding_desc_2" translatable="true" description="Body of the second onboarding page, explaining the matching algorithm; EmbeddingGemma 2 is a model name and text between double asterisks is rendered in bold.">**EmbeddingGemma 2** indexes the video in short overlapping chunks. Then dynamic threshold on cosine similarity returns timestamps with real visual matches.</string>
+  <string name="videomomentfinder_onboarding_desc_2" translatable="true" description="Body of the second onboarding page, explaining the matching algorithm; EmbeddingGemma 2 is a model name and text between double asterisks is rendered in bold.">**EmbeddingGemma 2** indexa el video en pequeños fragmentos superpuestos. Luego, un umbral dinámico de similitud del coseno devuelve marcas de tiempo con coincidencias visuales reales.</string>
 
-  <string name="videomomentfinder_onboarding_title_3" translatable="true" description="Title of the third onboarding page, which invites the user to try different processing configurations.">Experiment with configurations</string>
+  <string name="videomomentfinder_onboarding_title_3" translatable="true" description="Title of the third onboarding page, which invites the user to try different processing configurations.">Experimenta con configuraciones</string>
 
-  <string name="videomomentfinder_onboarding_desc_3_v2" translatable="true" description="Body of the third onboarding page, telling the user they can pick a preset for searching objects or actions and change how many top matching moments are returned.">Choose presets for objects or actions, and adjust how many top moments to find in your video.</string>
+  <string name="videomomentfinder_onboarding_desc_3_v2" translatable="true" description="Body of the third onboarding page, telling the user they can pick a preset for searching objects or actions and change how many top matching moments are returned.">Elige preajustes para objetos o acciones y ajusta cuántos momentos principales encontrar en tu video.</string>
 
-  <string name="token_limit_reached_message" translatable="true" description="This string appears within the chat panel above the input box as an informational card banner when the model reaches its token limit. It explains that the token limit has been reached and tells the user they can compress context or start a new chat. [CHAR_LIMIT=200]">You are approaching the token limit for this chat. You can &lt;b&gt;compress context and continue this chat&lt;/b&gt; or start a &lt;b&gt;new chat&lt;/b&gt;.</string>
+  <string name="token_limit_reached_message" translatable="true" description="This string appears within the chat panel above the input box as an informational card banner when the model reaches its token limit. It explains that the token limit has been reached and tells the user they can compress context or start a new chat. [CHAR_LIMIT=200]">Te estás acercando al límite de tokens para este chat. Puedes <b>comprimir contexto y continuar este chat</b> o iniciar un <b>nuevo chat</b>.</string>
 
   <string name="compress_and_continue_button" translatable="true" description="This string appears within the token limit banner as a button label. When tapped, it triggers conversation context compression and allows the user to continue chatting. [CHAR_LIMIT=30]">Comprimir y continuar</string>
 
@@ -2021,31 +2021,31 @@ Nota: Está impulsado por el modelo experimental FunctionGemma optimizado para l
 
   <string name="context_compressed_success" translatable="true" description="This string appears within the chat banner as a confirmation message indicating that conversation context compression completed successfully. [CHAR_LIMIT=70]">¡Contexto comprimido! Puedes seguir chateando.</string>
 
-  <string name="token_limit_default_behavior_checkbox" translatable="true" description="This string appears within the token limit banner as a checkbox label, allowing the user to remember this compression behavior for future sessions. [CHAR_LIMIT=100]">Compress my conversation by default the next time I run out of context</string>
+  <string name="token_limit_default_behavior_checkbox" translatable="true" description="This string appears within the token limit banner as a checkbox label, allowing the user to remember this compression behavior for future sessions. [CHAR_LIMIT=100]">Comprimir mi conversación por defecto la próxima vez que me quede sin contexto</string>
 
   <string name="context_compaction_failed_message" translatable="true" description="This string appears in an error dialog when compressing the conversation context fails. [CHAR_LIMIT=120]">No se pudo comprimir el contexto de la conversación. Inténtalo de nuevo.</string>
 
   <string name="model_manager_models_count_title" translatable="true" description="Title in the Global Model Manager top app bar showing the total number of models. [CHAR_LIMIT=30]">Modelos (%1$d)</string>
 
-  <string name="tts_prev_sentence" translatable="true" description="Button or action label to navigate to the previous sentence in text-to-speech playback. [CHAR_LIMIT=30]">Previous sentence</string>
+  <string name="tts_prev_sentence" translatable="true" description="Button or action label to navigate to the previous sentence in text-to-speech playback. [CHAR_LIMIT=30]">Oración anterior</string>
 
-  <string name="tts_next_sentence" translatable="true" description="Button or action label to navigate to the next sentence in text-to-speech playback. [CHAR_LIMIT=25]">Next sentence</string>
+  <string name="tts_next_sentence" translatable="true" description="Button or action label to navigate to the next sentence in text-to-speech playback. [CHAR_LIMIT=25]">Oración siguiente</string>
 
-  <string name="tts_play" translatable="true" description="Button label to start or resume text-to-speech audio playback. [CHAR_LIMIT=12]">Play</string>
+  <string name="tts_play" translatable="true" description="Button label to start or resume text-to-speech audio playback. [CHAR_LIMIT=12]">Reproducir</string>
 
-  <string name="tts_pause" translatable="true" description="Button label to pause text-to-speech audio playback. [BACKUP_MESSAGE_ID: 8584672699524989191] [CHAR_LIMIT=12]">Pause</string>
+  <string name="tts_pause" translatable="true" description="Button label to pause text-to-speech audio playback. [BACKUP_MESSAGE_ID: 8584672699524989191] [CHAR_LIMIT=12]">Pausar</string>
 
-  <string name="tts_jump_to_spoken" translatable="true" description="Button label to auto-scroll the chat view to the currently spoken sentence. [CHAR_LIMIT=25]">Jump to spoken</string>
+  <string name="tts_jump_to_spoken" translatable="true" description="Button label to auto-scroll the chat view to the currently spoken sentence. [CHAR_LIMIT=25]">Saltar a lo hablado</string>
 
-  <string name="tts_dismiss" translatable="true" description="Button label to dismiss the text-to-speech floating playback bar. [BACKUP_MESSAGE_ID: 560750036379288683] [CHAR_LIMIT=15]">Dismiss</string>
+  <string name="tts_dismiss" translatable="true" description="Button label to dismiss the text-to-speech floating playback bar. [BACKUP_MESSAGE_ID: 560750036379288683] [CHAR_LIMIT=15]">Descartar</string>
 
-  <string name="tts_playback_speed" translatable="true" description="Label for text-to-speech playback speed selection. [CHAR_LIMIT=25]">Playback speed</string>
+  <string name="tts_playback_speed" translatable="true" description="Label for text-to-speech playback speed selection. [CHAR_LIMIT=25]">Velocidad de reproducción</string>
 
-  <string name="tts_read_aloud" translatable="true" description="Content description or button label to read a message aloud using text-to-speech. [CHAR_LIMIT=20]">Read aloud</string>
+  <string name="tts_read_aloud" translatable="true" description="Content description or button label to read a message aloud using text-to-speech. [CHAR_LIMIT=20]">Leer en voz alta</string>
 
-  <string name="tts_pause_reading" translatable="true" description="Content description or button label to pause reading the message aloud. [CHAR_LIMIT=25]">Pause reading</string>
+  <string name="tts_pause_reading" translatable="true" description="Content description or button label to pause reading the message aloud. [CHAR_LIMIT=25]">Pausar lectura</string>
 
-  <string name="tts_resume_reading" translatable="true" description="Content description or button label to resume reading the message aloud. [CHAR_LIMIT=25]">Resume reading</string>
+  <string name="tts_resume_reading" translatable="true" description="Content description or button label to resume reading the message aloud. [CHAR_LIMIT=25]">Reanudar lectura</string>
 
   <string name="tts_downloading" translatable="true" description="Status text showing that the TTS model is currently downloading. [BACKUP_MESSAGE_ID: 5931284416289850470] [CHAR_LIMIT=25]">Downloadingâ€¦</string>
 
@@ -2089,7 +2089,7 @@ Nota: Está impulsado por el modelo experimental FunctionGemma optimizado para l
 
   <string name="asr_config_live_transcription_description" translatable="true" description="Description for the Show live transcription toggle in the Audio settings tab. [CHAR_LIMIT=95]">See your words as you speak. When off, text appears after you pause.</string>
 
-  <string name="tts_default_voice_for_language" translatable="true" description="Label for the default voice option in the TTS voice dropdown for the selected language, where %1$s is the localized language name (for example, 'English (US)'). [CHAR_LIMIT=35]">Default (%1$s)</string>
+  <string name="tts_default_voice_for_language" translatable="true" description="Label for the default voice option in the TTS voice dropdown for the selected language, where %1$s is the localized language name (for example, 'English (US)'). [CHAR_LIMIT=35]">Predeterminado (%1$s)</string>
 
   <string name="asr_android_speech_builtin_name" translatable="true" description="Name of the built-in Android system speech recognition engine. [CHAR_LIMIT=60]">Reconocimiento de voz de Android (integrado)</string>
 
@@ -2097,23 +2097,23 @@ Nota: Está impulsado por el modelo experimental FunctionGemma optimizado para l
 
   <string name="main_models_tab_title" translatable="true" description="Tab label in the Model Manager for main LLM models, with a placeholder for the number of models. [CHAR_LIMIT=30]">Modelos principales (%1$d)</string>
 
-  <string name="tts_available_voices_label" translatable="true" description="Header label for the list of available voices on a supplementary model card. [CHAR_LIMIT=30]">Available voices</string>
+  <string name="tts_available_voices_label" translatable="true" description="Header label for the list of available voices on a supplementary model card. [CHAR_LIMIT=30]">Voces disponibles</string>
 
-  <string name="tts_android_system_builtin_name" translatable="true" description="Display name for the built-in Android system Text-to-Speech engine. [CHAR_LIMIT=45]">Android System (Built-in)</string>
+  <string name="tts_android_system_builtin_name" translatable="true" description="Display name for the built-in Android system Text-to-Speech engine. [CHAR_LIMIT=45]">Sistema Android (integrado)</string>
 
   <string name="default_voice_label" translatable="true" description="Fallback display name for the default TTS voice when no specific voice name is set; voice refers to generic spoken speech output. [CHAR_LIMIT=18]">Predeterminado</string>
 
-  <string name="tts_voice_profiles_title" translatable="true" description="Header of the collapsible section on a supplementary TTS model card that lists voice profiles the user can select; Voice refers to generic spoken speech output, not a product name. [CHAR_LIMIT=35]">Voice profiles</string>
+  <string name="tts_voice_profiles_title" translatable="true" description="Header of the collapsible section on a supplementary TTS model card that lists voice profiles the user can select; Voice refers to generic spoken speech output, not a product name. [CHAR_LIMIT=35]">Perfiles de voz</string>
 
-  <string name="tts_language_packs_title" translatable="true" description="Header of the collapsible section on a supplementary TTS model card that lists per-language voice packs the user can download. [CHAR_LIMIT=35]">Supported languages</string>
+  <string name="tts_language_packs_title" translatable="true" description="Header of the collapsible section on a supplementary TTS model card that lists per-language voice packs the user can download. [CHAR_LIMIT=35]">Idiomas compatibles</string>
 
-  <string name="tts_language_pack_installed" translatable="true" description="Status label next to a language (text-to-speech voice pack or speech recognition language) that is already installed on the device. [CHAR_LIMIT=18]">Installed</string>
+  <string name="tts_language_pack_installed" translatable="true" description="Status label next to a language (text-to-speech voice pack or speech recognition language) that is already installed on the device. [CHAR_LIMIT=18]">Instalado</string>
 
-  <string name="tts_language_pack_download_failed" translatable="true" description="Error text under a language voice pack whose download failed. [CHAR_LIMIT=40]">Download failed</string>
+  <string name="tts_language_pack_download_failed" translatable="true" description="Error text under a language voice pack whose download failed. [CHAR_LIMIT=40]">Descarga fallida</string>
 
-  <string name="tts_voice_label_male" translatable="true" description="Formatted TTS voice display name with male gender indicator, where %1$s is the voice persona name. [CHAR_LIMIT=60]">%1$s (Male)</string>
+  <string name="tts_voice_label_male" translatable="true" description="Formatted TTS voice display name with male gender indicator, where %1$s is the voice persona name. [CHAR_LIMIT=60]">%1$s (Masculino)</string>
 
-  <string name="tts_voice_label_female" translatable="true" description="Formatted TTS voice display name with female gender indicator, where %1$s is the voice persona name. [CHAR_LIMIT=60]">%1$s (Female)</string>
+  <string name="tts_voice_label_female" translatable="true" description="Formatted TTS voice display name with female gender indicator, where %1$s is the voice persona name. [CHAR_LIMIT=60]">%1$s (Femenino)</string>
 
   <string name="model_status_ready_builtin" translatable="true" description="Status label beneath an ASR or TTS model selector when a built-in system engine is selected and ready. [CHAR_LIMIT=30]">Listo (integrado)</string>
 
@@ -2131,17 +2131,17 @@ Nota: Está impulsado por el modelo experimental FunctionGemma optimizado para l
 
   <string name="model_tag_tts" translatable="true" description="Short modality badge tag displayed on Text-to-Speech supplementary model cards. [CHAR_LIMIT=8]">TTS</string>
 
-  <string name="tts_voice_preview_text" translatable="true" description="Sample sentence spoken aloud (not shown on screen) when the user taps a text-to-speech voice in Model Manager or settings, so they can hear how the voice sounds. 'AI Edge Gallery' is a product name and must not be translated. [CHAR_LIMIT=120]">Welcome to AI Edge Gallery</string>
+  <string name="tts_voice_preview_text" translatable="true" description="Sample sentence spoken aloud (not shown on screen) when the user taps a text-to-speech voice in Model Manager or settings, so they can hear how the voice sounds. 'AI Edge Gallery' is a product name and must not be translated. [CHAR_LIMIT=120]">Bienvenido a AI Edge Gallery</string>
 
   <string name="cd_tts_preview_voice" translatable="true" description="Content description for the Play button that synthesizes a sample preview for a specific TTS voice profile, where %1$s is the voice display name. [CHAR_LIMIT=45]">Preview %1$s voice</string>
 
   <string name="cd_tts_stop_preview_voice" translatable="true" description="Content description for the Stop button that stops an active TTS voice profile preview, where %1$s is the voice display name. [CHAR_LIMIT=45]">Stop %1$s voice preview</string>
 
-  <string name="tts_default_for_read_aloud" translatable="true" description="Checkbox label on a downloaded supplementary text-to-speech model card in Model Manager; when checked, this model reads chat responses aloud instead of the built-in Android voice. [CHAR_LIMIT=50]">Default to this model for read aloud</string>
+  <string name="tts_default_for_read_aloud" translatable="true" description="Checkbox label on a downloaded supplementary text-to-speech model card in Model Manager; when checked, this model reads chat responses aloud instead of the built-in Android voice. [CHAR_LIMIT=50]">Predeterminado a este modelo para leer en voz alta</string>
 
   <string name="asr_default_for_speech_input" translatable="true" description="Checkbox label on a downloaded supplementary speech recognition model card in Model Manager; when checked, this model transcribes the user's voice input instead of the built-in Android speech recognizer. [CHAR_LIMIT=50]">Predeterminado a este modelo para entrada de voz</string>
 
-  <string name="tts_default_for_read_aloud_info" translatable="true" description="Tooltip shown when the user taps the info icon next to the read-aloud default checkbox on a text-to-speech model card; Android is the operating system name. [CHAR_LIMIT=100]">Read aloud uses this model instead of the built-in Android voice.</string>
+  <string name="tts_default_for_read_aloud_info" translatable="true" description="Tooltip shown when the user taps the info icon next to the read-aloud default checkbox on a text-to-speech model card; Android is the operating system name. [CHAR_LIMIT=100]">Leer en voz alta usa este modelo en lugar de la voz de Android integrada.</string>
 
   <string name="asr_default_for_speech_input_info" translatable="true" description="Tooltip shown when the user taps the info icon next to the speech input default checkbox on a speech recognition model card; Android is the operating system name. [CHAR_LIMIT=110]">La entrada de voz usa este modelo en lugar del reconocimiento de voz de Android integrado.</string>
 
@@ -2196,19 +2196,19 @@ Nota: Está impulsado por el modelo experimental FunctionGemma optimizado para l
 
   <string name="cd_language_pack_retry_download" translatable="true" description="Accessibility content description for the icon-only button next to a language voice pack shown as downloading, which requests its download again when the download is no longer making progress, where %1$s is the localized language name, for example German (Germany). [CHAR_LIMIT=60]">Retry downloading %1$s</string>
 
-  <string name="tts_voice_gender_female" translatable="true" description="Gender label for a feminine text-to-speech voice in the voice picker; voice refers to generic spoken speech output, not a product name. [CHAR_LIMIT=25]">Female</string>
+  <string name="tts_voice_gender_female" translatable="true" description="Gender label for a feminine text-to-speech voice in the voice picker; voice refers to generic spoken speech output, not a product name. [CHAR_LIMIT=25]">Femenino</string>
 
-  <string name="tts_voice_gender_male" translatable="true" description="Gender label for a masculine text-to-speech voice in the voice picker; voice refers to generic spoken speech output, not a product name. [CHAR_LIMIT=25]">Male</string>
+  <string name="tts_voice_gender_male" translatable="true" description="Gender label for a masculine text-to-speech voice in the voice picker; voice refers to generic spoken speech output, not a product name. [CHAR_LIMIT=25]">Masculino</string>
 
   <string name="tts_voice_display_name_format" translatable="true" description="Display name format for a text-to-speech voice in the voice picker, combining the voice name, its language, and its gender; voice refers to generic spoken speech output, not a product name. %1$s is the voice name, %2$s is the localized language name, and %3$s is the gender label (for example, Heart (English, Female)). [CHAR_LIMIT=80]">%1$s (%2$s, %3$s)</string>
 
   <string name="tts_voice_display_name_language_only_format" translatable="true" description="Display name format for a text-to-speech voice in the voice picker when no gender metadata is available, combining the voice name and its language; voice refers to generic spoken speech output, not a product name. %1$s is the voice name and %2$s is the localized language name (for example, Alba (English)). [CHAR_LIMIT=60]">%1$s (%2$s)</string>
 
-  <string name="tts_voice_all_languages" translatable="true" description="Language label shown inside a text-to-speech voice display name when the voice profile applies across all supported languages (for example, Puck (All languages, Male)). [CHAR_LIMIT=30]">All languages</string>
+  <string name="tts_voice_all_languages" translatable="true" description="Language label shown inside a text-to-speech voice display name when the voice profile applies across all supported languages (for example, Puck (All languages, Male)). [CHAR_LIMIT=30]">Todos los idiomas</string>
 
-  <string name="tts_system_voice_with_code_format" translatable="true" tools:ignore="PluralsCandidate" description="Display label for an installed system text-to-speech voice profile in the voice picker, combining a 1-based voice number and a short speaker code; Voice is a noun referring to generic spoken speech output, not a product name. %1$d is the 1-based index of the voice within the selected language (for example, 1) and %2$s is the short speaker identifier code (for example, hol). Example: Voice 1 (hol). [CHAR_LIMIT=35]">Voice %1$d (%2$s)</string>
+  <string name="tts_system_voice_with_code_format" translatable="true" tools:ignore="PluralsCandidate" description="Display label for an installed system text-to-speech voice profile in the voice picker, combining a 1-based voice number and a short speaker code; Voice is a noun referring to generic spoken speech output, not a product name. %1$d is the 1-based index of the voice within the selected language (for example, 1) and %2$s is the short speaker identifier code (for example, hol). Example: Voice 1 (hol). [CHAR_LIMIT=35]">Voz %1$d (%2$s)</string>
 
-  <string name="tts_system_voice_numbered_format" translatable="true" tools:ignore="PluralsCandidate" description="Display label for an installed system text-to-speech voice profile in the voice picker when no short speaker code is available; Voice is a noun referring to generic spoken speech output, not a product name. %1$d is the 1-based index of the voice within the selected language (for example, 1). Example: Voice 1. [CHAR_LIMIT=25]">Voice %1$d</string>
+  <string name="tts_system_voice_numbered_format" translatable="true" tools:ignore="PluralsCandidate" description="Display label for an installed system text-to-speech voice profile in the voice picker when no short speaker code is available; Voice is a noun referring to generic spoken speech output, not a product name. %1$d is the 1-based index of the voice within the selected language (for example, 1). Example: Voice 1. [CHAR_LIMIT=25]">Voz %1$d</string>
 
   <string name="live_metrics_speed" translatable="true" description="Column header label in the live inference metrics banner above the chat input box indicating token generation rate; Speed is a noun. [CHAR_LIMIT=15]">Velocidad</string>
 
@@ -2341,7 +2341,7 @@ Contexto: Se comprime alrededor de %1$d%%</string>
     <item quantity="other">The selected ASR and TTS models support %1$d shared languages: %2$s.</item>
   </plurals>
 
-  <string name="xrteacher_no_shared_native_language" translatable="true" description="Error shown under the Native language dropdown in the XR Language Teacher settings when the selected speech recognition and voice models don't support any language in common, so no native language can be picked. [CHAR_LIMIT=100]">No language works with both of your speech models.</string>
+  <string name="xrteacher_no_shared_native_language" translatable="true" description="Error shown under the Native language dropdown in the XR Language Teacher settings when the selected speech recognition and voice models don't support any language in common, so no native language can be picked. [CHAR_LIMIT=100]">Ningún idioma funciona con ambos de tus modelos de voz.</string>
 
   <string name="cd_model_selection_section_info" translatable="true" description="Content description of the info button next to a section header on the model selection screen, which shows what that kind of model does. %1$s is the section title, for example 'Main models'. [CHAR_LIMIT=NONE]">About %1$s</string>
 
