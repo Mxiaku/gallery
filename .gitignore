@@ -3,3 +3,5 @@
 # Kotlin compiler sessions
 .kt
 .kotlin/
+
+.idea/
