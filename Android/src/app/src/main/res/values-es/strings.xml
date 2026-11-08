@@ -2391,5 +2391,9 @@
     <item quantity="one">%d language supported</item>
     <item quantity="other">%d languages supported</item>
   </plurals>
+  <string name="hf_filter_all">Todos</string>
+  <string name="hf_filter_text">Texto</string>
+  <string name="hf_filter_vision">Vision</string>
+  <string name="hf_filter_audio">Audio</string>
 </resources>
 

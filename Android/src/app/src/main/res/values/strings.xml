@@ -1968,4 +1968,8 @@
     <item quantity="other">%d languages supported</item>
   </plurals>
 
+  <string name="hf_filter_all">All</string>
+  <string name="hf_filter_text">Text</string>
+  <string name="hf_filter_vision">Vision</string>
+  <string name="hf_filter_audio">Audio</string>
 </resources>

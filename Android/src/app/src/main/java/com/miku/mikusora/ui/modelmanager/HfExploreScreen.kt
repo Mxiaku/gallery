@@ -211,11 +211,11 @@ fun HfExploreContent(
               .padding(horizontal = 16.dp, vertical = 4.dp),
           horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
-          for ((type, label) in listOf("all" to "Todos", "text" to "Texto", "vision" to "Vision", "audio" to "Audio")) {
+          for ((type, labelRes) in listOf("all" to R.string.hf_filter_all, "text" to R.string.hf_filter_text, "vision" to R.string.hf_filter_vision, "audio" to R.string.hf_filter_audio)) {
             FilterChip(
               selected = uiState.typeFilter == type,
               onClick = { onTypeFilterChanged(type) },
-              label = { Text(label) },
+              label = { Text(stringResource(labelRes)) },
             )
           }
         }
