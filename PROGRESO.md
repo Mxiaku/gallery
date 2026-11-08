@@ -22,7 +22,7 @@
   - Analisis llama.cpp/GGUF documentado (no recomendado)
 - Fase 8: README.md en espanol
 
-## Pendiente (no implementado)
+## Pendiente (no implementado)\n- Integridad de archivo (hash/size) al terminar descarga\n- Liberacion de memoria al cambiar/cerrar modelo\n- Reutilizacion de WebView de KaTeX\n- Traduccion de 581 strings visibles al usuario\n- Filtros por tamaño en catalogo\n- Integracion JSON local en catalogo\n- Verificacion sin internet (modo avion)
 - Fase 4: filtros por tamaño/tipo/RAM en HfExploreScreen (UI ya tiene busqueda y sort)
 - Fase 4: integracion JSON local en la app (JSON creado pero no cargado)
 - Fase 5: verificacion de espacio libre antes de descargar (ERROR_TYPE_OUT_OF_STORAGE ya existe en codigo)
@@ -68,3 +68,4 @@
 - docs/llamacpp_analysis.md: analisis de llama.cpp
 - README.md: documentacion en espanol
 - SystemPromptHelper.kt: instruccion LaTeX añadida
+
