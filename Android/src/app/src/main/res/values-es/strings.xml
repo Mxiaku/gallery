@@ -2408,5 +2408,10 @@ Contexto: Se comprime alrededor de %1$d%%</string>
   <string name="hf_filter_size_small">Menos de 1 GB</string>
   <string name="hf_filter_size_medium">1 a 3 GB</string>
   <string name="hf_filter_size_large">Más de 3 GB</string>
+  <string name="done_button">Listo</string>
+  <string name="input_data_label">Datos de entrada</string>
+  <string name="custom_data_label">Datos personalizados</string>
+  <string name="text_color_label">Color del texto:</string>
+  <string name="clear_button">Borrar</string>
 </resources>
 

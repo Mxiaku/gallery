@@ -1977,4 +1977,9 @@
   <string name="hf_filter_size_small">Menos de 1 GB</string>
   <string name="hf_filter_size_medium">1 a 3 GB</string>
   <string name="hf_filter_size_large">Más de 3 GB</string>
+  <string name="done_button">Done</string>
+  <string name="input_data_label">Input Data</string>
+  <string name="custom_data_label">Custom Data</string>
+  <string name="text_color_label">Text color:</string>
+  <string name="clear_button">Clear</string>
 </resources>
