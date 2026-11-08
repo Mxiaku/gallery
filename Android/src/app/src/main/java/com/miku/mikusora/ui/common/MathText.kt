@@ -20,18 +20,21 @@ fun MathText(
   val bgColor = if (darkMode) "#1C1C1E" else "#FFFFFF"
   val escapedText = JSONObject.quote(text)
 
+  // Reuse a single WebView instance per composable to avoid memory leaks
+  val context = LocalContext.current
+  val webView = remember {
+    WebView(context).apply {
+      settings.javaScriptEnabled = true
+      settings.allowFileAccess = true
+      settings.domStorageEnabled = true
+      loadUrl("file:///android_asset/katex/index.html")
+    }
+  }
+
   AndroidView(
-    factory = { context ->
-      WebView(context).apply {
-        settings.javaScriptEnabled = true
-        settings.allowFileAccess = true
-        settings.domStorageEnabled = true
-        // Limit WebView instances by reusing
-        loadUrl("file:///android_asset/katex/index.html")
-      }
-    },
-    update = { webView ->
-      webView.evaluateJavascript(
+    factory = { webView },
+    update = { wv ->
+      wv.evaluateJavascript(
         "document.body.style.color='$textColor'; document.body.style.backgroundColor='$bgColor'; renderMath($escapedText)",
         null
       )
