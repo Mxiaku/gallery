@@ -3,6 +3,7 @@ package com.miku.mikusora.ui.common
 import android.annotation.SuppressLint
 import android.webkit.WebView
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -20,15 +21,32 @@ fun MathText(
   val bgColor = if (darkMode) "#1C1C1E" else "#FFFFFF"
   val escapedText = JSONObject.quote(text)
 
-  // Reuse a single WebView instance per composable to avoid memory leaks
   val context = LocalContext.current
+
+  // Acquire WebView from shared pool (max 4 instances)
   val webView = remember {
-    WebView(context).apply {
-      settings.javaScriptEnabled = true
-      settings.allowFileAccess = true
-      settings.domStorageEnabled = true
-      loadUrl("file:///android_asset/katex/index.html")
+    WebViewPool.acquire(context)
+  }
+
+  // Release WebView back to pool when this composable leaves composition
+  DisposableEffect(webView) {
+    onDispose {
+      if (webView != null) {
+        WebViewPool.release(webView)
+      }
     }
+  }
+
+  // Si no hay WebView disponible (pool lleno), no renderizamos KaTeX y mostramos texto plano
+  if (webView == null) {
+    androidx.compose.material3.Text(
+      text = text,
+      modifier = modifier,
+      color = androidx.compose.ui.graphics.Color(
+        if (darkMode) 0xFFE0E0E0.toInt() else 0xFF000000.toInt()
+      ),
+    )
+    return@Composable
   }
 
   AndroidView(
