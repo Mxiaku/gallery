@@ -739,7 +739,7 @@
 
   <string name="horizontal" translatable="true" description="This string appears within the Scrapbook grid maker as a layout option within the grid generator. It means horizontal orientation. [CHAR_LIMIT=30]">Horizontal</string>
 
-  <string name="linear_gradient_color" translatable="true" description="This string appears within the Scrapbook colored background settings as a gradient option within the fill mode. It means linear gradient style. [CHAR_LIMIT=40]">Linear gradient</string>
+  <string name="linear_gradient_color" translatable="true" description="This string appears within the Scrapbook colored background settings as a gradient option within the fill mode. It means linear gradient style. [CHAR_LIMIT=40]">Gradiente lineal</string>
 
   <string name="radial_gradient_color" translatable="true" description="This string appears within the Scrapbook colored background settings as a gradient option within the fill mode. It means radial gradient style. [CHAR_LIMIT=40]">Radial gradient</string>
 
@@ -904,35 +904,35 @@
 
   <string name="generate_llm_prompt_button_label" translatable="true" description="Label on a button that triggers the generation of an LLM prompt. [CHAR_LIMIT=20]">Mensaje LLM</string>
 
-  <string name="learn_how_to_write_skills" translatable="true" description="Link or button text directing users to documentation on how to create their own skills. [CHAR_LIMIT=30]">Learn how to write skills</string>
+  <string name="learn_how_to_write_skills" translatable="true" description="Link or button text directing users to documentation on how to create their own skills. [CHAR_LIMIT=30]">Aprender a escribir habilidades</string>
 
   <string name="loading_skills_allowlist" translatable="true" description="Loading message shown while the list of featured skills is being fetched. [CHAR_LIMIT=43]">Loading featured skillsâ€¦</string>
 
-  <string name="manage_skills" translatable="true" description="Title of the screen/bottom sheet where users can manage their skills. [CHAR_LIMIT=26]">Manage skills</string>
+  <string name="manage_skills" translatable="true" description="Title of the screen/bottom sheet where users can manage their skills. [CHAR_LIMIT=26]">Administrar habilidades</string>
 
-  <string name="manage_skills_description" translatable="true" description="Description text explaining the purpose of the Skill Manager. [CHAR_LIMIT=90]">View, create, and manage your skills</string>
+  <string name="manage_skills_description" translatable="true" description="Description text explaining the purpose of the Skill Manager. [CHAR_LIMIT=90]">Ver, crear y administrar tus habilidades</string>
 
   <string name="skill_limit_warning" translatable="true" description="Warning message displayed when too many skills are enabled, which might slow down the app. %s is the maximum recommended number of enabled skills. [CHAR_LIMIT=90]">Enabling more than %s may impact performance.</string>
 
-  <string name="no_directory_selected" translatable="true" description="Text displayed when no local directory has been selected for importing a skill. [CHAR_LIMIT=35]">No directory selected</string>
+  <string name="no_directory_selected" translatable="true" description="Text displayed when no local directory has been selected for importing a skill. [CHAR_LIMIT=35]">No se seleccionó ningún directorio</string>
 
-  <string name="pick_skill_dir" translatable="true" description="Label instructing the user to select the root directory of the skill they want to import. [CHAR_LIMIT=46]">Pick skill\'s root directory</string>
+  <string name="pick_skill_dir" translatable="true" description="Label instructing the user to select the root directory of the skill they want to import. [CHAR_LIMIT=46]">Elegir el directorio raíz de la habilidad</string>
 
-  <string name="prompt_copied_message" translatable="true" description="Message informing the user that the prompt has been copied and instructing them on what to do next. [CHAR_LIMIT=197]">Prompt copied to clipboard. Paste it into your favorite LLM app to generate the code and copy/paste the code here.</string>
+  <string name="prompt_copied_message" translatable="true" description="Message informing the user that the prompt has been copied and instructing them on what to do next. [CHAR_LIMIT=197]">Mensaje copiado al portapapeles. Pégalo en tu aplicación LLM favorita para generar el código y copiar/pegar el código aquí.</string>
 
-  <string name="prompt_chip_kitchen_adventure" translatable="true" description="Label for a quick-start prompt chip related to a kitchen or cooking scenario. [CHAR_LIMIT=30]">Kitchen adventure</string>
+  <string name="prompt_chip_kitchen_adventure" translatable="true" description="Label for a quick-start prompt chip related to a kitchen or cooking scenario. [CHAR_LIMIT=30]">Aventura en la cocina</string>
 
-  <string name="prompt_chip_calculate_hash" translatable="true" description="Label for a quick-start prompt chip to calculate a hash (e.g., MD5, SHA). [CHAR_LIMIT=24]">Calculate hash</string>
+  <string name="prompt_chip_calculate_hash" translatable="true" description="Label for a quick-start prompt chip to calculate a hash (e.g., MD5, SHA). [CHAR_LIMIT=24]">Calcular hash</string>
 
-  <string name="prompt_chip_query_wikipedia" translatable="true" description="Label for a quick-start prompt chip to search Wikipedia. [CHAR_LIMIT=25]">Query Wikipedia</string>
+  <string name="prompt_chip_query_wikipedia" translatable="true" description="Label for a quick-start prompt chip to search Wikipedia. [CHAR_LIMIT=25]">Consultar Wikipedia</string>
 
-  <string name="prompt_chip_plot_chart" translatable="true" description="Label for a quick-start prompt chip to generate or plot a chart. [CHAR_LIMIT=18]">Plot chart</string>
+  <string name="prompt_chip_plot_chart" translatable="true" description="Label for a quick-start prompt chip to generate or plot a chart. [CHAR_LIMIT=18]">Graficar</string>
 
-  <string name="prompt_chip_interactive_map" translatable="true" description="Label for a quick-start prompt chip to show an interactive map. [CHAR_LIMIT=25]">Interactive map</string>
+  <string name="prompt_chip_interactive_map" translatable="true" description="Label for a quick-start prompt chip to show an interactive map. [CHAR_LIMIT=25]">Mapa interactivo</string>
 
-  <string name="prompt_chip_text_spinner" translatable="true" description="Label for a quick-start prompt chip, possibly a fun or demo action. [CHAR_LIMIT=30]">Spin label on my head</string>
+  <string name="prompt_chip_text_spinner" translatable="true" description="Label for a quick-start prompt chip, possibly a fun or demo action. [CHAR_LIMIT=30]">Gira la etiqueta en mi cabeza</string>
 
-  <string name="prompt_chip_send_email" translatable="true" description="Label for a quick-start prompt chip to send an email. [CHAR_LIMIT=18]">Send email</string>
+  <string name="prompt_chip_send_email" translatable="true" description="Label for a quick-start prompt chip to send an email. [CHAR_LIMIT=18]">Enviar correo electrónico</string>
 
   <string name="replace_skill_dialog_title" translatable="true" description="Title of the dialog asking to confirm replacing an existing skill with the same name. [CHAR_LIMIT=37]">Replace existing skill</string>
 
@@ -963,33 +963,33 @@
 
   <string name="mcp" translatable="true" description="Label for the button that opens the Model Context Protocol (MCP) manager. [CHAR_LIMIT=18]">MCP</string>
 
-  <string name="mcp_tool_call_permission_title" translatable="true" description="Title of the dialog asking the user for permission to execute an MCP tool. [CHAR_LIMIT=45]">Permission to call MCP tool?</string>
+  <string name="mcp_tool_call_permission_title" translatable="true" description="Title of the dialog asking the user for permission to execute an MCP tool. [CHAR_LIMIT=45]">¿Permiso para llamar a la herramienta MCP?</string>
 
-  <string name="mcp_tool_name_label" translatable="true" description="Label prefixing the name of the tool requesting execution permission. [CHAR_LIMIT=18]">Tool name</string>
+  <string name="mcp_tool_name_label" translatable="true" description="Label prefixing the name of the tool requesting execution permission. [CHAR_LIMIT=18]">Nombre de la herramienta</string>
 
-  <string name="mcp_tool_input_label" translatable="true" description="Label prefixing the input arguments being passed to the tool. [CHAR_LIMIT=18]">Input</string>
+  <string name="mcp_tool_input_label" translatable="true" description="Label prefixing the input arguments being passed to the tool. [CHAR_LIMIT=18]">Entrada</string>
 
-  <string name="mcp_tool_always_allow" translatable="true" description="Button label to grant permanent permission for the tool to run without asking again. [CHAR_LIMIT=23]">Always allow</string>
+  <string name="mcp_tool_always_allow" translatable="true" description="Button label to grant permanent permission for the tool to run without asking again. [CHAR_LIMIT=23]">Permitir siempre</string>
 
-  <string name="mcp_tool_allow_once" translatable="true" description="Button label to grant one-time permission for the tool to run. [CHAR_LIMIT=20]">Allow once</string>
+  <string name="mcp_tool_allow_once" translatable="true" description="Button label to grant one-time permission for the tool to run. [CHAR_LIMIT=20]">Permitir una vez</string>
 
-  <string name="mcp_tool_dont_allow" translatable="true" description="Button label to deny permission for the tool to run. [CHAR_LIMIT=23]">Don\'t allow</string>
+  <string name="mcp_tool_dont_allow" translatable="true" description="Button label to deny permission for the tool to run. [CHAR_LIMIT=23]">No permitir</string>
 
-  <string name="mcp_tool_revoke" translatable="true" description="Button label to confirm revoking automatic permission for a tool. [CHAR_LIMIT=11]">Revoke</string>
+  <string name="mcp_tool_revoke" translatable="true" description="Button label to confirm revoking automatic permission for a tool. [CHAR_LIMIT=11]">Revocar</string>
 
-  <string name="mcp_tool_revoke_permission" translatable="true" description="Button label to initiate revoking &quot;always allow&quot; permission for a tool. [CHAR_LIMIT=31]">Revoke tool call permission</string>
+  <string name="mcp_tool_revoke_permission" translatable="true" description="Button label to initiate revoking &quot;always allow&quot; permission for a tool. [CHAR_LIMIT=31]">Revocar permiso de llamada a herramienta</string>
 
-  <string name="mcp_tool_revoke_permission_title" translatable="true" description="Title of the confirmation dialog for revoking tool permission. [CHAR_LIMIT=31]">Revoke permission?</string>
+  <string name="mcp_tool_revoke_permission_title" translatable="true" description="Title of the confirmation dialog for revoking tool permission. [CHAR_LIMIT=31]">¿Revocar permiso?</string>
 
-  <string name="mcp_tool_revoke_permission_content" translatable="true" description="Message asking the user if they are sure they want to revoke the automatic execution permission for the tool. [CHAR_LIMIT=135]">Are you sure you want to revoke permission to automatically call this tool?</string>
+  <string name="mcp_tool_revoke_permission_content" translatable="true" description="Message asking the user if they are sure they want to revoke the automatic execution permission for the tool. [CHAR_LIMIT=135]">¿Estás seguro de que quieres revocar el permiso para llamar automáticamente a esta herramienta?</string>
 
-  <string name="manage_mcp_servers" translatable="true" description="Title of the screen/bottom sheet where users can manage Model Context Protocol (MCP) servers. [CHAR_LIMIT=31]">Manage MCP servers</string>
+  <string name="manage_mcp_servers" translatable="true" description="Title of the screen/bottom sheet where users can manage Model Context Protocol (MCP) servers. [CHAR_LIMIT=31]">Administrar servidores MCP</string>
 
   <string name="add_mcp_server" translatable="true" description="Button label to add a new MCP server. [CHAR_LIMIT=26]">Agregar servidor MCP</string>
 
-  <string name="learn_more_about_mcp" translatable="true" description="Link text directing users to documentation about Model Context Protocol (MCP). [CHAR_LIMIT=90]">Learn more about MCP in Google AI Edge Gallery</string>
+  <string name="learn_more_about_mcp" translatable="true" description="Link text directing users to documentation about Model Context Protocol (MCP). [CHAR_LIMIT=90]">Más información sobre MCP en Google AI Edge Gallery</string>
 
-  <string name="learn_more_about_mcp_short" translatable="true" description="Link text to learn more about MCP (Model Context Protocol). [CHAR_LIMIT=18]">Learn more</string>
+  <string name="learn_more_about_mcp_short" translatable="true" description="Link text to learn more about MCP (Model Context Protocol). [CHAR_LIMIT=18]">Más información</string>
 
   <string name="search_mcp_server" translatable="true" description="Placeholder text in a search field to search for an MCP (Model Context Protocol) server. [CHAR_LIMIT=37]">Search for an MCP server</string>
 
@@ -1011,37 +1011,37 @@
 
   <string name="delete_mcp_server_dialog_content" translatable="true" description="Content text of the confirmation dialog when deleting an MCP server. [CHAR_LIMIT=110]">Are you sure you want to delete this MCP server?</string>
 
-  <string name="manage_tools" translatable="true" description="Title of the bottom sheet or section for managing tools associated with MCP servers. [CHAR_LIMIT=26]">Manage tools</string>
+  <string name="manage_tools" translatable="true" description="Title of the bottom sheet or section for managing tools associated with MCP servers. [CHAR_LIMIT=26]">Administrar herramientas</string>
 
-  <string name="mcp_server_label" translatable="true" description="Label displaying the name or URL of the MCP server. [CHAR_LIMIT=24]">MCP server: %s</string>
+  <string name="mcp_server_label" translatable="true" description="Label displaying the name or URL of the MCP server. [CHAR_LIMIT=24]">Servidor MCP: %s</string>
 
-  <string name="mcp_tool_description" translatable="true" description="Label for the description section of a tool. [CHAR_LIMIT=90]">Description</string>
+  <string name="mcp_tool_description" translatable="true" description="Label for the description section of a tool. [CHAR_LIMIT=90]">Descripción</string>
 
-  <string name="mcp_tool_schema" translatable="true" description="Label for the input schema section of a tool. [CHAR_LIMIT=18]">Schema</string>
+  <string name="mcp_tool_schema" translatable="true" description="Label for the input schema section of a tool. [CHAR_LIMIT=18]">Esquema</string>
 
   <string name="mcp_disclaimer_dialog_title" translatable="true" description="Title of the disclaimer dialog shown when adding a third-party MCP server. [CHAR_LIMIT=35]">Add third-party MCP</string>
 
   <string name="mcp_disclaimer_dialog_content" translatable="true" description="Disclaimer text informing the user about risks of using third-party MCP servers. [CHAR_LIMIT=526]">Third-party MCPs are not authored or endorsed by Google. Google is not responsible for their contents, security, or data handling practices.\n\nPlease exercise caution before providing sensitive information, such as personal identification, tokens, or API keys.\n\nAny use of an MCP is subject to the applicable terms for that MCP.</string>
 
-  <string name="mcp_server_duplicate_title" translatable="true" description="Title of the dialog warning the user that the MCP server URL is already added. [CHAR_LIMIT=34]">Duplicate MCP server</string>
+  <string name="mcp_server_duplicate_title" translatable="true" description="Title of the dialog warning the user that the MCP server URL is already added. [CHAR_LIMIT=34]">Servidor MCP duplicado</string>
 
-  <string name="mcp_server_duplicate_content" translatable="true" description="Content text warning that the MCP server URL is duplicate. [CHAR_LIMIT=110]">This MCP server URL is already added.</string>
+  <string name="mcp_server_duplicate_content" translatable="true" description="Content text warning that the MCP server URL is duplicate. [CHAR_LIMIT=110]">La URL de este servidor MCP ya está agregada.</string>
 
-  <string name="mcp_server_authorization" translatable="true" description="Label for the authorization configuration section when adding an MCP server. [CHAR_LIMIT=22]">Authorization</string>
+  <string name="mcp_server_authorization" translatable="true" description="Label for the authorization configuration section when adding an MCP server. [CHAR_LIMIT=22]">Autorización</string>
 
-  <string name="mcp_server_auth_none" translatable="true" description="Option indicating no authorization is needed for the MCP server. [CHAR_LIMIT=16]">None</string>
+  <string name="mcp_server_auth_none" translatable="true" description="Option indicating no authorization is needed for the MCP server. [CHAR_LIMIT=16]">Ninguna</string>
 
-  <string name="mcp_server_auth_request_header" translatable="true" description="Option indicating authorization via request headers. [CHAR_LIMIT=24]">Request header</string>
+  <string name="mcp_server_auth_request_header" translatable="true" description="Option indicating authorization via request headers. [CHAR_LIMIT=24]">Encabezado de solicitud</string>
 
   <string name="mcp_server_auth_oauth_wip" translatable="true" description="Option indicating OAuth authorization (Work In Progress). [CHAR_LIMIT=19]">OAuth (WIP)</string>
 
-  <string name="mcp_server_header_name" translatable="true" description="Label for the input field where the user enters the authorization header name. [CHAR_LIMIT=26]">Header name</string>
+  <string name="mcp_server_header_name" translatable="true" description="Label for the input field where the user enters the authorization header name. [CHAR_LIMIT=26]">Nombre del encabezado</string>
 
-  <string name="mcp_server_header_value" translatable="true" description="Label for the input field where the user enters the authorization header value. [CHAR_LIMIT=26]">Header value</string>
+  <string name="mcp_server_header_value" translatable="true" description="Label for the input field where the user enters the authorization header value. [CHAR_LIMIT=26]">Valor del encabezado</string>
 
   <string name="chat_history_title" translatable="true" description="Title of the chat history side sheet or screen. [CHAR_LIMIT=26]">Historial de chat</string>
 
-  <string name="new_chat" translatable="true" description="Button label to start a new chat session. [CHAR_LIMIT=18]">New chat</string>
+  <string name="new_chat" translatable="true" description="Button label to start a new chat session. [CHAR_LIMIT=18]">Nuevo chat</string>
 
   <string name="clear_all" translatable="true" description="Button label to clear all chat history. [CHAR_LIMIT=18]">Borrar todo</string>
 
@@ -1051,13 +1051,13 @@
 
   <string name="clear_history_dialog_content" translatable="true" description="Content text warning that clearing history is permanent. [CHAR_LIMIT=131]">Are you sure you want to clear the history? This action cannot be undone.</string>
 
-  <string name="import_model_terms_subtitle" translatable="true" description="Subtitle in the import model bottom sheet reminding users to adhere to separate model terms. [CHAR_LIMIT=126]">You are responsible for adhering to any separate terms applicable to models.</string>
+  <string name="import_model_terms_subtitle" translatable="true" description="Subtitle in the import model bottom sheet reminding users to adhere to separate model terms. [CHAR_LIMIT=126]">Eres responsable de cumplir con cualquier término separado aplicable a los modelos.</string>
 
   <string name="cd_import_model_from_hugging_face" translatable="true" description="Content description spoken when the import model from hugging face button is focused. [CHAR_LIMIT=34]">Import model from Hugging Face</string>
 
-  <string name="import_model_from_hugging_face" translatable="true" description="Text label on the button/option to import a model from Hugging Face. [CHAR_LIMIT=30]">From Hugging Face</string>
+  <string name="import_model_from_hugging_face" translatable="true" description="Text label on the button/option to import a model from Hugging Face. [CHAR_LIMIT=30]">Desde Hugging Face</string>
 
-  <string name="import_from_hugging_face_title" translatable="true" description="Title of the dialog box for importing a model from Hugging Face. [CHAR_LIMIT=40]">Import from Hugging Face</string>
+  <string name="import_from_hugging_face_title" translatable="true" description="Title of the dialog box for importing a model from Hugging Face. [CHAR_LIMIT=40]">Importar desde Hugging Face</string>
 
   <string name="enter_hugging_face_url" translatable="true" description="Prompt text to guide the user to enter a Hugging Face model card or model file URL. [CHAR_LIMIT=102]">"Ingresar una URL de tarjeta de modelo o archivo de Hugging Face. Por ejemplo: "</string>
 
@@ -1065,9 +1065,9 @@
 
   <string name="hugging_face_url_placeholder" translatable="true" description="Placeholder text shown inside the text field where the user enters the URL. [CHAR_LIMIT=37]">https://huggingface.co/â€¦</string>
 
-  <string name="previous" translatable="true" description="Button text to navigate to the previous step. [CHAR_LIMIT=18]">Previous</string>
+  <string name="previous" translatable="true" description="Button text to navigate to the previous step. [CHAR_LIMIT=18]">Anterior</string>
 
-  <string name="next" translatable="true" description="Button text to navigate to the next step. [CHAR_LIMIT=18]">Next</string>
+  <string name="next" translatable="true" description="Button text to navigate to the next step. [CHAR_LIMIT=18]">Siguiente</string>
 
   <string name="unsupported_model_title" translatable="true" description="Title of the dialog showing that the imported model type is unsupported. [CHAR_LIMIT=37]">Unsupported model type</string>
 
@@ -1077,9 +1077,9 @@
 
   <string name="file_too_large_warning" translatable="true" description="Warning label when a model file size exceeds device memory limit. [CHAR_LIMIT=50]">Probablemente demasiado grande para la RAM del dispositivo</string>
 
-  <string name="incompatible_device_warning" translatable="true" description="Warning label when a model file is incompatible with device hardware. [CHAR_LIMIT=60]">Likely incompatible with device hardware</string>
+  <string name="incompatible_device_warning" translatable="true" description="Warning label when a model file is incompatible with device hardware. [CHAR_LIMIT=60]">Probablemente incompatible con el hardware del dispositivo</string>
 
-  <string name="import_selected_model" translatable="true" description="Button label to confirm importing the selected model file. [CHAR_LIMIT=30]">Import selected model</string>
+  <string name="import_selected_model" translatable="true" description="Button label to confirm importing the selected model file. [CHAR_LIMIT=30]">Importar modelo seleccionado</string>
 
   <string name="copy_url" translatable="true" description="Button label or accessibility action to copy model URL to clipboard. [CHAR_LIMIT=18]">Copiar URL</string>
 
@@ -1089,15 +1089,15 @@
 
   <string name="compatible_files_subheader" translatable="true" description="Subheader explaining compatible model files. [CHAR_LIMIT=90]">Archivos de LiteRT-LM compatibles con AI Edge Gallery.</string>
 
-  <string name="other_files_header" translatable="true" description="Header for incompatible/other files section showing count. [CHAR_LIMIT=32]">Other Files (%1$d):</string>
+  <string name="other_files_header" translatable="true" description="Header for incompatible/other files section showing count. [CHAR_LIMIT=32]">Otros archivos (%1$d):</string>
 
-  <string name="other_files_subheader" translatable="true" description="Subheader explaining other model files. [CHAR_LIMIT=93]">Files that may not be compatible with AI Edge Gallery.</string>
+  <string name="other_files_subheader" translatable="true" description="Subheader explaining other model files. [CHAR_LIMIT=93]">Archivos que pueden no ser compatibles con AI Edge Gallery.</string>
 
-  <string name="incompatible_file_selection_prompt" translatable="true" description="Prompt shown when user taps an incompatible file. [CHAR_LIMIT=142]">This file may not be compatible. You can still copy the file URL to import it directly.</string>
+  <string name="incompatible_file_selection_prompt" translatable="true" description="Prompt shown when user taps an incompatible file. [CHAR_LIMIT=142]">Este archivo puede no ser compatible. Puedes copiar la URL del archivo para importarlo directamente.</string>
 
-  <string name="hf_no_model_files_in_card" translatable="true" description="Error message when no LiteRT model files are found in a Hugging Face repository card. [CHAR_LIMIT=100]">No LiteRT model files (.litertlm) found in this model card.</string>
+  <string name="hf_no_model_files_in_card" translatable="true" description="Error message when no LiteRT model files are found in a Hugging Face repository card. [CHAR_LIMIT=100]">No se encontraron archivos de modelo LiteRT (.litertlm) en esta tarjeta de modelo.</string>
 
-  <string name="hf_last_updated" translatable="true" description="Label showing when a model was last updated. [CHAR_LIMIT=21]">Updated %1$s</string>
+  <string name="hf_last_updated" translatable="true" description="Label showing when a model was last updated. [CHAR_LIMIT=21]">Actualizado %1$s</string>
 
   <string name="could_not_fetch_model_details" translatable="true" description="Error message when fetching Hugging Face model details fails. [CHAR_LIMIT=123]">No se pudieron cargar los detalles del modelo para %1$s. Verifica la URL e inténtalo de nuevo.</string>
 
@@ -1305,9 +1305,9 @@
 
   <string name="cd_undo" translatable="true" description="Content description for the undo button to revert the last action. [CHAR_LIMIT=18]">Undo</string>
 
-  <string name="import_model" translatable="true" description="Title of the dialog that allows users to import a model from their local storage. [CHAR_LIMIT=23]">Import Model</string>
+  <string name="import_model" translatable="true" description="Title of the dialog that allows users to import a model from their local storage. [CHAR_LIMIT=23]">Importar Modelo</string>
 
-  <string name="import_action" translatable="true" description="Label for the button that confirms and starts the model import process. [CHAR_LIMIT=18]">Import</string>
+  <string name="import_action" translatable="true" description="Label for the button that confirms and starts the model import process. [CHAR_LIMIT=18]">Importar</string>
 
   <string name="failed_to_import" translatable="true" description="Error message shown when a model import process fails. [CHAR_LIMIT=30]">Fallo la importación</string>
 
@@ -1339,7 +1339,7 @@
 
   <string name="gated_model_agreement_help" translatable="true" description="Instruction explaining that the model is gated and the user must agree to terms externally before downloading. [CHAR_LIMIT=264]">Este es un modelo con acceso restringido. Haz clic en el botón de abajo para ver y aceptar el acuerdo de usuario. Después de aceptar, simplemente cierra esa pestaña para continuar con la descarga del modelo.</string>
 
-  <string name="open_user_agreement" translatable="true" description="Label for the button that opens the user agreement in a web browser. [CHAR_LIMIT=30]">Open user agreement</string>
+  <string name="open_user_agreement" translatable="true" description="Label for the button that opens the user agreement in a web browser. [CHAR_LIMIT=30]">Abrir acuerdo de usuario</string>
 
   <string name="disabled_skill_dialog_title" translatable="true" description="Title of the alert dialog indicating that a specific agent skill (passed as a parameter) is disabled. [CHAR_LIMIT=45]">The \'%s\' skill is currently disabled</string>
 
@@ -1437,27 +1437,29 @@
 
   <string name="config_label_max_char_count" translatable="false">Max character count</string>
 
-  <string name="new_badge" translatable="true" description="Badge label indicating a new feature. [CHAR_LIMIT=8]">New</string>
+  <string name="new_badge" translatable="true" description="Badge label indicating a new feature. [CHAR_LIMIT=8]">Nuevo</string>
 
   <string name="gemma_reskin_try_gemma_4_chat" translatable="true" description="Promo card description to try Gemma 4 chat. [CHAR_LIMIT=65]">Chatea con el último modelo Gemma 4 hoy</string>
 
   <string name="gemma_reskin_try_gemma_4_skills" translatable="true" description="Promo card description to try Gemma 4 skills. [CHAR_LIMIT=65]">Haz que Gemma 4 complete tareas agénticas por ti</string>
 
-  <string name="prompt_lab_response_placeholder" translatable="true" description="Placeholder text indicating where the model response will appear. [CHAR_LIMIT=39]">Response will appear here</string>
+  <string name="prompt_lab_response_placeholder" translatable="true" description="Placeholder text indicating where the model response will appear. [CHAR_LIMIT=39]">La respuesta aparecerá aquí</string>
 
-  <string name="prompt_lab_enter_content_placeholder" translatable="true" description="Placeholder text in the input area for Prompt Lab. [CHAR_LIMIT=110]">Enter content</string>
+  <string name="prompt_lab_enter_content_placeholder" translatable="true" description="Placeholder text in the input area for Prompt Lab. [CHAR_LIMIT=110]">Ingresar contenido</string>
 
-  <string name="prompt_lab_select_example_title" translatable="true" description="Title for the section showing example prompts. [CHAR_LIMIT=29]">Select an example</string>
+  <string name="prompt_lab_select_example_title" translatable="true" description="Title for the section showing example prompts. [CHAR_LIMIT=29]">Seleccionar un ejemplo</string>
 
-  <string name="model_download_background_notice" translatable="true" description="Notice for Android users that the download will continue in the background if they switch apps or lock the device, and they will be notified when it is done. [CHAR_LIMIT=234]">Feel free to switch apps or lock your device.\nThe download will continue in the background.\nWe\'ll send a notification when it\'s done.</string>
+  <string name="model_download_background_notice" translatable="true" description="Notice for Android users that the download will continue in the background if they switch apps or lock the device, and they will be notified when it is done. [CHAR_LIMIT=234]">No dudes en cambiar de app o bloquear tu dispositivo.
+La descarga continuará en segundo plano.
+Te enviaremos una notificación cuando termine.</string>
 
-  <string name="model_download_try_button" translatable="true" description="Button label to download and try a model. [CHAR_LIMIT=30]">Download &amp; Try it</string>
+  <string name="model_download_try_button" translatable="true" description="Button label to download and try a model. [CHAR_LIMIT=30]">Descargar y Probar</string>
 
-  <string name="media_picker_record_audio" translatable="true" description="Menu option to record an audio clip as input. [CHAR_LIMIT=24]">Record audio clip</string>
+  <string name="media_picker_record_audio" translatable="true" description="Menu option to record an audio clip as input. [CHAR_LIMIT=24]">Grabar clip de audio</string>
 
-  <string name="media_picker_pick_wav" translatable="true" description="Menu option to pick a local WAV audio file. [CHAR_LIMIT=22]">Pick wav file</string>
+  <string name="media_picker_pick_wav" translatable="true" description="Menu option to pick a local WAV audio file. [CHAR_LIMIT=22]">Seleccionar archivo WAV</string>
 
-  <string name="media_picker_import_text_file" translatable="true" description="Menu option to import a text or markdown file. [CHAR_LIMIT=24]">Import text file</string>
+  <string name="media_picker_import_text_file" translatable="true" description="Menu option to import a text or markdown file. [CHAR_LIMIT=24]">Importar archivo de texto</string>
 
   <string name="text_input_history_title" translatable="true" description="Title of the history popup showing previous text inputs. [CHAR_LIMIT=31]">Text input history</string>
 
@@ -1465,43 +1467,43 @@
 
   <string name="clear_history_message" translatable="true" description="Message asking the user to confirm clearing the input history. [CHAR_LIMIT=131]">¿Estás seguro de que quieres borrar el historial? Esta acción no se puede deshacer.</string>
 
-  <string name="prompt_lab_tab_free_form" translatable="true" description="Label for the Free Form tab in Prompt Lab. [CHAR_LIMIT=14]">Free form</string>
+  <string name="prompt_lab_tab_free_form" translatable="true" description="Label for the Free Form tab in Prompt Lab. [CHAR_LIMIT=14]">Forma libre</string>
 
-  <string name="prompt_lab_tab_rewrite_tone" translatable="true" description="Label for the Rewrite Tone tab in Prompt Lab. [CHAR_LIMIT=14]">Rewrite tone</string>
+  <string name="prompt_lab_tab_rewrite_tone" translatable="true" description="Label for the Rewrite Tone tab in Prompt Lab. [CHAR_LIMIT=14]">Reescribir tono</string>
 
-  <string name="prompt_lab_tab_summarize_text" translatable="true" description="Label for the Summarize Text tab in Prompt Lab. [CHAR_LIMIT=14]">Summarize text</string>
+  <string name="prompt_lab_tab_summarize_text" translatable="true" description="Label for the Summarize Text tab in Prompt Lab. [CHAR_LIMIT=14]">Resumir texto</string>
 
-  <string name="prompt_lab_tab_code_snippet" translatable="true" description="Label for the Code Snippet tab in Prompt Lab. [CHAR_LIMIT=14]">Code snippet</string>
+  <string name="prompt_lab_tab_code_snippet" translatable="true" description="Label for the Code Snippet tab in Prompt Lab. [CHAR_LIMIT=14]">Fragmento de código</string>
 
-  <string name="prompt_lab_label_tone" translatable="true" description="Label for the Tone input editor. [CHAR_LIMIT=18]">Tone</string>
+  <string name="prompt_lab_label_tone" translatable="true" description="Label for the Tone input editor. [CHAR_LIMIT=18]">Tono</string>
 
-  <string name="prompt_lab_label_style" translatable="true" description="Label for the Style input editor. [CHAR_LIMIT=18]">Style</string>
+  <string name="prompt_lab_label_style" translatable="true" description="Label for the Style input editor. [CHAR_LIMIT=18]">Estilo</string>
 
-  <string name="prompt_lab_label_language" translatable="true" description="Label for the Language input editor. [CHAR_LIMIT=18]">Language</string>
+  <string name="prompt_lab_label_language" translatable="true" description="Label for the Language input editor. [CHAR_LIMIT=18]">Idioma</string>
 
   <string name="prompt_lab_tone_formal" translatable="true" description="Option for formal rewrite tone. [CHAR_LIMIT=16]">Formal</string>
 
   <string name="prompt_lab_tone_casual" translatable="true" description="Option for casual rewrite tone. [CHAR_LIMIT=16]">Casual</string>
 
-  <string name="prompt_lab_tone_friendly" translatable="true" description="Option for friendly rewrite tone. [CHAR_LIMIT=16]">Friendly</string>
+  <string name="prompt_lab_tone_friendly" translatable="true" description="Option for friendly rewrite tone. [CHAR_LIMIT=16]">Amigable</string>
 
-  <string name="prompt_lab_tone_polite" translatable="true" description="Option for polite rewrite tone. [CHAR_LIMIT=16]">Polite</string>
+  <string name="prompt_lab_tone_polite" translatable="true" description="Option for polite rewrite tone. [CHAR_LIMIT=16]">Cortés</string>
 
-  <string name="prompt_lab_tone_enthusiastic" translatable="true" description="Option for enthusiastic rewrite tone. [CHAR_LIMIT=21]">Enthusiastic</string>
+  <string name="prompt_lab_tone_enthusiastic" translatable="true" description="Option for enthusiastic rewrite tone. [CHAR_LIMIT=21]">Entusiasta</string>
 
-  <string name="prompt_lab_tone_concise" translatable="true" description="Option for concise rewrite tone. [CHAR_LIMIT=16]">Concise</string>
+  <string name="prompt_lab_tone_concise" translatable="true" description="Option for concise rewrite tone. [CHAR_LIMIT=16]">Conciso</string>
 
   <string name="prompt_lab_summary_key_bullet_points" translatable="true" description="Option for summary in key bullet points (3â€“5). [CHAR_LIMIT=38]">Key bullet points (3â€“5)</string>
 
   <string name="prompt_lab_summary_short_paragraph" translatable="true" description="Option for summary in a short paragraph (1â€“2 sentences). [CHAR_LIMIT=50]">Short paragraph (1â€“2 sentences)</string>
 
-  <string name="prompt_lab_summary_concise_summary" translatable="true" description="Option for summary in a concise summary (~50 words). [CHAR_LIMIT=44]">Concise summary (~50 words)</string>
+  <string name="prompt_lab_summary_concise_summary" translatable="true" description="Option for summary in a concise summary (~50 words). [CHAR_LIMIT=44]">Resumen conciso (~50 palabras)</string>
 
-  <string name="prompt_lab_summary_headline_title" translatable="true" description="Option for summary as a headline / title. [CHAR_LIMIT=24]">Headline / title</string>
+  <string name="prompt_lab_summary_headline_title" translatable="true" description="Option for summary as a headline / title. [CHAR_LIMIT=24]">Título / encabezado</string>
 
-  <string name="prompt_lab_summary_one_sentence" translatable="true" description="Option for summary in one-sentence summary. [CHAR_LIMIT=24]">One-sentence summary</string>
+  <string name="prompt_lab_summary_one_sentence" translatable="true" description="Option for summary in one-sentence summary. [CHAR_LIMIT=24]">Resumen de una oración</string>
 
-  <string name="prompt_lab_preview_prompt" translatable="true" description="Button label to preview the fully constructed prompt before sending. [CHAR_LIMIT=26]">Preview prompt</string>
+  <string name="prompt_lab_preview_prompt" translatable="true" description="Button label to preview the fully constructed prompt before sending. [CHAR_LIMIT=26]">Vista previa del mensaje</string>
 
   <string name="api_doc" translatable="true" description="Label for the link to API documentation. [CHAR_LIMIT=30]">Documentación de API</string>
 
@@ -1551,7 +1553,7 @@
 
   <string name="remove" translatable="true" description="Text on a button that removes an optional component or item. [CHAR_LIMIT=15]">Remove</string>
 
-  <string name="optional_components" translatable="true" description="Title for the optional components section in model details. [CHAR_LIMIT=30]">Optional components</string>
+  <string name="optional_components" translatable="true" description="Title for the optional components section in model details. [CHAR_LIMIT=30]">Componentes opcionales</string>
 
   <string name="download_sample_images_optional" translatable="true" description="Checkbox label to download sample images with model in Instant Media Search. [CHAR_LIMIT=50]">Descargar imágenes de muestra (opcional)</string>
 
@@ -2011,7 +2013,7 @@
 
   <string name="compress_and_continue_button" translatable="true" description="This string appears within the token limit banner as a button label. When tapped, it triggers conversation context compression and allows the user to continue chatting. [CHAR_LIMIT=30]">Comprimir y continuar</string>
 
-  <string name="new_chat_button" translatable="true" description="This string appears within the token limit banner as a button label. When tapped, it starts a new chat session with cleared history. [CHAR_LIMIT=20]">New chat</string>
+  <string name="new_chat_button" translatable="true" description="This string appears within the token limit banner as a button label. When tapped, it starts a new chat session with cleared history. [CHAR_LIMIT=20]">Nuevo chat</string>
 
   <string name="compressing_context" translatable="true" description="This string appears within the chat banner alongside a loading spinner while the conversation context is being summarized and compressed. [CHAR_LIMIT=70]">Token limit approaching. Compressing contextâ€¦</string>
 
@@ -2021,7 +2023,7 @@
 
   <string name="context_compaction_failed_message" translatable="true" description="This string appears in an error dialog when compressing the conversation context fails. [CHAR_LIMIT=120]">No se pudo comprimir el contexto de la conversación. Inténtalo de nuevo.</string>
 
-  <string name="model_manager_models_count_title" translatable="true" description="Title in the Global Model Manager top app bar showing the total number of models. [CHAR_LIMIT=30]">Models (%1$d)</string>
+  <string name="model_manager_models_count_title" translatable="true" description="Title in the Global Model Manager top app bar showing the total number of models. [CHAR_LIMIT=30]">Modelos (%1$d)</string>
 
   <string name="tts_prev_sentence" translatable="true" description="Button or action label to navigate to the previous sentence in text-to-speech playback. [CHAR_LIMIT=30]">Previous sentence</string>
 
@@ -2091,7 +2093,7 @@
 
   <string name="supplementary_models_tab_title" translatable="true" description="Tab label in the Model Manager for supplementary models (such as TTS models), with a placeholder for the number of models. [CHAR_LIMIT=35]">Supplementary (%1$d)</string>
 
-  <string name="main_models_tab_title" translatable="true" description="Tab label in the Model Manager for main LLM models, with a placeholder for the number of models. [CHAR_LIMIT=30]">Main models (%1$d)</string>
+  <string name="main_models_tab_title" translatable="true" description="Tab label in the Model Manager for main LLM models, with a placeholder for the number of models. [CHAR_LIMIT=30]">Modelos principales (%1$d)</string>
 
   <string name="tts_available_voices_label" translatable="true" description="Header label for the list of available voices on a supplementary model card. [CHAR_LIMIT=30]">Available voices</string>
 
@@ -2111,15 +2113,15 @@
 
   <string name="tts_voice_label_female" translatable="true" description="Formatted TTS voice display name with female gender indicator, where %1$s is the voice persona name. [CHAR_LIMIT=60]">%1$s (Female)</string>
 
-  <string name="model_status_ready_builtin" translatable="true" description="Status label beneath an ASR or TTS model selector when a built-in system engine is selected and ready. [CHAR_LIMIT=30]">Ready (Built-in)</string>
+  <string name="model_status_ready_builtin" translatable="true" description="Status label beneath an ASR or TTS model selector when a built-in system engine is selected and ready. [CHAR_LIMIT=30]">Listo (integrado)</string>
 
-  <string name="model_status_ready" translatable="true" description="Status label beneath an ASR or TTS model selector when the selected model is downloaded and ready. [CHAR_LIMIT=20]">Ready</string>
+  <string name="model_status_ready" translatable="true" description="Status label beneath an ASR or TTS model selector when the selected model is downloaded and ready. [CHAR_LIMIT=20]">Listo</string>
 
   <string name="model_status_initializing" translatable="true" description="Status label beneath an ASR or TTS model selector while the selected model engine is initializing. [CHAR_LIMIT=30]">Initializingâ€¦</string>
 
   <string name="model_status_downloading_percent" translatable="true" description="Status label beneath an ASR or TTS model selector while the selected model is downloading, where %1$d is integer percentage. [CHAR_LIMIT=35]">Downloading (%1$d%%)â€¦</string>
 
-  <string name="model_status_not_downloaded" translatable="true" description="Status label beneath an ASR or TTS model selector when the selected model has not been downloaded yet. [CHAR_LIMIT=30]">Not downloaded</string>
+  <string name="model_status_not_downloaded" translatable="true" description="Status label beneath an ASR or TTS model selector when the selected model has not been downloaded yet. [CHAR_LIMIT=30]">No descargado</string>
 
   <string name="model_status_unavailable_using" translatable="true" description="Status label beneath an ASR or TTS model selector when the selected model can't be used and the app uses another speech engine instead. %1$s is the selected model name, for example 'Kokoro 82M (TTS)'. %2$s is the engine used instead, for example 'Android System (Built-in)'. [CHAR_LIMIT=80]">%1$s unavailable Â· using %2$s</string>
 
@@ -2206,25 +2208,25 @@
 
   <string name="tts_system_voice_numbered_format" translatable="true" tools:ignore="PluralsCandidate" description="Display label for an installed system text-to-speech voice profile in the voice picker when no short speaker code is available; Voice is a noun referring to generic spoken speech output, not a product name. %1$d is the 1-based index of the voice within the selected language (for example, 1). Example: Voice 1. [CHAR_LIMIT=25]">Voice %1$d</string>
 
-  <string name="live_metrics_speed" translatable="true" description="Column header label in the live inference metrics banner above the chat input box indicating token generation rate; Speed is a noun. [CHAR_LIMIT=15]">Speed</string>
+  <string name="live_metrics_speed" translatable="true" description="Column header label in the live inference metrics banner above the chat input box indicating token generation rate; Speed is a noun. [CHAR_LIMIT=15]">Velocidad</string>
 
-  <string name="live_metrics_speed_decode_annotation" translatable="true" description="Small annotation label shown next to the primary token per second value in the Speed column of the live inference metrics banner to clarify that the primary rate is token decode speed. [CHAR_LIMIT=12]">decode</string>
+  <string name="live_metrics_speed_decode_annotation" translatable="true" description="Small annotation label shown next to the primary token per second value in the Speed column of the live inference metrics banner to clarify that the primary rate is token decode speed. [CHAR_LIMIT=12]">decodificación</string>
 
   <string name="live_metrics_tokens" translatable="true" description="Column header label in the live inference metrics banner above the chat input box indicating prompt and generated token counts; Tokens is a plural noun. [CHAR_LIMIT=15]">Tokens</string>
 
   <string name="live_metrics_ram" translatable="true" description="Column header label in the live inference metrics banner above the chat input box indicating resident system memory usage; RAM is an acronym for Random Access Memory. [CHAR_LIMIT=15]">RAM</string>
 
-  <string name="live_metrics_context" translatable="true" description="Row label in the live inference metrics banner above the chat input box indicating conversation context window token utilization; Context is a noun. [CHAR_LIMIT=15]">Context</string>
+  <string name="live_metrics_context" translatable="true" description="Row label in the live inference metrics banner above the chat input box indicating conversation context window token utilization; Context is a noun. [CHAR_LIMIT=15]">Contexto</string>
 
-  <string name="live_metrics_context_compress_mark" translatable="true" description="Small marker label shown at the compression threshold tick mark on the context window progress bar in the live inference metrics banner, indicating the percentage threshold where automatic context compression occurs. %1$d is the percentage threshold (for example, 75). [CHAR_LIMIT=20]">%1$d%% compress</string>
+  <string name="live_metrics_context_compress_mark" translatable="true" description="Small marker label shown at the compression threshold tick mark on the context window progress bar in the live inference metrics banner, indicating the percentage threshold where automatic context compression occurs. %1$d is the percentage threshold (for example, 75). [CHAR_LIMIT=20]">%1$d%% comprimir</string>
 
-  <string name="live_metrics_prefilling" translatable="true" description="Status text shown in the Speed column of the live inference metrics banner while the model is ingesting and processing the input prompt before generating tokens. [CHAR_LIMIT=20]">Prefilling\u2026</string>
+  <string name="live_metrics_prefilling" translatable="true" description="Status text shown in the Speed column of the live inference metrics banner while the model is ingesting and processing the input prompt before generating tokens. [CHAR_LIMIT=20]">Prefillando…</string>
 
-  <string name="live_metrics_generating" translatable="true" description="Status text shown in the Speed column of the live inference metrics banner when the first token has arrived and response tokens are actively being generated. [CHAR_LIMIT=20]">Generating\u2026</string>
+  <string name="live_metrics_generating" translatable="true" description="Status text shown in the Speed column of the live inference metrics banner when the first token has arrived and response tokens are actively being generated. [CHAR_LIMIT=20]">Generando…</string>
 
-  <string name="live_metrics_init_seconds_format" translatable="true" description="Subtext in the Speed column of the live inference metrics banner showing model initialization duration in seconds. %1$.1f is the duration in seconds formatted to one decimal place (for example, 5.7). [CHAR_LIMIT=20]">Init: %1$.1fs</string>
+  <string name="live_metrics_init_seconds_format" translatable="true" description="Subtext in the Speed column of the live inference metrics banner showing model initialization duration in seconds. %1$.1f is the duration in seconds formatted to one decimal place (for example, 5.7). [CHAR_LIMIT=20]">Inicio: %1$.1fs</string>
 
-  <string name="live_metrics_init_ms_format" translatable="true" description="Subtext in the Speed column of the live inference metrics banner showing model initialization duration in milliseconds. %1$d is the duration in whole milliseconds (for example, 850). [CHAR_LIMIT=20]">Init: %1$d ms</string>
+  <string name="live_metrics_init_ms_format" translatable="true" description="Subtext in the Speed column of the live inference metrics banner showing model initialization duration in milliseconds. %1$d is the duration in whole milliseconds (for example, 850). [CHAR_LIMIT=20]">Inicio: %1$d ms</string>
 
   <string name="live_metrics_ttft_format" translatable="true" description="Subtext in the Speed column of the live inference metrics banner showing Time To First Token in milliseconds. %1$d is the latency in whole milliseconds (for example, 327). TTFT is an acronym for Time To First Token. [CHAR_LIMIT=20]">TTFT: %1$d ms</string>
 
@@ -2260,17 +2262,19 @@
 
   <string name="cd_live_metrics_info" translatable="true" description="Accessibility content description for the info icon button in the top-right corner of the live inference metrics banner. [CHAR_LIMIT=40]">About live metrics</string>
 
-  <string name="live_metrics_info_tooltip" translatable="true" description="Tooltip text shown when the user taps the info icon in the live inference metrics banner, starting with a summary line and concisely explaining each metric on its own line: RAM (peak total app memory and percentage of device RAM) and Context (percentage threshold where automatic context compression triggers). %1$d is the context compression percentage threshold (for example, 75). Note: %% represents a literal percent sign '%' and must be preserved as %%. [CHAR_LIMIT=200]">Live stats for response speed, token usage, memory, and context space.\nRAM: Peak total app memory (%% of device RAM)\nContext: Compresses around %1$d%%</string>
+  <string name="live_metrics_info_tooltip" translatable="true" description="Tooltip text shown when the user taps the info icon in the live inference metrics banner, starting with a summary line and concisely explaining each metric on its own line: RAM (peak total app memory and percentage of device RAM) and Context (percentage threshold where automatic context compression triggers). %1$d is the context compression percentage threshold (for example, 75). Note: %% represents a literal percent sign '%' and must be preserved as %%. [CHAR_LIMIT=200]">Estadísticas en vivo para velocidad de respuesta, uso de tokens, memoria y espacio de contexto.
+RAM: Memoria total máxima de la app (% del RAM del dispositivo)
+Contexto: Se comprime alrededor de %1$d%%</string>
 
-  <string name="live_metrics_compressing_context" translatable="true" description="Status text shown in the Context row of the live inference metrics banner while conversation context is actively being compressed. [CHAR_LIMIT=30]">Compressing context\u2026</string>
+  <string name="live_metrics_compressing_context" translatable="true" description="Status text shown in the Context row of the live inference metrics banner while conversation context is actively being compressed. [CHAR_LIMIT=30]">Comprimiendo contexto…</string>
 
-  <string name="live_metrics_toggle_prompt" translatable="true" description="Short discovery label shown once inside the expandable live inference metrics toggle pill button in the chat input bar, inviting the user to tap it to view real-time model performance metrics. [CHAR_LIMIT=30]">Try live metrics!</string>
+  <string name="live_metrics_toggle_prompt" translatable="true" description="Short discovery label shown once inside the expandable live inference metrics toggle pill button in the chat input bar, inviting the user to tap it to view real-time model performance metrics. [CHAR_LIMIT=30]">¡Prueba las métricas en vivo!</string>
 
-  <string name="model_selection_main_models_title" translatable="true" description="Header of the section listing the main models (the AI models that run the task) on the model selection screen. [CHAR_LIMIT=24]">Main models</string>
+  <string name="model_selection_main_models_title" translatable="true" description="Header of the section listing the main models (the AI models that run the task) on the model selection screen. [CHAR_LIMIT=24]">Modelos principales</string>
 
-  <string name="model_selection_asr_models_title" translatable="true" description="Header of the section listing the automatic speech recognition (ASR) models on the model selection screen. Keep the abbreviation ASR. [CHAR_LIMIT=24]">ASR models</string>
+  <string name="model_selection_asr_models_title" translatable="true" description="Header of the section listing the automatic speech recognition (ASR) models on the model selection screen. Keep the abbreviation ASR. [CHAR_LIMIT=24]">Modelos ASR</string>
 
-  <string name="model_selection_tts_models_title" translatable="true" description="Header of the section listing the text-to-speech (TTS) models on the model selection screen. Keep the abbreviation TTS. [CHAR_LIMIT=24]">TTS models</string>
+  <string name="model_selection_tts_models_title" translatable="true" description="Header of the section listing the text-to-speech (TTS) models on the model selection screen. Keep the abbreviation TTS. [CHAR_LIMIT=24]">Modelos TTS</string>
 
   <plurals name="model_selection_main_models_selected" translatable="true" description="Line in the summary panel at the bottom of the model selection screen saying how many main models (the AI models that run the task) are selected. %d is the number of selected models, for example 1. [CHAR_LIMIT=40] applies across all plural variants.">
     <item quantity="one">%d main model selected</item>
@@ -2302,7 +2306,7 @@
     <item quantity="other">%d TTS models</item>
   </plurals>
 
-  <string name="model_selection_header_count_separator" translatable="true" description="Separator between the model counts on the model selection screen, for example between '4 main models' and '2 ASR models'. Keep the spaces around the dot. [CHAR_LIMIT=12]">" \u2022 "</string>
+  <string name="model_selection_header_count_separator" translatable="true" description="Separator between the model counts on the model selection screen, for example between '4 main models' and '2 ASR models'. Keep the spaces around the dot. [CHAR_LIMIT=12]"> • </string>
 
   <plurals name="model_selection_main_models_selected_short" translatable="true" description="Short count of the selected main models (the AI models that run the task) in the collapsed summary panel of the model selection screen. It is joined with the ASR and TTS counts into a locale-formatted list and completed by model_selection_summary_collapsed, for example 'Selected: 1 main, 1 ASR, and 0 TTS'. %d is the number of selected models. [CHAR_LIMIT=12] applies across all plural variants.">
     <item quantity="one">%d main</item>
@@ -2319,14 +2323,14 @@
     <item quantity="other">%d TTS</item>
   </plurals>
 
-  <string name="model_selection_summary_collapsed" translatable="true" description="Collapsed summary panel at the bottom of the model selection screen; Selected is an adjective describing the chosen models. %1$s is a locale-formatted list of short counts per kind of model, for example '1 main, 1 ASR, and 0 TTS'. Example: 'Selected: 1 main, 1 ASR, and 0 TTS'. [CHAR_LIMIT=50]">Selected: %1$s</string>
+  <string name="model_selection_summary_collapsed" translatable="true" description="Collapsed summary panel at the bottom of the model selection screen; Selected is an adjective describing the chosen models. %1$s is a locale-formatted list of short counts per kind of model, for example '1 main, 1 ASR, and 0 TTS'. Example: 'Selected: 1 main, 1 ASR, and 0 TTS'. [CHAR_LIMIT=50]">Seleccionados: %1$s</string>
 
   <plurals name="model_selection_summary_expanded_title" translatable="true" description="Title of the expanded summary panel at the bottom of the model selection screen. %1$d is the number of kinds of model (main, ASR, TTS) that have a selection and %2$d the number of kinds the task needs, for example '2/3 models selected'. The plural follows %2$d. [CHAR_LIMIT=30] applies across all plural variants.">
     <item quantity="one">%1$d/%2$d model selected</item>
     <item quantity="other">%1$d/%2$d models selected</item>
   </plurals>
 
-  <string name="model_selection_summary_none" translatable="true" description="Shown in the expanded summary panel of the model selection screen, in place of a model name, when no model of that kind is selected yet. [CHAR_LIMIT=16]">None</string>
+  <string name="model_selection_summary_none" translatable="true" description="Shown in the expanded summary panel of the model selection screen, in place of a model name, when no model of that kind is selected yet. [CHAR_LIMIT=16]">Ninguno</string>
 
   <string name="model_selection_no_shared_languages_banner" translatable="true" description="Error banner above the disabled Try it button on the model selection screen when the selected speech recognition (ASR) and text-to-speech (TTS) models don't support any language in common. Keep the abbreviations ASR and TTS. [CHAR_LIMIT=200]">The selected ASR and TTS models donâ€™t share any supported languages. Choose a different ASR or TTS model.</string>
 
@@ -2339,15 +2343,15 @@
 
   <string name="cd_model_selection_section_info" translatable="true" description="Content description of the info button next to a section header on the model selection screen, which shows what that kind of model does. %1$s is the section title, for example 'Main models'. [CHAR_LIMIT=NONE]">About %1$s</string>
 
-  <string name="model_selection_no_main_models" translatable="true" description="Message shown in the main models section of the model selection screen when no main model can run on this device. [CHAR_LIMIT=60]">No main models available on this device</string>
+  <string name="model_selection_no_main_models" translatable="true" description="Message shown in the main models section of the model selection screen when no main model can run on this device. [CHAR_LIMIT=60]">No hay modelos principales disponibles en este dispositivo</string>
 
-  <string name="model_selection_no_asr_models" translatable="true" description="Message shown in the automatic speech recognition (ASR) section of the model selection screen when no ASR model can run on this device. Keep the abbreviation ASR. [CHAR_LIMIT=60]">No ASR models available on this device</string>
+  <string name="model_selection_no_asr_models" translatable="true" description="Message shown in the automatic speech recognition (ASR) section of the model selection screen when no ASR model can run on this device. Keep the abbreviation ASR. [CHAR_LIMIT=60]">No hay modelos ASR disponibles en este dispositivo</string>
 
-  <string name="model_selection_no_tts_models" translatable="true" description="Message shown in the text-to-speech (TTS) section of the model selection screen when no TTS model can run on this device. Keep the abbreviation TTS. [CHAR_LIMIT=60]">No TTS models available on this device</string>
+  <string name="model_selection_no_tts_models" translatable="true" description="Message shown in the text-to-speech (TTS) section of the model selection screen when no TTS model can run on this device. Keep the abbreviation TTS. [CHAR_LIMIT=60]">No hay modelos TTS disponibles en este dispositivo</string>
 
-  <string name="model_selection_downloading" translatable="true" description="Status shown in the summary panel of the model selection screen while the selected models are downloading before the task starts. [CHAR_LIMIT=32]">Downloading models\u2026</string>
+  <string name="model_selection_downloading" translatable="true" description="Status shown in the summary panel of the model selection screen while the selected models are downloading before the task starts. [CHAR_LIMIT=32]">Descargando modelos…</string>
 
-  <string name="model_selection_checking" translatable="true" description="Status shown in the summary panel of the model selection screen while the app checks that the selected models are ready, just before the task starts. [CHAR_LIMIT=32]">Checking models\u2026</string>
+  <string name="model_selection_checking" translatable="true" description="Status shown in the summary panel of the model selection screen while the app checks that the selected models are ready, just before the task starts. [CHAR_LIMIT=32]">Verificando modelos…</string>
 
   <string name="speech_engine_error_asr_title" translatable="true" description="Title of the dialog shown when the selected speech recognition model, which turns what the user says into text, can't start. [CHAR_LIMIT=50]">Couldn\'t start speech recognition</string>
 
@@ -2375,17 +2379,17 @@
 
   <string name="audio_config_onboarding_got_it" translatable="true" description="Action button label on the Model Config onboarding tooltip that acknowledges and dismisses the tooltip. [CHAR_LIMIT=18]">Got it</string>
 
-  <string name="microphone_access_denied_title" translatable="true" description="Title of the alert dialog shown when the user tries to record audio or use voice input while microphone permission is turned off. [CHAR_LIMIT=40]">Microphone Access Denied</string>
+  <string name="microphone_access_denied_title" translatable="true" description="Title of the alert dialog shown when the user tries to record audio or use voice input while microphone permission is turned off. [CHAR_LIMIT=40]">Acceso al micrófono denegado</string>
 
-  <string name="microphone_access_denied_message" translatable="true" description="Body message of the alert dialog instructing the user to enable microphone access in the system Settings app to record audio. [CHAR_LIMIT=130]">Please enable microphone access for this app in Settings to record audio.</string>
+  <string name="microphone_access_denied_message" translatable="true" description="Body message of the alert dialog instructing the user to enable microphone access in the system Settings app to record audio. [CHAR_LIMIT=130]">Por favor habilita el acceso al micrófono para esta app en Configuración para grabar audio.</string>
 
   <string name="camera_access_denied_title" translatable="true" description="Title of the alert dialog or camera overlay shown when camera permission is turned off. Camera is a generic term, not a product name. [CHAR_LIMIT=35]">Acceso a la cámara denegado</string>
 
   <string name="camera_access_denied_message" translatable="true" description="Body message of the alert dialog or camera overlay instructing the user to enable camera access in the system Settings app to use the camera. [CHAR_LIMIT=125]">Por favor habilita el acceso a la cámara para esta app en Configuración para usar la cámara.</string>
 
-  <string name="open_settings" translatable="true" description="Button label in a permission denied dialog or camera overlay that opens the app's system Settings page so the user can grant permissions. [CHAR_LIMIT=25]">Open Settings</string>
+  <string name="open_settings" translatable="true" description="Button label in a permission denied dialog or camera overlay that opens the app's system Settings page so the user can grant permissions. [CHAR_LIMIT=25]">Abrir Configuración</string>
 
-  <string name="model_selection_supported_languages_title" translatable="true" description="Header of the collapsible section inside an expanded speech model card on the model selection screen that lists the languages supported by the model. [CHAR_LIMIT=35]">Supported languages</string>
+  <string name="model_selection_supported_languages_title" translatable="true" description="Header of the collapsible section inside an expanded speech model card on the model selection screen that lists the languages supported by the model. [CHAR_LIMIT=35]">Idiomas compatibles</string>
 
   <string name="model_selection_section_count_format" translatable="true" tools:ignore="PluralsCandidate" description="Parenthetical item count shown next to the Supported languages header inside an expanded speech model card on the model selection screen, where %1$d is the number of supported languages (for example, (8)). [CHAR_LIMIT=12]">(%1$d)</string>
 
