@@ -48,6 +48,7 @@ data class HfExploreUiState(
   val selectedSort: HfSortOptionProto = HfSortOptionProto.HF_SORT_OPTION_TRENDING,
   val typeFilter: String = "all",
   val compatibleOnly: Boolean = false,
+  val sizeFilter: String = "all",
   val models: List<HfModelItemProto> = emptyList(),
   val isLoading: Boolean = false,
   val isFetchingDetails: Boolean = false,
@@ -145,6 +146,10 @@ constructor(
 
   fun onCompatibleOnlyChanged(compatible: Boolean) {
     _uiState.update { it.copy(compatibleOnly = compatible) }
+  }
+
+  fun onSizeFilterChanged(size: String) {
+    _uiState.update { it.copy(sizeFilter = size) }
   }
     _uiState.update { it.copy(selectedModelForDetails = null) }
   }

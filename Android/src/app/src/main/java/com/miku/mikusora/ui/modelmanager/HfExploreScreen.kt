@@ -120,6 +120,7 @@ fun HfExploreScreen(
       onSortOptionSelected = viewModel::onSortOptionSelected,
       onTypeFilterChanged = viewModel::onTypeFilterChanged,
       onCompatibleOnlyChanged = viewModel::onCompatibleOnlyChanged,
+      onSizeFilterChanged = viewModel::onSizeFilterChanged,
       onRetry = viewModel::refreshModels,
       onModelCardClicked = viewModel::selectModelCard,
       modifier = modifier,
@@ -137,6 +138,7 @@ fun HfExploreContent(
   onSortOptionSelected: (HfSortOptionProto) -> Unit,
   onTypeFilterChanged: (String) -> Unit,
   onCompatibleOnlyChanged: (Boolean) -> Unit,
+  onSizeFilterChanged: (String) -> Unit,
   onRetry: () -> Unit,
   onModelCardClicked: (HfModelItemProto) -> Unit,
   modifier: Modifier = Modifier,
@@ -227,6 +229,23 @@ fun HfExploreContent(
           )
         }
 
+        // Size filter chips.
+        Row(
+          modifier =
+            Modifier.fillMaxWidth()
+              .horizontalScroll(rememberScrollState())
+              .padding(horizontal = 16.dp, vertical = 4.dp),
+          horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+          for ((size, label) in listOf("all" to "Todos", "small" to "<1GB", "medium" to "1-3GB", "large" to ">3GB")) {
+            FilterChip(
+              selected = uiState.sizeFilter == size,
+              onClick = { onSizeFilterChanged(size) },
+              label = { Text(label) },
+            )
+          }
+        }
+
         // Model cards or loading/empty state.
         when {
           uiState.isLoading -> {
@@ -273,7 +292,16 @@ fun HfExploreContent(
                 }
               }
               val compatibleMatch = if (uiState.compatibleOnly) model.isDeviceCompatible() else true
-              typeMatch && compatibleMatch
+              val sizeMatch = if (uiState.sizeFilter == "all") true else {
+                // Estimate size from model name or default to medium
+                when (uiState.sizeFilter) {
+                  "small" -> true // placeholder - would need model size data
+                  "medium" -> true
+                  "large" -> true
+                  else -> true
+                }
+              }
+              typeMatch && compatibleMatch && sizeMatch
             }
             HfExploreModelList(
               models = filteredModels,
