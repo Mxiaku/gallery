@@ -1565,15 +1565,15 @@ Te enviaremos una notificación cuando termine.</string>
 
   <string name="download_extra_data_notification_title_success" translatable="true" description="Title of system notification when an extra data file download succeeds. [CHAR_LIMIT=45]">Descarga del archivo de datos extra completada</string>
 
-  <string name="download_extra_data_notification_content_success" translatable="true" description="Content of system notification when an extra data file download succeeds, where %1$s is the component label. [CHAR_LIMIT=60]">El archivo de datos extra '%1$s' se ha descargado</string>
+  <string name="download_extra_data_notification_content_success" translatable="true" description="Content of system notification when an extra data file download succeeds, where %1$s is the component label. [CHAR_LIMIT=60]">El archivo de datos extra \'%1$s\' se ha descargado</string>
 
   <string name="download_extra_data_notification_title_fail" translatable="true" description="Title of system notification when an extra data file download fails. [CHAR_LIMIT=35]">Fallo la descarga del archivo de datos extra</string>
 
-  <string name="download_extra_data_notification_content_fail" translatable="true" description="Content of system notification when an extra data file download fails, where %1$s is the component label. [CHAR_LIMIT=60]">No se pudo descargar el archivo de datos extra '%1$s'</string>
+  <string name="download_extra_data_notification_content_fail" translatable="true" description="Content of system notification when an extra data file download fails, where %1$s is the component label. [CHAR_LIMIT=60]">No se pudo descargar el archivo de datos extra \'%1$s\'</string>
 
   <string name="download_extra_data_notification_title_paused" translatable="true" description="Title of the system notification shown when the download of a model's extra data file pauses while the app is in the background, e.g. because the network connection was lost. The download can be resumed from the app. [CHAR_LIMIT=45]">Descarga del archivo de datos extra pausada</string>
 
-  <string name="download_extra_data_notification_content_paused" translatable="true" description="Body of the system notification shown when the download of a model's extra data file pauses while the app is in the background. Tapping it opens the app, where the user can resume the download. %1$s is the extra data file's label, e.g. 'Magic touch'. [CHAR_LIMIT=100]">Abre la app para reanudar la descarga del archivo de datos extra '%1$s'.</string>
+  <string name="download_extra_data_notification_content_paused" translatable="true" description="Body of the system notification shown when the download of a model's extra data file pauses while the app is in the background. Tapping it opens the app, where the user can resume the download. %1$s is the extra data file's label, e.g. 'Magic touch'. [CHAR_LIMIT=100]">Abre la app para reanudar la descarga del archivo de datos extra \'%1$s\'.</string>
 
   <string name="task_label_smart_album" translatable="false">Búsqueda de Medios Instantánea</string>
 
@@ -2265,7 +2265,7 @@ Nota: Está impulsado por el modelo experimental FunctionGemma optimizado para l
   <string name="cd_live_metrics_info" translatable="true" description="Accessibility content description for the info icon button in the top-right corner of the live inference metrics banner. [CHAR_LIMIT=40]">About live metrics</string>
 
   <string name="live_metrics_info_tooltip" translatable="true" description="Tooltip text shown when the user taps the info icon in the live inference metrics banner, starting with a summary line and concisely explaining each metric on its own line: RAM (peak total app memory and percentage of device RAM) and Context (percentage threshold where automatic context compression triggers). %1$d is the context compression percentage threshold (for example, 75). Note: %% represents a literal percent sign '%' and must be preserved as %%. [CHAR_LIMIT=200]">Estadísticas en vivo para velocidad de respuesta, uso de tokens, memoria y espacio de contexto.
-RAM: Memoria total máxima de la app (% del RAM del dispositivo)
+RAM: Memoria total máxima de la app (%% del RAM del dispositivo)
 Contexto: Se comprime alrededor de %1$d%%</string>
 
   <string name="live_metrics_compressing_context" translatable="true" description="Status text shown in the Context row of the live inference metrics banner while conversation context is actively being compressed. [CHAR_LIMIT=30]">Comprimiendo contexto…</string>
