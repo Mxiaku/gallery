@@ -1,1 +1,5 @@
 .DS_Store
+
+# Kotlin compiler sessions
+.kt
+.kotlin/
