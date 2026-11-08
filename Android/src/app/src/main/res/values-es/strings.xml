@@ -1823,9 +1823,9 @@ Te enviaremos una notificación cuando termine.</string>
 
   <string name="smartalbum_onboarding_budget_card_title" translatable="true" description="Card title for Vision Encoder Budget selection in onboarding. [CHAR_LIMIT=30]">Presupuesto del Codificador de Visión</string>
 
-  x tokens</string>
+  <string name="smartalbum_onboarding_budget_140_tokens" translatable="true" description="Valor del presupuesto de 140 tokens en la incorporación de Búsqueda de Medios Instantánea. [CHAR_LIMIT=20]">140 tokens</string>
 
-  L0 tokens</string>
+  <string name="smartalbum_onboarding_budget_70_tokens" translatable="true" description="Valor del presupuesto de 70 tokens en la incorporación de Búsqueda de Medios Instantánea. [CHAR_LIMIT=20]">70 tokens</string>
 
   <string name="smartalbum_onboarding_next" translatable="true" description="Next button label in onboarding. [CHAR_LIMIT=15]">Siguiente</string>
 
@@ -1937,7 +1937,7 @@ Nota: Está impulsado por el modelo experimental FunctionGemma optimizado para l
 
   <string name="videomomentfinder_failed_to_save_clip" translatable="true" description="Snackbar message shown when saving or exporting a video clip fails.">Error al guardar clip</string>
 
-  <string name="videomomentfinder_no_query_placeholder" translatable="true" description="Stand-in shown where a search query would normally appear for a saved clip that has no query; the angle brackets mark it as a placeholder rather than literal text."><sin consulta></string>
+  <string name="videomomentfinder_no_query_placeholder" translatable="true" description="Stand-in shown where a search query would normally appear for a saved clip that has no query; the angle brackets mark it as a placeholder rather than literal text.">&lt;sin consulta&gt;</string>
 
   <plurals name="videomomentfinder_results_count" translatable="true" description="Number of saved clips grouped under a single search query, where %d is the clip count (for example, 3).">
     <item quantity="one">%d result</item>

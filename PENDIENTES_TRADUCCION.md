@@ -1,6 +1,6 @@
 # Pendientes de traduccion
 
-## (a) Textos que ve el usuario (sin traducir)
+## (a) Textos que ve el usuario (TRADUCIDOS - 581/581)
 
 - acknowledge_user_agreement
 - add_audio
@@ -584,7 +584,7 @@
 - xrteacher_vocab_runner_points_passed
 - xrteacher_vocab_runner_title
 
-Total: 581
+Total: 581 - TODOS TRADUCIDOS
 
 ## (b) Textos tecnicos o internos (sin traducir)
 
