@@ -1,0 +1,56 @@
+{
+  "models": [
+    {
+      "name": "Gemma 3 1B Instruct (q4)",
+      "family": "Gemma",
+      "size_mb": 529,
+      "format": "litertlm",
+      "quantization": "q4",
+      "ram_estimated_mb": 1024,
+      "type": "text",
+      "license": "Gemma",
+      "gated": true,
+      "recommended_6gb": true,
+      "url": "https://huggingface.co/litert-community/Gemma3-1B-IT"
+    },
+    {
+      "name": "Gemma 3n E2B",
+      "family": "Gemma",
+      "size_mb": 2048,
+      "format": "litertlm",
+      "quantization": "q4",
+      "ram_estimated_mb": 2560,
+      "type": "text",
+      "license": "Gemma",
+      "gated": true,
+      "recommended_6gb": true,
+      "url": "https://huggingface.co/litert-community/Gemma3n-E2B"
+    },
+    {
+      "name": "Gemma 3n E4B",
+      "family": "Gemma",
+      "size_mb": 4096,
+      "format": "litertlm",
+      "quantization": "q4",
+      "ram_estimated_mb": 5120,
+      "type": "text",
+      "license": "Gemma",
+      "gated": true,
+      "recommended_6gb": false,
+      "url": "https://huggingface.co/litert-community/Gemma3n-E4B"
+    },
+    {
+      "name": "Qwen 2.5 1.5B Instruct (q8)",
+      "family": "Qwen",
+      "size_mb": 1600,
+      "format": "litertlm",
+      "quantization": "q8",
+      "ram_estimated_mb": 2048,
+      "type": "text",
+      "license": "Apache 2.0",
+      "gated": false,
+      "recommended_6gb": true,
+      "url": "https://huggingface.co/litert-community/Qwen2.5-1.5B-Instruct"
+    }
+  ]
+}
