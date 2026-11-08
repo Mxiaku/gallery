@@ -119,6 +119,7 @@ fun HfExploreScreen(
       onSearchQueryChanged = viewModel::onSearchQueryChanged,
       onSortOptionSelected = viewModel::onSortOptionSelected,
       onTypeFilterChanged = viewModel::onTypeFilterChanged,
+      onCompatibleOnlyChanged = viewModel::onCompatibleOnlyChanged,
       onRetry = viewModel::refreshModels,
       onModelCardClicked = viewModel::selectModelCard,
       modifier = modifier,
@@ -135,6 +136,7 @@ fun HfExploreContent(
   onSearchQueryChanged: (String) -> Unit,
   onSortOptionSelected: (HfSortOptionProto) -> Unit,
   onTypeFilterChanged: (String) -> Unit,
+  onCompatibleOnlyChanged: (Boolean) -> Unit,
   onRetry: () -> Unit,
   onModelCardClicked: (HfModelItemProto) -> Unit,
   modifier: Modifier = Modifier,
@@ -218,6 +220,11 @@ fun HfExploreContent(
               label = { Text(stringResource(labelRes)) },
             )
           }
+          FilterChip(
+            selected = uiState.compatibleOnly,
+            onClick = { onCompatibleOnlyChanged(!uiState.compatibleOnly) },
+            label = { Text(stringResource(R.string.hf_filter_compatible)) },
+          )
         }
 
         // Model cards or loading/empty state.
@@ -256,11 +263,8 @@ fun HfExploreContent(
             }
           }
           else -> {
-            val filteredModels = if (uiState.typeFilter == "all") {
-              uiState.models
-            } else {
-              uiState.models.filter { model ->
-                // Filter by type based on model tags or name
+            val filteredModels = uiState.models.filter { model ->
+              val typeMatch = if (uiState.typeFilter == "all") true else {
                 when (uiState.typeFilter) {
                   "text" -> !model.id.contains("vision", ignoreCase = true) && !model.id.contains("audio", ignoreCase = true)
                   "vision" -> model.id.contains("vision", ignoreCase = true) || model.id.contains("vlm", ignoreCase = true)
@@ -268,6 +272,8 @@ fun HfExploreContent(
                   else -> true
                 }
               }
+              val compatibleMatch = if (uiState.compatibleOnly) model.isDeviceCompatible() else true
+              typeMatch && compatibleMatch
             }
             HfExploreModelList(
               models = filteredModels,

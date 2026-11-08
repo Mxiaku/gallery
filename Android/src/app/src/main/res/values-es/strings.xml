@@ -2395,5 +2395,6 @@
   <string name="hf_filter_text">Texto</string>
   <string name="hf_filter_vision">Vision</string>
   <string name="hf_filter_audio">Audio</string>
+  <string name="hf_filter_compatible">Compatible</string>
 </resources>
 
